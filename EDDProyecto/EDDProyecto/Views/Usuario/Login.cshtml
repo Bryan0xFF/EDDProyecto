@@ -1,0 +1,29 @@
+﻿@model EDDProyecto.Models.Usuario
+@{
+    ViewBag.Title = "Login";
+}
+
+<h1>Login</h1>
+
+
+
+@using (@Html.BeginForm("Log", "Usuario", FormMethod.Post))
+{
+    <p>Usuario:</p>
+    <p>@Html.TextBoxFor(Model => Model.Username)</p>
+    @:&nbsp;
+    <p>Contraseña:</p>
+    <p>@Html.TextBoxFor(Model => Model.Password)</p>
+
+    <input type="Submit" name="Ingresar" value="Ingresar" />
+}
+
+
+@*<form action="Log" method="Post">
+        Usuario:  <input id="value" name="searching" type="text" value="" />
+        <div>
+            Contraseña:
+        </div>
+    </form>*@
+
+@Html.ActionLink("Cargar usuarios", "Cargar")|@Html.ActionLink("Registrarse", "Registrar")
