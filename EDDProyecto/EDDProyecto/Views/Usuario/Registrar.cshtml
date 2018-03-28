@@ -1,0 +1,25 @@
+﻿@model EDDProyecto.Models.Usuario
+@{
+    ViewBag.Title = "Registrar";
+}
+
+<h1>Registrar</h1>
+
+@using (Html.BeginForm("Registrar", "Usuario", FormMethod.Post))
+{
+    <p>Nombre</p>
+    <p>@Html.TextBoxFor(Model => Model.Nombre)</p>
+    <p>Apellido</p>
+    <p>@Html.TextBoxFor(Model => Model.Apellido) </p>
+    <p>Edad</p>
+    <p>@Html.TextBoxFor(Model => Model.Edad)</p>
+    <p>Usuario</p>
+    <p>@Html.TextBoxFor(Model => Model.Username)</p>
+    <p>Contraseña</p>
+    <p>@Html.TextBoxFor(Model => Model.Password)</p>
+
+    <input type ="submit" name="Registrar" value="Ingresar" />
+
+}
+
+
