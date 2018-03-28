@@ -8,10 +8,10 @@ using System.IO;
 
 namespace ArbolB
 {
-    internal class NodoB<T> where T : ITextoTamañoFijo
+    public class NodoB<T> where T : ITextoTamañoFijo
     {
 
-        public const int OrdenMinimo = 5;
+        public const int OrdenMinimo = 3;
         public const int OrdenMaximo = 99;
         internal int Orden { get; private set; }
         internal int Posicion { get; private set; }
