@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDDProyecto", "EDDProyecto\EDDProyecto.csproj", "{915113E2-4AAE-4807-A4AF-C51D31634CD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArbolB", "ArbolB\ArbolB.csproj", "{D98C0944-4A12-438B-A70F-BB653E91430F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{915113E2-4AAE-4807-A4AF-C51D31634CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{915113E2-4AAE-4807-A4AF-C51D31634CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{915113E2-4AAE-4807-A4AF-C51D31634CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98C0944-4A12-438B-A70F-BB653E91430F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98C0944-4A12-438B-A70F-BB653E91430F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98C0944-4A12-438B-A70F-BB653E91430F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98C0944-4A12-438B-A70F-BB653E91430F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
