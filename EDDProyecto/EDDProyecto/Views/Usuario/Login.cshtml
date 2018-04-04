@@ -7,13 +7,15 @@
 
 @using (@Html.BeginForm("Log", "Usuario", FormMethod.Post))
 {
+<div>
     <p>Usuario:</p>
     <p>@Html.TextBoxFor(Model => Model.Username)</p>
-    @:&nbsp;
+   
     <p>Contraseña:</p>
     <p>@Html.TextBoxFor(Model => Model.Password)</p>
 
     <input type="Submit" name="Ingresar" value="Ingresar" />
+</div>
 }
 
 
