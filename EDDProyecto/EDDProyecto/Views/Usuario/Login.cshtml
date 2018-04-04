@@ -5,8 +5,6 @@
 
 <h1>Login</h1>
 
-
-
 @using (@Html.BeginForm("Log", "Usuario", FormMethod.Post))
 {
     <p>Usuario:</p>
@@ -18,12 +16,10 @@
     <input type="Submit" name="Ingresar" value="Ingresar" />
 }
 
+<p>
+    @Html.ActionLink("Cargar usuarios", "Cargar", FormMethod.Get)|@Html.ActionLink("Registrarse", "Registrar",FormMethod.Get)
+</p>
 
-@*<form action="Log" method="Post">
-        Usuario:  <input id="value" name="searching" type="text" value="" />
-        <div>
-            Contraseña:
-        </div>
-    </form>*@
 
-@Html.ActionLink("Cargar usuarios", "Cargar")|@Html.ActionLink("Registrarse", "Registrar")
+
+

@@ -1,0 +1,20 @@
+﻿@model EDDProyecto.Models.Video
+@{
+    ViewBag.Title = "Registrar";
+}
+
+<h1>Registrar</h1>
+
+@using (Html.BeginForm("Ingreso", "Video", FormMethod.Post))
+{
+    <p>Tipo</p>
+    <p>@Html.TextBoxFor(Model => Model.Tipo)</p>
+    <p>Nombre</p>
+    <p>@Html.TextBoxFor(Model => Model.Nombre) </p>
+    <p>Año de lanzamiento</p>
+    <p>@Html.TextBoxFor(Model => Model.AñoLanzamiento)</p>
+    <p>Género</p>
+    <p>@Html.TextBoxFor(Model => Model.Genero)</p>
+
+    <input type="submit" name="Registrar" value="Ingresar" />
+}

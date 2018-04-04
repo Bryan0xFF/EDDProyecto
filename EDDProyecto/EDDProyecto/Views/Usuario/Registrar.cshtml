@@ -5,7 +5,7 @@
 
 <h1>Registrar</h1>
 
-@using (Html.BeginForm("Registrar", "Usuario", FormMethod.Post))
+@using (Html.BeginForm("Register", "Usuario", FormMethod.Post))
 {
     <p>Nombre</p>
     <p>@Html.TextBoxFor(Model => Model.Nombre)</p>
@@ -19,7 +19,6 @@
     <p>@Html.TextBoxFor(Model => Model.Password)</p>
 
     <input type ="submit" name="Registrar" value="Ingresar" />
-
 }
 
 

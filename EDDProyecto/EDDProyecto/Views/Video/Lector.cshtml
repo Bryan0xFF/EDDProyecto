@@ -10,7 +10,7 @@
     <title>Lector</title>
 </head>
 <body>
-    @using (Html.BeginForm("LecturaArchivo", "Usuario", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    @using (Html.BeginForm("LecturaArchivo", "Video", FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
         @ViewBag.Error
         <table cellpadding="2" cellspacing="2">
@@ -25,4 +25,3 @@
         </table>
     }
 </body>
-</html>
