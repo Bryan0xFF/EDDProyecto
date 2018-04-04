@@ -4,25 +4,20 @@
 }
 
 <h1>Catálogo</h1>
+<p><h2>Menu:</h2></p>
+<p>Indique la acción que desea realizar:</p>
 
-<table cellpadding="30" cellspacing="20" border="1">
-    <tr>
-        <th>Tipo</th>
-        <th>Nombre</th>
-        <th>Año de lanzamiento</th>
-        <th>Género</th>
-    </tr>
+<p>@Html.ActionLink("Ingresar video de forma manual", "Insertar")</p>
+<p>@Html.ActionLink("Ingresar video en formato Json", "LecturaArchivo") </p>
+<p>@Html.ActionLink("Eliminar Video", "Eliminar")</p>
+<p>@Html.ActionLink("Crear un usuario nuevo", "Registrar") </p>
+<p>@Html.ActionLink("Cargar usuarios", "InsertarUsuarios")</p>
 
-    @*@for (int i = 0; i < Model.Count; i++)
-        {
-            <tr>
-                <td>@Model.ElementAt(i).Value.NombrePais </td>
-                <td>@Model.ElementAt(i).Value.Grupo </td>
-                <td>@Html.ActionLink("Delete", "Delete", "Paises", new { id = i }, null)</td>
-            </tr>
-        }*@
-</table>
-<p>
-    @Html.ActionLink("Cargar videos", "Cargar", FormMethod.Get)
-    |@Html.ActionLink("Ingresar videos", "Ingresar",FormMethod.Get)
-</p>
+
+
+
+
+
+
+
+

@@ -17,9 +17,9 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Ingresar()
         {
-            return View("Ingresar"); 
+            return View("Ingresar");
             //bool success = true;
-            
+
             //if (success)
             //{
             //    return View("CatalogoAdmin");
@@ -33,7 +33,7 @@ namespace EDDProyecto.Controllers
         public ActionResult Ingreso(Video video)
         {
             //Ejecutar operacion de ingresa al arbol
-            return View("CreateVideoSuccess"); 
+            return View("CreateVideoSuccess");
         }
 
         [HttpGet]
@@ -48,44 +48,69 @@ namespace EDDProyecto.Controllers
             return contentType.FileName.EndsWith(".json");
         }
 
-        //[HttpPost]
-        //public ActionResult Carga(HttpPostedFileBase File)
-        //{
-        //    if (File == null || File.ContentLength == 0)
-        //    {
-        //        ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
-        //        return View("Index");
-        //    }
-        //    else
-        //    {
-        //        if (!isValidContentType(File))
-        //        {
-        //            ViewBag.Error = "Solo archivos Json son válidos para la entrada";
-        //            return View("Index");
-        //        }
+        [HttpPost]
+        public ActionResult InsertarArchivo(HttpPostedFileBase File)
+        {
+            //    if (File == null || File.ContentLength == 0)
+            //    {
+            //        ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
+            //        return View("Index");
+            //    }
+            //    else
+            //    {
+            //        if (!isValidContentType(File))
+            //        {
+            //            ViewBag.Error = "Solo archivos Json son válidos para la entrada";
+            //            return View("Index");
+            //        }
 
-        //        if (File.ContentLength > 0)
-        //        {
-        //            var fileName = Path.GetFileName(File.FileName);
-        //            var path = Path.Combine(Server.MapPath("~/Content/UserJsonFiles/" + fileName));
-        //            if (System.IO.File.Exists(path))
-        //                System.IO.File.Delete(path);
-        //            File.SaveAs(path);
-        //            using (StreamReader reader = new StreamReader(path))
-        //            {
-        //                //  UsersTree = (ArbolB<Usuario>)Session["ABBCadena"];                       
+            //        if (File.ContentLength > 0)
+            //        {
+            //            var fileName = Path.GetFileName(File.FileName);
+            //            var path = Path.Combine(Server.MapPath("~/Content/UserJsonFiles/" + fileName));
+            //            if (System.IO.File.Exists(path))
+            //                System.IO.File.Delete(path);
+            //            File.SaveAs(path);
+            //            using (StreamReader reader = new StreamReader(path))
+            //            {
+            //                //  UsersTree = (ArbolB<Usuario>)Session["ABBCadena"];                       
 
-        //                //string info = reader.ReadToEnd();
-        //                //List<string> lista = JsonConvert.DeserializeObject<List<string>>(info);
-        //                //for (int i = 0; i < lista.Count; i++)
-        //                //{
-        //                //    UsersTree.Insert(lista.ElementAt(i).ToString());
-        //                //}
-        //                //Session["UsersTree"] = UsersTree;
-        //            }
-        //        }
-        //    }
-        //}
+            //                //string info = reader.ReadToEnd();
+            //                //List<string> lista = JsonConvert.DeserializeObject<List<string>>(info);
+            //                //for (int i = 0; i < lista.Count; i++)
+            //                //{
+            //                //    UsersTree.Insert(lista.ElementAt(i).ToString());
+            //                //}
+            //                //Session["UsersTree"] = UsersTree;
+            //            }
+            //        }
+            //    }
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult Insertar()
+        {
+            return RedirectToAction("Registrar", "Usuario");
+        }
+
+        [HttpPost]
+        public ActionResult InsertarManual(Usuario newuser)
+        {
+            return View("CreateUserSuccess");
+        }
+
+        [HttpGet]
+        public ActionResult RedirectAdmin()
+        {
+            return View("CatalogoAdmin"); 
+        }
+
+        [HttpGet]
+        public ActionResult RedirectUser()
+        {
+            return View("Catalogo"); 
+        }
 
     }
 }

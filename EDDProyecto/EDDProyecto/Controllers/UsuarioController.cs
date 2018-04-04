@@ -50,11 +50,11 @@ namespace EDDProyecto.Controllers
 
             if(success)
             {
-                return View("~/Views/Video/CatalogoAdmin.cshtml"); 
+                return RedirectToAction("RedirectAdmin", "Video");                    
             }
             else
             {
-                return View("LoginError");
+                return RedirectToAction("RedirectUser", "Video");
             }           
         }
 
@@ -70,44 +70,58 @@ namespace EDDProyecto.Controllers
             return contentType.FileName.EndsWith(".json");
         }
 
-        //[HttpPost]
-        //public ActionResult Carga(HttpPostedFileBase File)
-        //{
-        //    if (File == null || File.ContentLength == 0)
-        //    {
-        //        ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
-        //        return View("Index");
-        //    }
-        //    else
-        //    {
-        //        if (!isValidContentType(File))
-        //        {
-        //            ViewBag.Error = "Solo archivos Json son válidos para la entrada";
-        //            return View("Index");
-        //        }
+        [HttpPost]
+        public ActionResult InsertarUsuarios(HttpPostedFileBase File)
+        {
+            //    if (File == null || File.ContentLength == 0)
+            //    {
+            //        ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
+            //        return View("Index");
+            //    }
+            //    else
+            //    {
+            //        if (!isValidContentType(File))
+            //        {
+            //            ViewBag.Error = "Solo archivos Json son válidos para la entrada";
+            //            return View("Index");
+            //        }
 
-        //        if (File.ContentLength > 0)
-        //        {
-        //            var fileName = Path.GetFileName(File.FileName);
-        //            var path = Path.Combine(Server.MapPath("~/Content/UserJsonFiles/" + fileName));
-        //            if (System.IO.File.Exists(path))
-        //                System.IO.File.Delete(path);
-        //            File.SaveAs(path);
-        //            using (StreamReader reader = new StreamReader(path))
-        //            {
-        //                //  UsersTree = (ArbolB<Usuario>)Session["ABBCadena"];                       
+            //        if (File.ContentLength > 0)
+            //        {
+            //            var fileName = Path.GetFileName(File.FileName);
+            //            var path = Path.Combine(Server.MapPath("~/Content/UserJsonFiles/" + fileName));
+            //            if (System.IO.File.Exists(path))
+            //                System.IO.File.Delete(path);
+            //            File.SaveAs(path);
+            //            using (StreamReader reader = new StreamReader(path))
+            //            {
+            //                //  UsersTree = (ArbolB<Usuario>)Session["ABBCadena"];                       
 
-        //                //string info = reader.ReadToEnd();
-        //                //List<string> lista = JsonConvert.DeserializeObject<List<string>>(info);
-        //                //for (int i = 0; i < lista.Count; i++)
-        //                //{
-        //                //    UsersTree.Insert(lista.ElementAt(i).ToString());
-        //                //}
-        //                //Session["UsersTree"] = UsersTree;
-        //            }
-        //        }
-        //    }
-        //}
+            //                //string info = reader.ReadToEnd();
+            //                //List<string> lista = JsonConvert.DeserializeObject<List<string>>(info);
+            //                //for (int i = 0; i < lista.Count; i++)
+            //                //{
+            //                //    UsersTree.Insert(lista.ElementAt(i).ToString());
+            //                //}
+            //                //Session["UsersTree"] = UsersTree;
+            //            }
+            //        }
+            //    }
+            return View(); 
+        }
+
+        [HttpGet]
+        public ActionResult Eliminar()
+        {
+            return View(); 
+        }
+
+        [HttpPost]
+        public ActionResult Delete(Video deletedVideo)
+        {
+            return View(); 
+        }
+
 
 
     }
