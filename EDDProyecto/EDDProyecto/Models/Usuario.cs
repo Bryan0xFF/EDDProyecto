@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
+using System.Text;
 
 namespace EDDProyecto.Models
 {
@@ -26,15 +27,18 @@ namespace EDDProyecto.Models
 
         public Usuario()
         {
-
+            //TODO: logic here
         }
         public int FixedSizeText
         {
             get
             {
-                return 77;
+                return 83;
             }
         }
+
+        private const string FormatoConst = "xxxxxxxxxxxxxxxxxxxx";
+
         private string UsuarioFormatoFijo
         {
             get
@@ -94,9 +98,23 @@ namespace EDDProyecto.Models
 
         public string ToFixedSizeString()
         {
+            string[] datos = UsuarioFormatoFijo.Split('-');
+            datos[0] = Nombre.PadLeft(20, 'x');
+            datos[1] = Apellido.PadLeft(20, 'x');
+            datos[2] = Edad.ToString().PadLeft(2, '0');
+            datos[3] = Username.ToString().PadLeft(15, 'x');
+            datos[4] = Password.ToString().PadLeft(20, 'x');
 
-            return "";
+            StringBuilder sb = new StringBuilder(); 
+            
+            for (int i = 0; i < datos.Length; i++)
+            {
+                sb.Append(datos[i] + "-");
+            }
 
+            sb.Append("\r\n");
+
+            return sb.ToString();
         }
     }
 }
