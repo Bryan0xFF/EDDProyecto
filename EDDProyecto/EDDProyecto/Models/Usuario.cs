@@ -99,11 +99,11 @@ namespace EDDProyecto.Models
         public string ToFixedSizeString()
         {
             string[] datos = UsuarioFormatoFijo.Split('-');
-            datos[0] = Nombre.PadLeft(20, 'x');
-            datos[1] = Apellido.PadLeft(20, 'x');
-            datos[2] = Edad.ToString().PadLeft(2, '0');
-            datos[3] = Username.ToString().PadLeft(15, 'x');
-            datos[4] = Password.ToString().PadLeft(20, 'x');
+            datos[0] = Nombre.PadLeft(20, ' ');
+            datos[1] = Apellido.PadLeft(20, ' ');
+            datos[2] = Edad.ToString().PadLeft(2, ' ');
+            datos[3] = Username.ToString().PadLeft(15, ' ');
+            datos[4] = Password.ToString().PadLeft(20, ' ');
 
             StringBuilder sb = new StringBuilder(); 
             

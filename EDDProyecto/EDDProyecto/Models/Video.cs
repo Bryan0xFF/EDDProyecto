@@ -67,10 +67,10 @@ namespace EDDProyecto.Models
         public string ToFixedSizeString()
         {
             string[] datos = UsuarioFormatoFijo.Split('-');
-            datos[0] = Tipo.PadLeft(20, 'x');
-            datos[1] = Nombre.PadLeft(20, 'x');
-            datos[2] = AñoLanzamiento.ToString().PadLeft(4, 'x');
-            datos[3] = Genero.PadLeft(20, 'x');
+            datos[0] = Tipo.PadLeft(20, ' ');
+            datos[1] = Nombre.PadLeft(20, ' ');
+            datos[2] = AñoLanzamiento.ToString().PadLeft(4, ' ');
+            datos[3] = Genero.PadLeft(20, ' ');
             StringBuilder sb = new StringBuilder();
 
             for (int i = 0; i < datos.Length; i++)
