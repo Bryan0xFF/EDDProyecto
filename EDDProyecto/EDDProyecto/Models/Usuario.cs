@@ -8,7 +8,7 @@ using System.Text;
 
 namespace EDDProyecto.Models
 {
-    public class Usuario : IComparable, ArbolB.ITextoTamañoFijo
+    public class Usuario : IComparable<Usuario>, ArbolB.ITextoTamañoFijo
     {
         [Required]
         public string Nombre { get; set; }
@@ -18,7 +18,6 @@ namespace EDDProyecto.Models
         public int Edad { get; set; }
         [Required]
         public string Username { get; set; }
-
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
@@ -86,9 +85,9 @@ namespace EDDProyecto.Models
 
         
 
-        public int CompareTo(object obj)
+        public int CompareTo(Usuario obj)
         {
-            throw new NotImplementedException();
+            return this.Username.CompareTo(obj.Username);
         }
 
         public override string ToString()
@@ -99,6 +98,7 @@ namespace EDDProyecto.Models
         public string ToFixedSizeString()
         {
             string[] datos = UsuarioFormatoFijo.Split('-');
+            Nombre.Replace(' ', '_');
             datos[0] = Nombre.PadLeft(20, ' ');
             datos[1] = Apellido.PadLeft(20, ' ');
             datos[2] = Edad.ToString().PadLeft(2, ' ');
