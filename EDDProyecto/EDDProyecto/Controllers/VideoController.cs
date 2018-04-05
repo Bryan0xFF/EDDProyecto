@@ -17,7 +17,7 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Ingresar()
         {
-            return View("Ingresar");
+            return View();
             //bool success = true;
 
             //if (success)

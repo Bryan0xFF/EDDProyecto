@@ -14,8 +14,9 @@ namespace EDDProyecto.Controllers
 {
     public class UsuarioController : Controller
     {
-      //  ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(); 
-      
+        //  ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(); 
+        Usuario Admin = new Usuario(); 
+        
         // GET: Usuario
         public ActionResult Index()
         {
@@ -24,7 +25,11 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Login()
         {
-          // Session["UsersTree"] = Session["UsersTree"] ?? UsersTree; 
+            // Session["UsersTree"] = Session["UsersTree"] ?? UsersTree; 
+            Session["admin"] = Session["admin"] ?? Admin;
+            Admin.Username = "admin";
+            Admin.Password = "admin";
+            Session["admin"] = Admin; 
             return View();
         }
 
@@ -43,25 +48,29 @@ namespace EDDProyecto.Controllers
 
         [HttpPost]
         public ActionResult Log(Usuario user)
-        {
-            bool success = true; 
+        {           
+            Admin =(Usuario)Session["admin"]; 
 
             //Implementar busqueda de usuario, obtener nodo y comparar contraseña
 
-            if(success)
+            if(user.CompareTo(Admin) == 0)
             {
-                return RedirectToAction("RedirectAdmin", "Video");                    
+                return RedirectToAction("RedirectAdmin", "Video");
             }
+            //else if (Search == true)
+            //{
+               
+            //}
             else
             {
-                return RedirectToAction("RedirectUser", "Video");
-            }           
+                return View("LogError");
+            }         
         }
 
         [HttpGet]
         public ActionResult LecturaArchivo()
         {
-            //aqui se abre una vista para poder subir el archivo
+            //aqui se abre la vista para poder subir el archivo
             return View();
         }
 
