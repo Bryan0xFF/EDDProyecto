@@ -14,8 +14,8 @@ namespace EDDProyecto.Controllers
 {
     public class UsuarioController : Controller
     {
-      //  ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(); 
-      
+        ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(3, "UsersTree",);
+
         // GET: Usuario
         public ActionResult Index()
         {

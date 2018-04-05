@@ -6,18 +6,18 @@ using System.Web;
 
 namespace EDDProyecto.Models
 {
-    public class Video :IComparable
+    public class Video : IComparable<Video>, ArbolB.ITextoTamañoFijo
     {
         public string Tipo { get; set; }
         public string Nombre { get; set; }
         public int AñoLanzamiento { get; set; }
         public string Genero { get; set; }
 
-        public int CompareTo(object obj)
-        {
-            throw new NotImplementedException();
-        }
 
+        public Video()
+        {
+            
+        }
         public int FixedSizeText
         {
             get
@@ -83,5 +83,9 @@ namespace EDDProyecto.Models
             return sb.ToString();
         }
 
+        int IComparable<Video>.CompareTo(Video other)
+        {
+            return this.Nombre.CompareTo(other.Nombre);
+        }
     }
 }
