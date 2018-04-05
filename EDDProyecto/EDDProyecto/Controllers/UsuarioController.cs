@@ -14,14 +14,11 @@ namespace EDDProyecto.Controllers
 {
     public class UsuarioController : Controller
     {
-<<<<<<< HEAD
-        //  ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(); 
+         
         Usuario Admin = new Usuario(); 
-        
-=======
-        ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(3, "UsersTree.txt", new FabricaUsuario());
+      //  ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(3, @"UsersTree.txt", new FabricaUsuario());
 
->>>>>>> e65cf819ce0f7df97fa15c18a5e8ada563f9d92e
+
         // GET: Usuario
         public ActionResult Index()
         {
@@ -30,15 +27,12 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Login()
         {
-<<<<<<< HEAD
-            // Session["UsersTree"] = Session["UsersTree"] ?? UsersTree; 
+         //   Session["UsersTree"] = Session["UsersTree"] ?? UsersTree; 
             Session["admin"] = Session["admin"] ?? Admin;
             Admin.Username = "admin";
             Admin.Password = "admin";
             Session["admin"] = Admin; 
-=======
-            Session["UsersTree"] = Session["UsersTree"] ?? UsersTree;
->>>>>>> e65cf819ce0f7df97fa15c18a5e8ada563f9d92e
+
             return View();
         }
 
@@ -52,7 +46,7 @@ namespace EDDProyecto.Controllers
         public ActionResult Register(Usuario user)
         {
             int llave = GetASCII(user.Username);
-            UsersTree.Agregar(llave, user);
+         //   UsersTree.Agregar(llave, user);
             return View("CreateUserSuccess"); 
         }
 
@@ -73,9 +67,7 @@ namespace EDDProyecto.Controllers
         [HttpPost]
         public ActionResult Log(Usuario user)
         {           
-            Admin =(Usuario)Session["admin"]; 
-
-            //Implementar busqueda de usuario, obtener nodo y comparar contraseña
+            Admin =(Usuario)Session["admin"];            
 
             if(user.CompareTo(Admin) == 0)
             {
@@ -106,40 +98,40 @@ namespace EDDProyecto.Controllers
         [HttpPost]
         public ActionResult InsertarUsuarios(HttpPostedFileBase File)
         {
-            //    if (File == null || File.ContentLength == 0)
-            //    {
-            //        ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
-            //        return View("Index");
-            //    }
-            //    else
-            //    {
-            //        if (!isValidContentType(File))
-            //        {
-            //            ViewBag.Error = "Solo archivos Json son válidos para la entrada";
-            //            return View("Index");
-            //        }
+            if (File == null || File.ContentLength == 0)
+            {
+                ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
+                return View("CatalogoAdmin");
+            }
+            else
+            {
+                if (!isValidContentType(File))
+                {
+                    ViewBag.Error = "Solo archivos Json son válidos para la entrada";
+                    return View("CatalogoAdmin");
+                }
 
-            //        if (File.ContentLength > 0)
-            //        {
-            //            var fileName = Path.GetFileName(File.FileName);
-            //            var path = Path.Combine(Server.MapPath("~/Content/UserJsonFiles/" + fileName));
-            //            if (System.IO.File.Exists(path))
-            //                System.IO.File.Delete(path);
-            //            File.SaveAs(path);
-            //            using (StreamReader reader = new StreamReader(path))
-            //            {
-            //                //  UsersTree = (ArbolB<Usuario>)Session["ABBCadena"];                       
+                if (File.ContentLength > 0)
+                {
+                    var fileName = Path.GetFileName(File.FileName);
+                    var path = Path.Combine(Server.MapPath("~/Content/UserJsonFiles/" + fileName));
+                    if (System.IO.File.Exists(path))
+                        System.IO.File.Delete(path);
+                    File.SaveAs(path);
+                    using (StreamReader reader = new StreamReader(path))
+                    {
+                        //  UsersTree = (ArbolB<Usuario>)Session["ABBCadena"];                       
 
-            //                //string info = reader.ReadToEnd();
-            //                //List<string> lista = JsonConvert.DeserializeObject<List<string>>(info);
-            //                //for (int i = 0; i < lista.Count; i++)
-            //                //{
-            //                //    UsersTree.Insert(lista.ElementAt(i).ToString());
-            //                //}
-            //                //Session["UsersTree"] = UsersTree;
-            //            }
-            //        }
-            //    }
+                        string info = reader.ReadToEnd();
+                        List<Usuario> lista = JsonConvert.DeserializeObject<List<Usuario>>(info);
+                        //for (int i = 0; i < lista.Count; i++)
+                        //{
+                        //    UsersTree.Insert(lista.ElementAt(i).ToString());
+                        //}
+                        //Session["UsersTree"] = UsersTree;
+                    }
+                }
+            }
             return View(); 
         }
 

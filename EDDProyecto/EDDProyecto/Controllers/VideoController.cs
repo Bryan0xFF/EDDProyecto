@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using EDDProyecto.Models;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace EDDProyecto.Controllers
 {
@@ -40,7 +42,7 @@ namespace EDDProyecto.Controllers
         public ActionResult LecturaArchivo()
         {
             //aqui se abre una vista para poder subir el archivo
-            return View();
+            return View("Lector");
         }
 
         private bool isValidContentType(HttpPostedFileBase contentType)
@@ -51,40 +53,40 @@ namespace EDDProyecto.Controllers
         [HttpPost]
         public ActionResult InsertarArchivo(HttpPostedFileBase File)
         {
-            //    if (File == null || File.ContentLength == 0)
-            //    {
-            //        ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
-            //        return View("Index");
-            //    }
-            //    else
-            //    {
-            //        if (!isValidContentType(File))
-            //        {
-            //            ViewBag.Error = "Solo archivos Json son válidos para la entrada";
-            //            return View("Index");
-            //        }
+            if (File == null || File.ContentLength == 0)
+            {
+                ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
+                return View("CatalogoAdmin");
+            }
+            else
+            {
+                if (!isValidContentType(File))
+                {
+                    ViewBag.Error = "Solo archivos Json son válidos para la entrada";
+                    return View("CatalogoAdmin");
+                }
 
-            //        if (File.ContentLength > 0)
-            //        {
-            //            var fileName = Path.GetFileName(File.FileName);
-            //            var path = Path.Combine(Server.MapPath("~/Content/UserJsonFiles/" + fileName));
-            //            if (System.IO.File.Exists(path))
-            //                System.IO.File.Delete(path);
-            //            File.SaveAs(path);
-            //            using (StreamReader reader = new StreamReader(path))
-            //            {
-            //                //  UsersTree = (ArbolB<Usuario>)Session["ABBCadena"];                       
+                if (File.ContentLength > 0)
+                {
+                    var fileName = Path.GetFileName(File.FileName);
+                    var path = Path.Combine(Server.MapPath("~/Content/UserJsonFiles/" + fileName));
+                    if (System.IO.File.Exists(path))
+                        System.IO.File.Delete(path);
+                    File.SaveAs(path);
+                    using (StreamReader reader = new StreamReader(path))
+                    {
+                        //  UsersTree = (ArbolB<Usuario>)Session["ABBCadena"];                       
 
-            //                //string info = reader.ReadToEnd();
-            //                //List<string> lista = JsonConvert.DeserializeObject<List<string>>(info);
-            //                //for (int i = 0; i < lista.Count; i++)
-            //                //{
-            //                //    UsersTree.Insert(lista.ElementAt(i).ToString());
-            //                //}
-            //                //Session["UsersTree"] = UsersTree;
-            //            }
-            //        }
-            //    }
+                        string info = reader.ReadToEnd();
+                        List<Video> lista = JsonConvert.DeserializeObject<List<Video>>(info);
+                        //for (int i = 0; i < lista.Count; i++)
+                        //{
+                        //    UsersTree.Insert(lista.ElementAt(i).ToString());
+                        //}
+                        //Session["UsersTree"] = UsersTree;
+                    }
+                }
+            }
             return View();
         }
 
