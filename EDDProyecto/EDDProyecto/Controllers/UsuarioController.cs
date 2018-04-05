@@ -14,9 +14,14 @@ namespace EDDProyecto.Controllers
 {
     public class UsuarioController : Controller
     {
+<<<<<<< HEAD
         //  ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(); 
         Usuario Admin = new Usuario(); 
         
+=======
+        ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(3, "UsersTree.txt", new FabricaUsuario());
+
+>>>>>>> e65cf819ce0f7df97fa15c18a5e8ada563f9d92e
         // GET: Usuario
         public ActionResult Index()
         {
@@ -25,11 +30,15 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Login()
         {
+<<<<<<< HEAD
             // Session["UsersTree"] = Session["UsersTree"] ?? UsersTree; 
             Session["admin"] = Session["admin"] ?? Admin;
             Admin.Username = "admin";
             Admin.Password = "admin";
             Session["admin"] = Admin; 
+=======
+            Session["UsersTree"] = Session["UsersTree"] ?? UsersTree;
+>>>>>>> e65cf819ce0f7df97fa15c18a5e8ada563f9d92e
             return View();
         }
 
@@ -42,8 +51,23 @@ namespace EDDProyecto.Controllers
         [HttpPost]
         public ActionResult Register(Usuario user)
         {
-
+            int llave = GetASCII(user.Username);
+            UsersTree.Agregar(llave, user);
             return View("CreateUserSuccess"); 
+        }
+
+        private int GetASCII(string username)
+        {
+            char[] datos = username.ToCharArray();
+            int result = 0;
+
+            for (int i = 0; i < datos.Length; i++)
+            {
+                result += (int)char.GetNumericValue(datos[i]);
+            }
+
+            return result;
+
         }
 
         [HttpPost]

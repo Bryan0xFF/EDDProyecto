@@ -23,63 +23,19 @@ namespace EDDProyecto.Models
         [Display(Name = "Password")]
         public string Password { get; set; }
 
+        public string Dato { get; set; }
+
+        private const string FormatoConst = "xxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxx-xx-xxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxx";
 
         public Usuario()
         {
-            //TODO: logic here
+            
         }
         public int FixedSizeText
         {
             get
             {
-                return 83;
-            }
-        }
-
-        private const string FormatoConst = "xxxxxxxxxxxxxxxxxxxx";
-
-        private string UsuarioFormatoFijo
-        {
-            get
-            {
-                for (int i = 0; i < 20; i++)
-                {
-                    UsuarioFormatoFijo += "x";
-                }
-
-                UsuarioFormatoFijo += "-";
-
-                for (int i = 0; i < 20; i++)
-                {
-                    UsuarioFormatoFijo += "x";
-                }
-
-                UsuarioFormatoFijo += "-";
-
-                for (int i = 0; i < 2; i++)
-                {
-                    UsuarioFormatoFijo += "x";
-                }
-
-                UsuarioFormatoFijo += "-";
-
-                for (int i = 0; i < 15; i++)
-                {
-                    UsuarioFormatoFijo += "x";
-                }
-
-                UsuarioFormatoFijo += "-";
-
-                for (int i = 0; i < 20; i++)
-                {
-                    UsuarioFormatoFijo += "x";
-                }
-
-                return UsuarioFormatoFijo;
-            }
-            set
-            {
-                UsuarioFormatoFijo = value;
+                return 81;
             }
         }
 
@@ -97,24 +53,8 @@ namespace EDDProyecto.Models
 
         public string ToFixedSizeString()
         {
-            string[] datos = UsuarioFormatoFijo.Split('-');
-            Nombre.Replace(' ', '_');
-            datos[0] = Nombre.PadLeft(20, ' ');
-            datos[1] = Apellido.PadLeft(20, ' ');
-            datos[2] = Edad.ToString().PadLeft(2, ' ');
-            datos[3] = Username.ToString().PadLeft(15, ' ');
-            datos[4] = Password.ToString().PadLeft(20, ' ');
-
-            StringBuilder sb = new StringBuilder(); 
-            
-            for (int i = 0; i < datos.Length; i++)
-            {
-                sb.Append(datos[i] + "-");
-            }
-
-            sb.Append("\r\n");
-
-            return sb.ToString();
+            Dato = FormatoConst;
+            return Dato;
         }
     }
 }
