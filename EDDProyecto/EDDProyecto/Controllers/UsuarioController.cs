@@ -16,7 +16,7 @@ namespace EDDProyecto.Controllers
     {
          
         Usuario Admin = new Usuario(); 
-      //  ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(3, @"UsersTree.txt", new FabricaUsuario());
+        ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(3, @"UsersTree.txt", new FabricaUsuario());
 
 
         // GET: Usuario
@@ -46,7 +46,7 @@ namespace EDDProyecto.Controllers
         public ActionResult Register(Usuario user)
         {
             int llave = GetASCII(user.Username);
-         //   UsersTree.Agregar(llave, user);
+            UsersTree.Agregar(llave, user);
             return View("CreateUserSuccess"); 
         }
 
@@ -124,11 +124,12 @@ namespace EDDProyecto.Controllers
 
                         string info = reader.ReadToEnd();
                         List<Usuario> lista = JsonConvert.DeserializeObject<List<Usuario>>(info);
-                        //for (int i = 0; i < lista.Count; i++)
-                        //{
-                        //    UsersTree.Insert(lista.ElementAt(i).ToString());
-                        //}
-                        //Session["UsersTree"] = UsersTree;
+                        for (int i = 0; i < lista.Count; i++)
+                        {
+                            int llave = GetASCII(lista.ElementAt(i).Username);
+                            UsersTree.Agregar(llave, lista.ElementAt(i));
+                        }
+                      
                     }
                 }
             }
