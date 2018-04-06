@@ -193,7 +193,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Usuario\Login.cshtml" />
     <Content Include="Views\Usuario\Registrar.cshtml" />
-    <Content Include="Views\Usuario\Lector.cshtml" />
+    <Content Include="Views\Usuario\LectorUsuarios.cshtml" />
     <Content Include="Views\Usuario\LogError.cshtml" />
     <Content Include="Views\Video\Catalogo.cshtml" />
     <Content Include="Views\Video\Lector.cshtml" />

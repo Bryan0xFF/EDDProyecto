@@ -96,6 +96,12 @@ namespace EDDProyecto.Controllers
             return RedirectToAction("Registrar", "Usuario");
         }
 
+        [HttpGet]
+        public ActionResult InsertarCarga()
+        {
+            return RedirectToAction("LecturaArchivoU", "Usuario"); 
+        }
+
         [HttpPost]
         public ActionResult InsertarManual(Usuario newuser)
         {

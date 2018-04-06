@@ -84,10 +84,10 @@ namespace EDDProyecto.Controllers
         }
 
         [HttpGet]
-        public ActionResult LecturaArchivo()
+        public ActionResult LecturaArchivoU()
         {
             //aqui se abre la vista para poder subir el archivo
-            return View();
+            return View("LectorUsuarios");
         }
 
         private bool isValidContentType(HttpPostedFileBase contentType)
