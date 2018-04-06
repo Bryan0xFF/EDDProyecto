@@ -10,7 +10,7 @@
     <title>Lector</title>
 </head>
 <body>
-    @using (Html.BeginForm("LecturaArchivo", "Usuario", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    @using (Html.BeginForm("InsertarUsuarios", "Usuario", FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
         @ViewBag.Error
         <table cellpadding="20" cellspacing="20">
