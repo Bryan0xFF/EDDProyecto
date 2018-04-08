@@ -83,7 +83,6 @@ namespace ArbolB
             Utilidades.EscribirEntero(_archivo, 3, Orden);
             Utilidades.EscribirEntero(_archivo, 4, Altura);
             _archivo.Flush();
-            _archivo.Close();
         }
 
         private void AgregarRecursivo(int posicionNodoActual, int llave, T dato)

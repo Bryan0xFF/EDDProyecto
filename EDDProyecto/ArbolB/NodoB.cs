@@ -270,6 +270,7 @@ namespace ArbolB
         internal int PosicionAproximadaEnNodo(int llave)
         {
             int posicion = Llaves.Count;
+
             for (int i = 0; i < Llaves.Count; i++)
             {
                 if ((Llaves[i] > llave) || (Llaves[i] == Utilidades.ApuntadorVacio))

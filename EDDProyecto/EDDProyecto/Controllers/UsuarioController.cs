@@ -31,33 +31,37 @@ namespace EDDProyecto.Controllers
             Session["admin"] = Session["admin"] ?? Admin;
             Admin.Username = "admin";
             Admin.Password = "admin";
-            Session["admin"] = Admin; 
-
+            Session["admin"] = Admin;
+            UsersTree.Cerrar();
             return View();
         }
 
         [HttpGet]
         public ActionResult Registrar()
         {
+            UsersTree.Cerrar();
+
             return View();
         }
 
         [HttpPost]
         public ActionResult Register(Usuario user)
         {
-            int llave = GetASCII(user.Username);
+            int llave = (int)GetASCII(user.Username);
             UsersTree.Agregar(llave, user);
+            UsersTree.Cerrar();
             return View("CreateUserSuccess"); 
         }
 
-        private int GetASCII(string username)
+        private double GetASCII(string username)
         {
             char[] datos = username.ToCharArray();
-            int result = 0;
+            double result = 0;
 
             for (int i = 0; i < datos.Length; i++)
             {
-                result += (int)char.GetNumericValue(datos[i]);
+                char value = datos[i];
+                result += value;
             }
 
             return result;
@@ -71,6 +75,8 @@ namespace EDDProyecto.Controllers
 
             if(user.CompareTo(Admin) == 0)
             {
+                UsersTree.Cerrar();
+
                 return RedirectToAction("RedirectAdmin", "Video");
             }
             //else if (Search == true)
@@ -79,6 +85,8 @@ namespace EDDProyecto.Controllers
             //}
             else
             {
+                UsersTree.Cerrar();
+
                 return View("LogError");
             }         
         }
@@ -87,6 +95,8 @@ namespace EDDProyecto.Controllers
         public ActionResult LecturaArchivoU()
         {
             //aqui se abre la vista para poder subir el archivo
+            UsersTree.Cerrar();
+
             return View("LectorUsuarios");
         }
 
@@ -124,27 +134,34 @@ namespace EDDProyecto.Controllers
 
                         string info = reader.ReadToEnd();
                         List<Usuario> lista = JsonConvert.DeserializeObject<List<Usuario>>(info);
+
                         for (int i = 0; i < lista.Count; i++)
                         {
-                            int llave = GetASCII(lista.ElementAt(i).Username);
-                            UsersTree.Agregar(llave, lista.ElementAt(i));
+                            int llave = (int)GetASCII(lista.ElementAt(i).Username);
+                            UsersTree.Agregar(llave, new Usuario(lista.ElementAt(i)));
                         }
                       
                     }
                 }
             }
+            UsersTree.Cerrar();
+
             return View(); 
         }
 
         [HttpGet]
         public ActionResult Eliminar()
         {
+            UsersTree.Cerrar();
+
             return View(); 
         }
 
         [HttpPost]
         public ActionResult Delete(Video deletedVideo)
         {
+            UsersTree.Cerrar();
+
             return View(); 
         }
 

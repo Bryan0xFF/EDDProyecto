@@ -23,14 +23,27 @@ namespace EDDProyecto.Models
         [Display(Name = "Password")]
         public string Password { get; set; }
 
-        public string Dato { get; set; }
 
-        private const string FormatoConst = "xxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxx-xx-xxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxx";
+        private const string FormatoConst = "xxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxx-00-xxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxx";
 
         public Usuario()
         {
-            
+            Nombre = "";
+            Apellido = "";
+            Edad = 0;
+            Username = "";
+            Password = "";
         }
+
+        public Usuario(Usuario usuario)
+        {
+            Nombre = usuario.Nombre;
+            Apellido = usuario.Apellido;
+            Edad = usuario.Edad;
+            Username = usuario.Username;
+            Password = usuario.Password;
+        }
+
         public int FixedSizeText
         {
             get
@@ -53,8 +66,18 @@ namespace EDDProyecto.Models
 
         public string ToFixedSizeString()
         {
-            Dato = FormatoConst;
-            return Dato;
+            StringBuilder sb = new StringBuilder();
+            sb.Append(Nombre.PadLeft(20, 'x'));
+            sb.Append('-');
+            sb.Append(Apellido.PadLeft(20, 'x'));
+            sb.Append('-');
+            sb.Append(Edad.ToString().PadLeft(2, '0'));
+            sb.Append('-');
+            sb.Append(Username.PadLeft(15, 'x'));
+            sb.Append('-');
+            sb.Append(Password.PadLeft(20, 'x'));
+
+            return sb.ToString();
         }
     }
 }
