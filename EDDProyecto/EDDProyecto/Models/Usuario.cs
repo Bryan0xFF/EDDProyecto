@@ -10,6 +10,7 @@ namespace EDDProyecto.Models
 {
     public class Usuario : IComparable<Usuario>, ArbolB.ITextoTamañoFijo
     {
+        //
         [Required]
         public string Nombre { get; set; }
         [Required]
