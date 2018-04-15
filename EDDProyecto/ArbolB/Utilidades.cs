@@ -29,6 +29,11 @@ namespace ArbolB
             return numero.ToString(TextoEnteroFormato);
         }
 
+        internal static string FormatearLlave(string llave)
+        {
+            return llave.PadLeft(11, 'x');
+        }
+
         #endregion
 
 

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web;
+using ArbolB;
 
 namespace EDDProyecto.Models
 {
+   
     public class Video : IComparable<Video>, ArbolB.ITextoTamañoFijo
     {
         public string Tipo { get; set; }
@@ -40,6 +42,11 @@ namespace EDDProyecto.Models
         int IComparable<Video>.CompareTo(Video other)
         {
             return this.Nombre.CompareTo(other.Nombre);
+        }
+
+        public static List<Video> searchByName(ArbolB.ArbolB<Video> arbol, string dato)
+        {
+            
         }
     }
 }

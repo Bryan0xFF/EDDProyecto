@@ -17,7 +17,7 @@ namespace ArbolB
         internal int Posicion { get; private set; }
         internal int Padre { get; set; }
         internal List<int> Hijos { get; set; }
-        internal List<int> Llaves { get; set; }
+        internal List<string> Llaves { get; set; }
         internal List<T> Datos { get; set; }
 
         internal int CantidadDatos
@@ -25,7 +25,7 @@ namespace ArbolB
             get
             {
                 int i = 0;
-                while (i < Llaves.Count && Llaves[i] != Utilidades.ApuntadorVacio)
+                while (i < Llaves.Count && Llaves[i] != "")
                 {
                     i++;
                 }
@@ -126,7 +126,7 @@ namespace ArbolB
 
             for (int i = 0; i < Llaves.Count; i++)
             {
-                datosCadena.Append(Utilidades.FormatearEntero(Llaves[i]));
+                datosCadena.Append(Utilidades.FormatearLlave(Llaves[i]));
                 datosCadena.Append(Utilidades.TextoSeparador);
             }
             datosCadena.Append(Utilidades.TextoSeparador);
@@ -157,11 +157,11 @@ namespace ArbolB
                 Hijos.Add(Utilidades.ApuntadorVacio);
             }
 
-            Llaves = new List<int>();
+            Llaves = new List<string>();
 
             for (int i = 0; i < Orden - 1; i++)
             {
-                Llaves.Add(Utilidades.ApuntadorVacio);
+                Llaves.Add("");
             }
 
             Datos = new List<T>();
@@ -234,7 +234,7 @@ namespace ArbolB
             // Se asignan al nodo vacío las llaves desde la cadena separada 
             for (int i = 0; i < nuevoNodo.Llaves.Count; i++)
             {
-                nuevoNodo.Llaves[i] = Convert.ToInt32(datosSeparados[PosicionEnDatosCadena]);
+                nuevoNodo.Llaves[i] = datosSeparados[PosicionEnDatosCadena];
                 PosicionEnDatosCadena++;
             }
 
@@ -267,13 +267,13 @@ namespace ArbolB
             GuardarNodoEnDisco(archivo, tamañoEncabezado);
         }
 
-        internal int PosicionAproximadaEnNodo(int llave)
+        internal int PosicionAproximadaEnNodo(string llave)
         {
             int posicion = Llaves.Count;
 
             for (int i = 0; i < Llaves.Count; i++)
             {
-                if ((Llaves[i] > llave) || (Llaves[i] == Utilidades.ApuntadorVacio))
+                if ((Llaves[i].CompareTo(llave) > 0) || (Llaves[i] == ""))
                 {
                     posicion = i;
                     break;
@@ -282,7 +282,7 @@ namespace ArbolB
             return posicion;
         }
 
-        internal int PosicionExactaEnNodo(int llave)
+        internal int PosicionExactaEnNodo(string llave)
         {
             int posicion = -1;
 
@@ -297,18 +297,18 @@ namespace ArbolB
             return posicion;
         }
 
-        internal void AgregarDato(int llave, T dato, int hijoDerecho)
+        internal void AgregarDato(string llave, T dato, int hijoDerecho)
         {
             AgregarDato(llave, dato, hijoDerecho, true);
         }
 
-        internal void AgregarDato(int llave, T dato, int hijoDerecho, bool ValidarLleno)
+        internal void AgregarDato(string llave, T dato, int hijoDerecho, bool ValidarLleno)
         {
             if (Lleno && ValidarLleno)
             {
                 throw new IndexOutOfRangeException("El nodo está lleno, ya no puede insertar más datos");
             }
-            if (llave == Utilidades.ApuntadorVacio)
+            if (llave == "")
             {
                 throw new ArgumentOutOfRangeException("llave");
             }
@@ -336,12 +336,12 @@ namespace ArbolB
             Datos[posicionParaInsertar] = dato;
         }
 
-        internal void AgregarDato(int llave, T dato)
+        internal void AgregarDato(string llave, T dato)
         {
             AgregarDato(llave, dato, Utilidades.ApuntadorVacio);
         }
 
-        internal void EliminarDato(int llave)
+        internal void EliminarDato(string llave)
         {
             if (!EsHoja)
             {
@@ -365,17 +365,17 @@ namespace ArbolB
                 Llaves[i - 1] = Llaves[i];
                 Datos[i - 1] = Datos[i];
             }
-            Llaves[Llaves.Count - 1] = Utilidades.ApuntadorVacio;
+            Llaves[Llaves.Count - 1] = "";
         }
 
-        internal void SepararNodo(int llave, T dato, int hijoDerecho, NodoB<T> nuevoNodo, ref int llavePorSubir, T datoPorSubir)
+        internal void SepararNodo(string llave, T dato, int hijoDerecho, NodoB<T> nuevoNodo, ref string llavePorSubir, T datoPorSubir)
         {
             if (!Lleno)
             {
                 throw new Exception("Uno nodo solo puede separarse si está lleno");
             }
             // Incrementar el tamaño de las listas en una posición 
-            Llaves.Add(Utilidades.ApuntadorVacio);
+            Llaves.Add("");
             Datos.Add(dato);
             Hijos.Add(Utilidades.ApuntadorVacio);
 
@@ -386,7 +386,7 @@ namespace ArbolB
             int mitad = (Orden / 2);
             llavePorSubir = Llaves[mitad];
             datoPorSubir = Datos[mitad];
-            Llaves[mitad] = Utilidades.ApuntadorVacio;
+            Llaves[mitad] = "";
 
             // Llenar las llaves y datos que pasan al nuevo nodo 
             int j = 0;
@@ -394,7 +394,7 @@ namespace ArbolB
             {
                 nuevoNodo.Llaves[j] = Llaves[i];
                 nuevoNodo.Datos[j] = Datos[i];
-                Llaves[i] = Utilidades.ApuntadorVacio;
+                Llaves[i] = "";
                 j++;
             }
 

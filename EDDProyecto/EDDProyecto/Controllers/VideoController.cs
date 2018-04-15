@@ -6,11 +6,23 @@ using System.Web.Mvc;
 using EDDProyecto.Models;
 using System.IO;
 using Newtonsoft.Json;
+using ArbolB;
 
 namespace EDDProyecto.Controllers
 {
+    enum TipoDeBusqueda
+    {
+        PorNombre = 1,
+        PorFecha = 2,
+        porGenero = 3
+    };
+
     public class VideoController : Controller
     {
+        public delegate List<Video> SearchByName(ArbolB<Video> arbol, string dato);
+        public delegate List<Video> SearchByDate(ArbolB<Video> arbol, string dato);
+        public delegate List<Video> SearchByGender(ArbolB<Video> arbol, string dato);
+
         // GET: Video
         public ActionResult Index()
         {
@@ -118,6 +130,11 @@ namespace EDDProyecto.Controllers
         public ActionResult RedirectUser()
         {
             return View("Catalogo"); 
+        }
+
+        public ActionResult Buscar()
+        {
+
         }
 
     }

@@ -9,7 +9,7 @@ using System.Web;
 
 namespace ArbolB
 {
-    public class ArbolB<T> : ArbolBusqueda<int, T> where T : ITextoTamañoFijo
+    public class ArbolB<T> : ArbolBusqueda<string, T> where T : ITextoTamañoFijo
     {
         #region Atributos 
         // Tamaño total del encabezado 
@@ -85,9 +85,10 @@ namespace ArbolB
             _archivo.Flush();
         }
 
-        private void AgregarRecursivo(int posicionNodoActual, int llave, T dato)
+        private void AgregarRecursivo(int posicionNodoActual, string llave, T dato)
         {
             NodoB<T> nodoActual = NodoB<T>.LeerNodoDesdeDisco(_archivo, _tamañoEncabezadoBinario, Orden, posicionNodoActual, _fabrica);
+
             if (nodoActual.PosicionExactaEnNodo(llave) != -1)
             {
                 throw new InvalidOperationException("La llave indicada ya está contenida en el árbol.");
@@ -107,7 +108,7 @@ namespace ArbolB
             }
         }
 
-        private void Subir(NodoB<T> nodoActual, int llave, T dato, int hijoDerecho)
+        private void Subir(NodoB<T> nodoActual, string llave, T dato, int hijoDerecho)
         {
             // Si el nodo no está lleno, se agrega la información 
             // al nodo y el método termina 
@@ -122,7 +123,7 @@ namespace ArbolB
             _ultimaPosicionLibre++;
 
             // Datos a subir al padre luego de la separación 
-            int llavePorSubir = Utilidades.ApuntadorVacio;
+            string llavePorSubir = "";
             T datoPorSubir = _fabrica.FabricarNulo();
 
             // Se llama al método que hace la separación  
@@ -178,7 +179,7 @@ namespace ArbolB
             }
         }
 
-        private NodoB<T> ObtenerRecursivo(int posicionNodoActual, int llave, out int posicion)
+        private NodoB<T> ObtenerRecursivo(int posicionNodoActual, string llave, out int posicion)
         {
             NodoB<T> nodoActual = NodoB<T>.LeerNodoDesdeDisco(_archivo, _tamañoEncabezadoBinario, Orden, posicionNodoActual, _fabrica);
             posicion = nodoActual.PosicionExactaEnNodo(llave);
@@ -200,9 +201,9 @@ namespace ArbolB
             }
         }
 
-        public override void Agregar(int llave, T dato)
+        public override void Agregar(string llave, T dato)
         {
-            if (llave == Utilidades.ApuntadorVacio)
+            if (llave == "")
             {
                 throw new ArgumentOutOfRangeException("llave");
             }
@@ -210,7 +211,7 @@ namespace ArbolB
             Tamaño++;
         }
 
-        public override T Obtener(int llave)
+        public override T Obtener(string llave)
         {
             int posicion = -1;
             NodoB<T> nodoObtenido = ObtenerRecursivo(_raiz, llave, out posicion);
@@ -224,7 +225,7 @@ namespace ArbolB
             }
         }
 
-        public override bool Contiene(int llave)
+        public override bool Contiene(string llave)
         {
             int posicion = -1;
             NodoB<T> nodoObtenido = ObtenerRecursivo(_raiz, llave, out posicion);
@@ -242,7 +243,7 @@ namespace ArbolB
         {
             for (int i = 0; i < nodoActual.Llaves.Count; i++)
             {
-                if (nodoActual.Llaves[i] != Utilidades.ApuntadorVacio)
+                if (nodoActual.Llaves[i] != "")
                 {
                     texto.AppendLine(nodoActual.Llaves[i].ToString());
                     texto.AppendLine(nodoActual.Datos[i].ToString());
@@ -294,7 +295,7 @@ namespace ArbolB
             for (int i = 0; i < nodoActual.Hijos.Count; i++)
             {
                 RecorrerInOrdenRecursivo(nodoActual.Hijos[i], texto);
-                if ((i < nodoActual.Llaves.Count) && (nodoActual.Llaves[i] != Utilidades.ApuntadorVacio))
+                if ((i < nodoActual.Llaves.Count) && (nodoActual.Llaves[i] != ""))
                 {
                     texto.AppendLine(nodoActual.Llaves[i].ToString());
                     texto.AppendLine(nodoActual.Datos[i].ToString());
@@ -328,7 +329,7 @@ namespace ArbolB
         {
             return Altura;
         }
-        public override void Eliminar(int llave)
+        public override void Eliminar(string llave)
         {
             throw new NotImplementedException();
         }
@@ -344,7 +345,10 @@ namespace ArbolB
         }
 
 
-
+        public T Search(Delegate comparer, string dato)
+        {
+            return (T)comparer.DynamicInvoke(this, dato); 
+        }
 
 
 
