@@ -12,6 +12,20 @@ using EDDProyecto.Controllers;
 
 namespace EDDProyecto.Controllers
 {
+    enum TipoPelicula
+    {
+        Show,
+        Movie,
+        Documentary
+    };
+
+    enum TipoInsercion
+    {
+        Name,
+        Year,
+        Gender
+    };
+
     public class UsuarioController : Controller
     {
          
@@ -47,8 +61,8 @@ namespace EDDProyecto.Controllers
         [HttpPost]
         public ActionResult Register(Usuario user)
         {
-            int llave = (int)GetASCII(user.Username);
-            UsersTree.Agregar(llave, user);
+            
+            UsersTree.Agregar(user.Username, user);
             UsersTree.Cerrar();
             return View("CreateUserSuccess"); 
         }
@@ -135,11 +149,13 @@ namespace EDDProyecto.Controllers
                         string info = reader.ReadToEnd();
                         List<Usuario> lista = JsonConvert.DeserializeObject<List<Usuario>>(info);
 
-                        for (int i = 0; i < lista.Count; i++)
-                        {
-                            int llave = (int)GetASCII(lista.ElementAt(i).Username);
-                            UsersTree.Agregar(llave, new Usuario(lista.ElementAt(i)));
-                        }
+                        //ATENCION, agregar los arboles en base a sus parametros dados en el PDF 
+
+                        //for (int i = 0; i < lista.Count; i++)
+                        //{
+                        //    int llave = (int)GetASCII(lista.ElementAt(i).Username);
+                        //    UsersTree.Agregar(llave, new Usuario(lista.ElementAt(i)));
+                        //}
                       
                     }
                 }
@@ -164,8 +180,6 @@ namespace EDDProyecto.Controllers
 
             return View(); 
         }
-
-
 
     }
 }

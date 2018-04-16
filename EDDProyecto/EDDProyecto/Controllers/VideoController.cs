@@ -134,7 +134,8 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Buscar()
         {
-
+            //view not implemented
+            return View();
         }
 
     }

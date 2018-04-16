@@ -349,9 +349,6 @@ namespace ArbolB
         {
             return (T)comparer.DynamicInvoke(this, dato); 
         }
-
-
-
     }
 }
 

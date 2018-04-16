@@ -5,12 +5,12 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
 using System.Text;
+using ArbolB;
 
 namespace EDDProyecto.Models
 {
     public class Usuario : IComparable<Usuario>, ArbolB.ITextoTamañoFijo
     {
-        //
         [Required]
         public string Nombre { get; set; }
         [Required]
@@ -22,6 +22,9 @@ namespace EDDProyecto.Models
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
+
+        ArbolB<Video> watchlist;
+
         public string Password { get; set; }
 
 
@@ -43,6 +46,8 @@ namespace EDDProyecto.Models
             Edad = usuario.Edad;
             Username = usuario.Username;
             Password = usuario.Password;
+
+            watchlist = new ArbolB<Video>(3, Username + ".watchlist", new FabricaVideo());
         }
 
         public int FixedSizeText
