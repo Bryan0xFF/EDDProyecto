@@ -76,7 +76,7 @@ namespace ArbolB
                 tamañoEnTexto += 2; // Separadores adicionales 
                 tamañoEnTexto += (Utilidades.TextoEnteroTamaño + 1) * Orden; // Tamaño Hijos 
                 tamañoEnTexto += 2; // Separadores adicionales 
-                tamañoEnTexto += (Utilidades.TextoEnteroTamaño + 1) * (Orden - 1); // Tamaño Llaves 
+                tamañoEnTexto += (Utilidades.TextoLlaveTamaño + 1) * (Orden - 1); // Tamaño Llaves 
                 tamañoEnTexto += 2; // Separadores adicionales 
                 tamañoEnTexto += (Datos[0].FixedSizeText + 1) * (Orden - 1); // Tamaño Datos 
                 tamañoEnTexto += Utilidades.TextoNuevaLineaTamaño; // Tamaño del Enter 
