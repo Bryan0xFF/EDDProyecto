@@ -1,1 +1,6002 @@
-[{"Tipo": "emjeplz", "Nombre": "v", "AñoLanzamiento": 2006, "Genero": "xdjv"} ,{"Tipo": "xqs", "Nombre": "qmikr", "AñoLanzamiento": 1972, "Genero": "d"} ,{"Tipo": "lcoyhsg", "Nombre": "jobbnehlcvee", "AñoLanzamiento": 1986, "Genero": "wuu"} ,{"Tipo": "s", "Nombre": "zmz", "AñoLanzamiento": 1946, "Genero": "hkuvyvrp"} ,{"Tipo": "nbric", "Nombre": "bypuv", "AñoLanzamiento": 2012, "Genero": "dguefacww"} ,{"Tipo": "rfgump", "Nombre": "zn", "AñoLanzamiento": 1969, "Genero": "uuc"} ,{"Tipo": "ykcax", "Nombre": "oxh", "AñoLanzamiento": 1931, "Genero": "aupqm"} ,{"Tipo": "rmadwn", "Nombre": "imuijsil", "AñoLanzamiento": 1981, "Genero": "hqawykc"} ,{"Tipo": "zny", "Nombre": "ikxcsdic", "AñoLanzamiento": 1941, "Genero": "w"} ,{"Tipo": "rlkgo", "Nombre": "ycjbizms", "AñoLanzamiento": 1984, "Genero": "x"} ]
+[
+{
+"name": "yrr", 
+"year": 1960, 
+"type": "pahxpfuy", 
+"genre": "tbgmgko"
+},
+{
+"name": "ylrai", 
+"year": 1964, 
+"type": "xetcwcpilaypkjeie", 
+"genre": "dwdbtrcvscddn"
+},
+{
+"name": "jwxixmcfwvokt", 
+"year": 1964, 
+"type": "sjwmqso", 
+"genre": "hrjwtsgbe"
+},
+{
+"name": "psmfhpcpmxo", 
+"year": 2005, 
+"type": "afcunsncfngdk", 
+"genre": "vvfcv"
+},
+{
+"name": "gafatpoks", 
+"year": 1962, 
+"type": "rwhaljdbinsfeh", 
+"genre": "slrha"
+},
+{
+"name": "oub", 
+"year": 2004, 
+"type": "kktwisbw", 
+"genre": "knqouzccdcmov"
+},
+{
+"name": "hvtntyie", 
+"year": 1960, 
+"type": "qrja", 
+"genre": "auiynvevcnai"
+},
+{
+"name": "meto", 
+"year": 1983, 
+"type": "gqkuww", 
+"genre": "raxqlvyndidpijlwh"
+},
+{
+"name": "va", 
+"year": 2004, 
+"type": "mzmmwielhx", 
+"genre": "qeeymbeku"
+},
+{
+"name": "mupxgbnj", 
+"year": 1961, 
+"type": "ihe", 
+"genre": "oma"
+},
+{
+"name": "ipsjoaz", 
+"year": 2012, 
+"type": "akihiesfhyv", 
+"genre": "cmxtsygaajzbrjkv"
+},
+{
+"name": "wgnrcvtxrupomc", 
+"year": 1998, 
+"type": "z", 
+"genre": "xknpglfgpvjqfionba"
+},
+{
+"name": "vvyzapfku", 
+"year": 1986, 
+"type": "o", 
+"genre": "ymmknjtkbhcgmcsjgcm"
+},
+{
+"name": "vuhkstvdzsgqmh", 
+"year": 1999, 
+"type": "bdicppqfw", 
+"genre": "mwifzhibxvd"
+},
+{
+"name": "zbkzn", 
+"year": 1957, 
+"type": "vxtoobl", 
+"genre": "ufk"
+},
+{
+"name": "mhbzsblwk", 
+"year": 1990, 
+"type": "bjadtxqaomgnx", 
+"genre": "miswenwm"
+},
+{
+"name": "qybwvsonibubvn", 
+"year": 1974, 
+"type": "bzuu", 
+"genre": "ezlsh"
+},
+{
+"name": "bdkzpwwyzqbdri", 
+"year": 1959, 
+"type": "xejzkasomnh", 
+"genre": "xajcrcawnwinuuohuw"
+},
+{
+"name": "fh", 
+"year": 1954, 
+"type": "fvekpvioh", 
+"genre": "uqmdehycnmsniefbt"
+},
+{
+"name": "jntu", 
+"year": 1970, 
+"type": "vwxcsqt", 
+"genre": "hradcdponci"
+},
+{
+"name": "yykjte", 
+"year": 1959, 
+"type": "rbnejfiwmfyrxv", 
+"genre": "rdbzq"
+},
+{
+"name": "jfhtrqctpo", 
+"year": 1986, 
+"type": "givuayrteenlkcb", 
+"genre": "vahgsdfwdxxwsetg"
+},
+{
+"name": "dxhthxfolikbm", 
+"year": 2010, 
+"type": "htbezuvswcqgbfllw", 
+"genre": "xhumqwglowboqbsll"
+},
+{
+"name": "xry", 
+"year": 1963, 
+"type": "hpioomezlinhuptj", 
+"genre": "xl"
+},
+{
+"name": "irlxy", 
+"year": 1967, 
+"type": "wgiomtwyffhnit", 
+"genre": "lv"
+},
+{
+"name": "sxv", 
+"year": 1997, 
+"type": "xuunq", 
+"genre": "vkyor"
+},
+{
+"name": "nqznmuumi", 
+"year": 1990, 
+"type": "okmwwei", 
+"genre": "bkpappmbcmgmigxnbik"
+},
+{
+"name": "xdpskjx", 
+"year": 1980, 
+"type": "q", 
+"genre": "cjpqyzj"
+},
+{
+"name": "lwfddrd", 
+"year": 1961, 
+"type": "gjcfcgdqgpgsexoion", 
+"genre": "tqy"
+},
+{
+"name": "qtfevhblmya", 
+"year": 1951, 
+"type": "rlesngvwlbe", 
+"genre": "yozc"
+},
+{
+"name": "qsastvuir", 
+"year": 1992, 
+"type": "x", 
+"genre": "vbjnxyzhlonbskdmprw"
+},
+{
+"name": "vlqacsmbdqhipj", 
+"year": 1964, 
+"type": "kdndysmlznstwzf", 
+"genre": "vvprngpfmniyw"
+},
+{
+"name": "wqh", 
+"year": 1955, 
+"type": "etferdavrrrmzhk", 
+"genre": "bjolovlnpkofkmodks"
+},
+{
+"name": "xaa", 
+"year": 1969, 
+"type": "pz", 
+"genre": "viqsquv"
+},
+{
+"name": "hp", 
+"year": 1970, 
+"type": "jqs", 
+"genre": "hd"
+},
+{
+"name": "myxm", 
+"year": 1987, 
+"type": "pvwalx", 
+"genre": "hnpfysxk"
+},
+{
+"name": "snzheukhxgx", 
+"year": 1957, 
+"type": "iemrptarbpw", 
+"genre": "uuacep"
+},
+{
+"name": "thmmgvwr", 
+"year": 1996, 
+"type": "wams", 
+"genre": "aqytxncrchjj"
+},
+{
+"name": "alqftj", 
+"year": 1960, 
+"type": "zzpxarwrahskmxvq", 
+"genre": "rrtijkfk"
+},
+{
+"name": "ikqh", 
+"year": 1951, 
+"type": "nmqxvzuxzj", 
+"genre": "gytpfqmmjzcir"
+},
+{
+"name": "isehqxh", 
+"year": 2008, 
+"type": "nazkjanelwhuaycgb", 
+"genre": "kmar"
+},
+{
+"name": "hlqnkcyqayrgj", 
+"year": 1957, 
+"type": "inrhlgxadcm", 
+"genre": "nw"
+},
+{
+"name": "lmguvvoiocu", 
+"year": 2002, 
+"type": "sle", 
+"genre": "wgqzjbbojvlx"
+},
+{
+"name": "zdhphdbsk", 
+"year": 1991, 
+"type": "ekdajas", 
+"genre": "qnfhfcijc"
+},
+{
+"name": "reenstba", 
+"year": 2012, 
+"type": "crvw", 
+"genre": "ik"
+},
+{
+"name": "zfzhvycyybrp", 
+"year": 1977, 
+"type": "ya", 
+"genre": "lmtumwowxspmiewsg"
+},
+{
+"name": "prcl", 
+"year": 1992, 
+"type": "ciclvprsc", 
+"genre": "q"
+},
+{
+"name": "u", 
+"year": 1950, 
+"type": "qhmdhcihsiqybfugm", 
+"genre": "dctuihgpdwhna"
+},
+{
+"name": "bzdowjceekxwyo", 
+"year": 1965, 
+"type": "zy", 
+"genre": "fmesjzvbrolik"
+},
+{
+"name": "hnavwbhsrqdw", 
+"year": 1974, 
+"type": "d", 
+"genre": "ficxupugqcdbxhx"
+},
+{
+"name": "sxjdfngozbwxru", 
+"year": 1961, 
+"type": "tdhcokokudflbsv", 
+"genre": "u"
+},
+{
+"name": "xuogwscnnqtzzf", 
+"year": 1994, 
+"type": "wapgeutrcqjiexhfj", 
+"genre": "wuil"
+},
+{
+"name": "i", 
+"year": 1991, 
+"type": "pjokqerwzqmlec", 
+"genre": "wer"
+},
+{
+"name": "zbmwxgikzw", 
+"year": 1967, 
+"type": "dycre", 
+"genre": "lqoagoudqwg"
+},
+{
+"name": "oxtpitxis", 
+"year": 1952, 
+"type": "lhbigphyzzwxe", 
+"genre": "crowbbdvukpfa"
+},
+{
+"name": "trvqawj", 
+"year": 1952, 
+"type": "kohp", 
+"genre": "ntdpaqdytby"
+},
+{
+"name": "r", 
+"year": 1950, 
+"type": "tcjfysskyeptghahao", 
+"genre": "iagafjalvfro"
+},
+{
+"name": "lbeqqpi", 
+"year": 1962, 
+"type": "p", 
+"genre": "isqwxebg"
+},
+{
+"name": "akazwwrmsenr", 
+"year": 1960, 
+"type": "dtiyymjjmijcrhlvpn", 
+"genre": "rwvdmcsh"
+},
+{
+"name": "fbirgfn", 
+"year": 1959, 
+"type": "czvir", 
+"genre": "mchaqfzrfrzlprc"
+},
+{
+"name": "n", 
+"year": 1959, 
+"type": "dtdxzbnz", 
+"genre": "zxfe"
+},
+{
+"name": "fhdmjf", 
+"year": 2003, 
+"type": "brkvsrbdiprrap", 
+"genre": "ohycbushl"
+},
+{
+"name": "rutvmggvotozip", 
+"year": 1970, 
+"type": "soasolbcurlwibxu", 
+"genre": "whbi"
+},
+{
+"name": "hva", 
+"year": 1986, 
+"type": "sskglczrzx", 
+"genre": "afhuxarndmcdrl"
+},
+{
+"name": "pumvbto", 
+"year": 1993, 
+"type": "wllzcipbegdovis", 
+"genre": "axcyavandjvkbl"
+},
+{
+"name": "zmjeqsc", 
+"year": 2010, 
+"type": "lecntlwe", 
+"genre": "gblmceldbszwcoic"
+},
+{
+"name": "nmvxlgzoujzyby", 
+"year": 1956, 
+"type": "xqaxhesr", 
+"genre": "kdepxxacfumw"
+},
+{
+"name": "yhxaobbqlt", 
+"year": 1997, 
+"type": "zxsveqzhegtxntzdlv", 
+"genre": "tcqvmgdxidifx"
+},
+{
+"name": "rbxdtcannmpzu", 
+"year": 2009, 
+"type": "skebztzu", 
+"genre": "mwiyjuyrcdjqljuyrz"
+},
+{
+"name": "uhputh", 
+"year": 1978, 
+"type": "ztoc", 
+"genre": "ngodlakdskuajmoeto"
+},
+{
+"name": "nrpbhjucai", 
+"year": 2001, 
+"type": "apwdxtyecfdxusldfu", 
+"genre": "bfjkiqcq"
+},
+{
+"name": "iikcagknpudqx", 
+"year": 2009, 
+"type": "mvixomzh", 
+"genre": "ucrlicm"
+},
+{
+"name": "heswvvdzkaze", 
+"year": 1957, 
+"type": "dha", 
+"genre": "vbhntpzzdmvozvwfgva"
+},
+{
+"name": "dniihkvqnkv", 
+"year": 1970, 
+"type": "djxxivuxy", 
+"genre": "f"
+},
+{
+"name": "cfudd", 
+"year": 1995, 
+"type": "gw", 
+"genre": "mdjfyvcbjjhfrnljq"
+},
+{
+"name": "z", 
+"year": 1983, 
+"type": "qpwirw", 
+"genre": "tzzjrmuglkpptgrw"
+},
+{
+"name": "hhjky", 
+"year": 1986, 
+"type": "bfuqvdwnbzelndy", 
+"genre": "teyf"
+},
+{
+"name": "qmpvyhqhlyhl", 
+"year": 2005, 
+"type": "awpqvdzusexwc", 
+"genre": "aalxyfmekoq"
+},
+{
+"name": "sdjzyatlrikim", 
+"year": 2002, 
+"type": "deqdknhd", 
+"genre": "saxxilcbeodmqh"
+},
+{
+"name": "sfgcrkyljpj", 
+"year": 2003, 
+"type": "uerqhwbxzet", 
+"genre": "qceluocdc"
+},
+{
+"name": "vymmbs", 
+"year": 2008, 
+"type": "fqvmvqdytps", 
+"genre": "euxf"
+},
+{
+"name": "ug", 
+"year": 1996, 
+"type": "uwmfqqppralvy", 
+"genre": "eshggzhnjhxjl"
+},
+{
+"name": "qa", 
+"year": 2016, 
+"type": "pvbtrsdydteyaq", 
+"genre": "dsnjoqnxdg"
+},
+{
+"name": "b", 
+"year": 1989, 
+"type": "rhosfc", 
+"genre": "nfpnbhyrkthywhacmnd"
+},
+{
+"name": "bwjhkapzknqm", 
+"year": 2013, 
+"type": "uas", 
+"genre": "mjogsnatkhsdqoxl"
+},
+{
+"name": "xqg", 
+"year": 1975, 
+"type": "nntl", 
+"genre": "hojq"
+},
+{
+"name": "cphkacy", 
+"year": 1973, 
+"type": "fqatpnhevi", 
+"genre": "zej"
+},
+{
+"name": "bqf", 
+"year": 2013, 
+"type": "lxajit", 
+"genre": "ndvrgixdsubyzdepann"
+},
+{
+"name": "hrmxvcekljj", 
+"year": 1978, 
+"type": "g", 
+"genre": "ydrxqggorw"
+},
+{
+"name": "obdrxsuw", 
+"year": 1962, 
+"type": "jf", 
+"genre": "imvz"
+},
+{
+"name": "qxuze", 
+"year": 1994, 
+"type": "jsooqgm", 
+"genre": "loqnpiirmrscynod"
+},
+{
+"name": "tm", 
+"year": 2003, 
+"type": "hfiemuoh", 
+"genre": "tqf"
+},
+{
+"name": "xy", 
+"year": 1962, 
+"type": "tuwijaaa", 
+"genre": "ubtjsyiqytb"
+},
+{
+"name": "bwouuhcyfhdkxq", 
+"year": 1958, 
+"type": "novxj", 
+"genre": "ykataswsvbu"
+},
+{
+"name": "dsy", 
+"year": 2010, 
+"type": "wm", 
+"genre": "zahmhu"
+},
+{
+"name": "ysmzbtdarytv", 
+"year": 1988, 
+"type": "annvlczplwpxjz", 
+"genre": "domgyvfhfjawwtgcbm"
+},
+{
+"name": "xnvwrhlriidqke", 
+"year": 1993, 
+"type": "dbozhs", 
+"genre": "mdzewjtoxgnkw"
+},
+{
+"name": "lxz", 
+"year": 1977, 
+"type": "oeozysljrtl", 
+"genre": "dm"
+},
+{
+"name": "ktavuuyclfyfdm", 
+"year": 1967, 
+"type": "bvhncoth", 
+"genre": "syvpnejylmsxbwk"
+},
+{
+"name": "xrlgjcjhb", 
+"year": 1954, 
+"type": "ekgzljrdaiqxofyjbuk", 
+"genre": "p"
+},
+{
+"name": "vglub", 
+"year": 1984, 
+"type": "zbsgghjgspfnljgn", 
+"genre": "zqjzjbygbcpdfdumbje"
+},
+{
+"name": "scusgudbxotgq", 
+"year": 2013, 
+"type": "fs", 
+"genre": "xrqymjt"
+},
+{
+"name": "u", 
+"year": 1976, 
+"type": "ig", 
+"genre": "wktgsqwp"
+},
+{
+"name": "dosmnlhgnzamm", 
+"year": 1962, 
+"type": "smxaspm", 
+"genre": "u"
+},
+{
+"name": "m", 
+"year": 2007, 
+"type": "adzzyhmhiymoj", 
+"genre": "xfryjzm"
+},
+{
+"name": "wdwnmdjrmn", 
+"year": 2010, 
+"type": "e", 
+"genre": "hfef"
+},
+{
+"name": "remzupqemk", 
+"year": 1950, 
+"type": "vreynqdguc", 
+"genre": "ajaimsymu"
+},
+{
+"name": "timthraqziawlr", 
+"year": 1990, 
+"type": "lri", 
+"genre": "tcvgeonhqowqyosvruw"
+},
+{
+"name": "riphhx", 
+"year": 2005, 
+"type": "stdikj", 
+"genre": "jwcvfvec"
+},
+{
+"name": "udvzagotddjz", 
+"year": 1990, 
+"type": "vkslqefquhhazm", 
+"genre": "rlnqkmarybdkqmpnkj"
+},
+{
+"name": "rohg", 
+"year": 1965, 
+"type": "gabaecm", 
+"genre": "sdvtjpzvdftw"
+},
+{
+"name": "xgicquxu", 
+"year": 2014, 
+"type": "pbdptzpixqli", 
+"genre": "ttaujlxw"
+},
+{
+"name": "ohqhunklvrtmbo", 
+"year": 2015, 
+"type": "imxen", 
+"genre": "vrskwtefxatfababudc"
+},
+{
+"name": "hhjqgmdcvdkku", 
+"year": 2000, 
+"type": "hndwjiedqy", 
+"genre": "ltrs"
+},
+{
+"name": "xrluoqa", 
+"year": 1969, 
+"type": "ymlsinvaoobpyd", 
+"genre": "wcjdewlm"
+},
+{
+"name": "wdbxf", 
+"year": 1954, 
+"type": "gyuwqisqdogculqghu", 
+"genre": "fdswrdorrfrbacby"
+},
+{
+"name": "ufapuvdpy", 
+"year": 1968, 
+"type": "lahcrswwcc", 
+"genre": "cnctkogtfvfomettok"
+},
+{
+"name": "zxiiqiwuprol", 
+"year": 1952, 
+"type": "zobzxmebgezmagoy", 
+"genre": "oe"
+},
+{
+"name": "fhfmzpgi", 
+"year": 1963, 
+"type": "hjb", 
+"genre": "xgztrc"
+},
+{
+"name": "hxyewg", 
+"year": 2004, 
+"type": "ifeeivqqfc", 
+"genre": "cvrtqljjqfbi"
+},
+{
+"name": "zbarrlosymz", 
+"year": 1979, 
+"type": "bpydwjwlpwtmvahitj", 
+"genre": "tngh"
+},
+{
+"name": "wxemzxhulcaxvi", 
+"year": 1974, 
+"type": "b", 
+"genre": "bxgriqyzplpshuair"
+},
+{
+"name": "wlcpv", 
+"year": 1978, 
+"type": "vbxosuet", 
+"genre": "ejtjrgzewohom"
+},
+{
+"name": "o", 
+"year": 1985, 
+"type": "bsflnhynfmnoj", 
+"genre": "uhqpqoitpbsremqh"
+},
+{
+"name": "qjsngwaldxrxg", 
+"year": 1966, 
+"type": "utweicsrdhwcx", 
+"genre": "bzxhshvqqmfyxmhmq"
+},
+{
+"name": "vchzvfq", 
+"year": 2006, 
+"type": "dchlyjlqjpzmkw", 
+"genre": "bbbxcyvlbfcdop"
+},
+{
+"name": "bxfrebimckan", 
+"year": 2004, 
+"type": "n", 
+"genre": "nhojxinnku"
+},
+{
+"name": "bxzslaovx", 
+"year": 1967, 
+"type": "lfuihmglzds", 
+"genre": "pwagdeionldswo"
+},
+{
+"name": "u", 
+"year": 1977, 
+"type": "vxu", 
+"genre": "rmmxpcmwyqenfmg"
+},
+{
+"name": "yfc", 
+"year": 1962, 
+"type": "cgrof", 
+"genre": "fqbwlh"
+},
+{
+"name": "udvomohvlu", 
+"year": 1968, 
+"type": "entfpgcqmmnjjror", 
+"genre": "xutf"
+},
+{
+"name": "lrtvpqzjbil", 
+"year": 1968, 
+"type": "htmwrlmp", 
+"genre": "zmkelvlosudzkv"
+},
+{
+"name": "udpbpfqfotkudp", 
+"year": 2003, 
+"type": "udsj", 
+"genre": "mnzqdeswqwfvuoxpbhx"
+},
+{
+"name": "vpktkszulzv", 
+"year": 2006, 
+"type": "wjogefzzjjvvbfiqt", 
+"genre": "vryccyslyetmha"
+},
+{
+"name": "dywgkua", 
+"year": 1960, 
+"type": "tpghwimh", 
+"genre": "qaddcfsahxl"
+},
+{
+"name": "dcmbdepyqagqma", 
+"year": 1989, 
+"type": "gdspavtozjjjm", 
+"genre": "bowuwvdrjygpphqtq"
+},
+{
+"name": "thb", 
+"year": 1973, 
+"type": "cqo", 
+"genre": "rikjtzchun"
+},
+{
+"name": "xyiwu", 
+"year": 1989, 
+"type": "ciyusfxaiijnz", 
+"genre": "nimiyompmzvgzbt"
+},
+{
+"name": "zyyozlm", 
+"year": 2001, 
+"type": "tmojbaehvkbvbu", 
+"genre": "lkwjngagegpj"
+},
+{
+"name": "onqorov", 
+"year": 1970, 
+"type": "fsnee", 
+"genre": "m"
+},
+{
+"name": "ts", 
+"year": 1965, 
+"type": "ggtyyqdvtokuruf", 
+"genre": "v"
+},
+{
+"name": "rzytjaiphhbk", 
+"year": 1975, 
+"type": "zfcuwe", 
+"genre": "xdsztmlc"
+},
+{
+"name": "pl", 
+"year": 1952, 
+"type": "vmzygovduza", 
+"genre": "uxmmld"
+},
+{
+"name": "bbbldh", 
+"year": 1978, 
+"type": "lwcbkvcrjpkdh", 
+"genre": "ihsrrzp"
+},
+{
+"name": "lahwgcnuisdc", 
+"year": 1957, 
+"type": "pdrvncemlirhrmfitws", 
+"genre": "aglmxzwo"
+},
+{
+"name": "dswckyuht", 
+"year": 1987, 
+"type": "u", 
+"genre": "vvploketfoeh"
+},
+{
+"name": "ckrr", 
+"year": 2015, 
+"type": "yxhztywzn", 
+"genre": "jvjvklpwmkmkhpa"
+},
+{
+"name": "tvlbnhknimls", 
+"year": 2014, 
+"type": "lkdnrunurpipmaxsfz", 
+"genre": "ezgol"
+},
+{
+"name": "vda", 
+"year": 1977, 
+"type": "oio", 
+"genre": "mtehshdzj"
+},
+{
+"name": "whkhggkgabw", 
+"year": 1998, 
+"type": "fgheifwjjhbre", 
+"genre": "kfybzx"
+},
+{
+"name": "cgzgfiqymel", 
+"year": 1967, 
+"type": "fwgdfyytrckvplllww", 
+"genre": "tg"
+},
+{
+"name": "vz", 
+"year": 2003, 
+"type": "abhbihqpxra", 
+"genre": "f"
+},
+{
+"name": "pzmogvhcjxlj", 
+"year": 1991, 
+"type": "urgqb", 
+"genre": "kvpjinhncmkkbvyp"
+},
+{
+"name": "jc", 
+"year": 1976, 
+"type": "jzmliv", 
+"genre": "tyoklkvzbwinnbwzdw"
+},
+{
+"name": "eyayraznkbm", 
+"year": 2016, 
+"type": "ldtqbkdjbznafdj", 
+"genre": "mwymhxvz"
+},
+{
+"name": "cjdhsadxdldg", 
+"year": 1966, 
+"type": "mahbtzo", 
+"genre": "x"
+},
+{
+"name": "xgouvmaq", 
+"year": 1992, 
+"type": "zpdo", 
+"genre": "aynyc"
+},
+{
+"name": "i", 
+"year": 1962, 
+"type": "ctvvpemrtclcdbev", 
+"genre": "pnw"
+},
+{
+"name": "ityttxbtaxno", 
+"year": 1954, 
+"type": "dgnfdhsbujx", 
+"genre": "yftz"
+},
+{
+"name": "hnlkkhuein", 
+"year": 1968, 
+"type": "oxgsi", 
+"genre": "ljsldof"
+},
+{
+"name": "pjqqtk", 
+"year": 2001, 
+"type": "ydzimivdiybaqcm", 
+"genre": "rwipndtsnosdo"
+},
+{
+"name": "qvjlfsj", 
+"year": 2011, 
+"type": "xc", 
+"genre": "vuxoaok"
+},
+{
+"name": "ncjjv", 
+"year": 1984, 
+"type": "qpzfpff", 
+"genre": "oecojfmez"
+},
+{
+"name": "edsqzonii", 
+"year": 1976, 
+"type": "fhzuyodtflicgb", 
+"genre": "yaadelam"
+},
+{
+"name": "d", 
+"year": 1980, 
+"type": "xfnpnfpp", 
+"genre": "axebtnzeryqlnqdsc"
+},
+{
+"name": "cctyxhfyn", 
+"year": 2011, 
+"type": "wctrsz", 
+"genre": "vb"
+},
+{
+"name": "cxnugjdjefmrl", 
+"year": 1964, 
+"type": "ybiszpcb", 
+"genre": "trkma"
+},
+{
+"name": "k", 
+"year": 1985, 
+"type": "bwawyalytjnber", 
+"genre": "oknxqptmvcyhepbfaam"
+},
+{
+"name": "lcle", 
+"year": 1974, 
+"type": "iirklvzpgnfidmxpee", 
+"genre": "lfxazqzypqgsdmuqegi"
+},
+{
+"name": "hwfkovrxb", 
+"year": 1997, 
+"type": "qesrlawuauxdikzpb", 
+"genre": "vyfwmjhnfp"
+},
+{
+"name": "yeifwrhv", 
+"year": 1952, 
+"type": "ufxuscksmeopylrfpwa", 
+"genre": "cwziczmtdpmjf"
+},
+{
+"name": "rebzpxsybv", 
+"year": 1989, 
+"type": "gjgkvd", 
+"genre": "vcrppjrtwtlbp"
+},
+{
+"name": "jgotrbekvy", 
+"year": 2002, 
+"type": "zynlwzwzkryinctvcux", 
+"genre": "kpxtkpypuvrzqgwpzar"
+},
+{
+"name": "yxeakmwiwooock", 
+"year": 1962, 
+"type": "dyptkttvvmelx", 
+"genre": "kuhcwlzdjrwc"
+},
+{
+"name": "vqj", 
+"year": 1995, 
+"type": "iqfcshykzqeuucb", 
+"genre": "cjevc"
+},
+{
+"name": "kcgekdc", 
+"year": 1971, 
+"type": "yartqtooxi", 
+"genre": "jy"
+},
+{
+"name": "dwifgkbr", 
+"year": 1965, 
+"type": "oamlnfgbgpuajixobg", 
+"genre": "nb"
+},
+{
+"name": "dibiqggvif", 
+"year": 2005, 
+"type": "zbd", 
+"genre": "gn"
+},
+{
+"name": "amn", 
+"year": 1952, 
+"type": "vvvbgv", 
+"genre": "t"
+},
+{
+"name": "ky", 
+"year": 1962, 
+"type": "qaheflsefmp", 
+"genre": "pzngf"
+},
+{
+"name": "qgmgrfnxbcoq", 
+"year": 1993, 
+"type": "eaxxyio", 
+"genre": "mdkgvgy"
+},
+{
+"name": "hvhhh", 
+"year": 1984, 
+"type": "mn", 
+"genre": "pkwjpehz"
+},
+{
+"name": "tyxjjfqt", 
+"year": 1990, 
+"type": "rxlrpswotnrmiw", 
+"genre": "agmc"
+},
+{
+"name": "ouvxhnhprhx", 
+"year": 1992, 
+"type": "fzvnhdbwtpz", 
+"genre": "advmoljlfh"
+},
+{
+"name": "tsenw", 
+"year": 2015, 
+"type": "qupkscdtjlbzt", 
+"genre": "fz"
+},
+{
+"name": "ijndgmyxx", 
+"year": 1990, 
+"type": "zgjfe", 
+"genre": "dgb"
+},
+{
+"name": "sl", 
+"year": 1991, 
+"type": "ecevtfyiiplviklsxpt", 
+"genre": "gt"
+},
+{
+"name": "veekl", 
+"year": 1977, 
+"type": "phuyzy", 
+"genre": "aeourqml"
+},
+{
+"name": "p", 
+"year": 1971, 
+"type": "fnmygsmdozyibnqlw", 
+"genre": "nejtshbgod"
+},
+{
+"name": "jupxdjsjdfnll", 
+"year": 2009, 
+"type": "dkolmzbcrbvlmbzq", 
+"genre": "v"
+},
+{
+"name": "yxz", 
+"year": 1982, 
+"type": "eqz", 
+"genre": "lssxrsqdxuox"
+},
+{
+"name": "ciunrgfvpiwir", 
+"year": 1999, 
+"type": "b", 
+"genre": "xpknxzqg"
+},
+{
+"name": "qd", 
+"year": 1982, 
+"type": "uuiyfhfepc", 
+"genre": "kgxcovkzknxzmndw"
+},
+{
+"name": "tpputdpdrc", 
+"year": 1985, 
+"type": "cgswxgpic", 
+"genre": "skvyliisrmfrnx"
+},
+{
+"name": "tykohbz", 
+"year": 2005, 
+"type": "xmzhuldqjusdvxj", 
+"genre": "ajahj"
+},
+{
+"name": "msdilwmebtccja", 
+"year": 2009, 
+"type": "gwjsrrvtgptldsfmvh", 
+"genre": "hlesuyfdzn"
+},
+{
+"name": "emtzenkkggxa", 
+"year": 1994, 
+"type": "wcbonthxfcny", 
+"genre": "enmzjxgpcze"
+},
+{
+"name": "zlde", 
+"year": 1991, 
+"type": "icdqjtnjoie", 
+"genre": "dowecjsddapokuvpe"
+},
+{
+"name": "w", 
+"year": 1972, 
+"type": "hqwemh", 
+"genre": "axubag"
+},
+{
+"name": "zzzbpegblcfgn", 
+"year": 1987, 
+"type": "qrdztxgqnuzykkjhv", 
+"genre": "yey"
+},
+{
+"name": "sqnznaxx", 
+"year": 2009, 
+"type": "i", 
+"genre": "qyebhwocyssl"
+},
+{
+"name": "umflgn", 
+"year": 1977, 
+"type": "khg", 
+"genre": "ilcbd"
+},
+{
+"name": "bqvcpugndsgpd", 
+"year": 1978, 
+"type": "dpmphjm", 
+"genre": "ejltuyklavkow"
+},
+{
+"name": "kunft", 
+"year": 2014, 
+"type": "uzxyyloqexpzv", 
+"genre": "fwpsyq"
+},
+{
+"name": "wjsjre", 
+"year": 2017, 
+"type": "ugfg", 
+"genre": "of"
+},
+{
+"name": "ocifz", 
+"year": 2003, 
+"type": "evccbghevy", 
+"genre": "vxsipzyr"
+},
+{
+"name": "odozallnupbl", 
+"year": 1963, 
+"type": "wauwtaikx", 
+"genre": "rshv"
+},
+{
+"name": "yrxe", 
+"year": 1982, 
+"type": "fcejuldbcootxidgg", 
+"genre": "bkk"
+},
+{
+"name": "vecb", 
+"year": 2016, 
+"type": "oebsnorsjutnxkiy", 
+"genre": "ljdybqahk"
+},
+{
+"name": "ynwgirl", 
+"year": 2009, 
+"type": "i", 
+"genre": "nkumvnyfgh"
+},
+{
+"name": "jpvlqc", 
+"year": 2015, 
+"type": "pspjkqqcjmimoyk", 
+"genre": "yimfdcbeunwfxmvsai"
+},
+{
+"name": "enuslbdkyhkd", 
+"year": 1998, 
+"type": "afyfokcoqk", 
+"genre": "c"
+},
+{
+"name": "hpyszd", 
+"year": 2013, 
+"type": "nxtd", 
+"genre": "boluyjilfbuopkgp"
+},
+{
+"name": "fprwhkx", 
+"year": 2012, 
+"type": "ge", 
+"genre": "zlyfpxszjtrtthvz"
+},
+{
+"name": "nomlpfqvi", 
+"year": 1951, 
+"type": "vwjjqtylplx", 
+"genre": "npsmmslhvw"
+},
+{
+"name": "heb", 
+"year": 1962, 
+"type": "paomjrzuzlvkvf", 
+"genre": "fuk"
+},
+{
+"name": "barewghl", 
+"year": 1969, 
+"type": "uxhlsedbsuymxdwyw", 
+"genre": "qsmup"
+},
+{
+"name": "e", 
+"year": 1965, 
+"type": "slkobvhurbgtk", 
+"genre": "rtjepb"
+},
+{
+"name": "xxkzi", 
+"year": 1961, 
+"type": "e", 
+"genre": "fklohmftxmvzoafbk"
+},
+{
+"name": "kjstcwfqtrzenq", 
+"year": 1970, 
+"type": "ubgmdjjkt", 
+"genre": "ga"
+},
+{
+"name": "shinucxrupitl", 
+"year": 1992, 
+"type": "hrvzondpshbf", 
+"genre": "qfadiumhpj"
+},
+{
+"name": "irmclgh", 
+"year": 2003, 
+"type": "gzh", 
+"genre": "ddymbm"
+},
+{
+"name": "xwdg", 
+"year": 1950, 
+"type": "dwpyn", 
+"genre": "erwxkihqhiehil"
+},
+{
+"name": "ffopqhgoeuvzus", 
+"year": 1972, 
+"type": "afvzfcdzjjiybuq", 
+"genre": "cnxrhguparmn"
+},
+{
+"name": "rkybtvcsyhvl", 
+"year": 1968, 
+"type": "jf", 
+"genre": "fqbs"
+},
+{
+"name": "hwhkesakjiw", 
+"year": 1982, 
+"type": "oxyqylzpzvsmuozhk", 
+"genre": "mjnrystapufdxgubw"
+},
+{
+"name": "sg", 
+"year": 1993, 
+"type": "wuxtvo", 
+"genre": "bqsmzgchxbp"
+},
+{
+"name": "soynglcmnemrya", 
+"year": 1998, 
+"type": "trbbghlfjmbar", 
+"genre": "zfgcdbtmwkvlepo"
+},
+{
+"name": "lnpnvt", 
+"year": 1989, 
+"type": "uanoijueohdxop", 
+"genre": "qulqvqrhyquwyndl"
+},
+{
+"name": "s", 
+"year": 2016, 
+"type": "lcowywyhajxo", 
+"genre": "ewuws"
+},
+{
+"name": "ugttxy", 
+"year": 2006, 
+"type": "nxzeguslyjdykraysxn", 
+"genre": "tqjpwmorxtpdo"
+},
+{
+"name": "hdg", 
+"year": 1969, 
+"type": "lokchhfgdwij", 
+"genre": "zbshaob"
+},
+{
+"name": "nihn", 
+"year": 1995, 
+"type": "djbzhkufvfiuqnlnnm", 
+"genre": "hemwenwbj"
+},
+{
+"name": "oylxxmslpfuoio", 
+"year": 1992, 
+"type": "vedp", 
+"genre": "vknagiirsmthjqij"
+},
+{
+"name": "qorgquflslc", 
+"year": 2018, 
+"type": "izjvqtzpswrjynntia", 
+"genre": "lraogafqololqhtyg"
+},
+{
+"name": "dpxu", 
+"year": 2015, 
+"type": "aqotiqttaki", 
+"genre": "nymiud"
+},
+{
+"name": "znlmlxbjirij", 
+"year": 2006, 
+"type": "dd", 
+"genre": "zvihhynwil"
+},
+{
+"name": "nyvvgonlgzdd", 
+"year": 1950, 
+"type": "ibsvkrfmy", 
+"genre": "zuuwfgc"
+},
+{
+"name": "nyadx", 
+"year": 2010, 
+"type": "abdw", 
+"genre": "lwmmajakbmhfaj"
+},
+{
+"name": "iwch", 
+"year": 1971, 
+"type": "pwjgrsiytrkfangwg", 
+"genre": "vgrdouyvzqietqfz"
+},
+{
+"name": "ezxvpaysm", 
+"year": 2002, 
+"type": "ytu", 
+"genre": "onlkaf"
+},
+{
+"name": "aiueonfrh", 
+"year": 2005, 
+"type": "ztpgjfcc", 
+"genre": "ytzcmx"
+},
+{
+"name": "fuzw", 
+"year": 1987, 
+"type": "p", 
+"genre": "bayqrtmkyksptai"
+},
+{
+"name": "qvmfsqcolibst", 
+"year": 1971, 
+"type": "dfylgunumemxkgi", 
+"genre": "oxlruy"
+},
+{
+"name": "eengpasb", 
+"year": 2007, 
+"type": "mh", 
+"genre": "xodbmckaxsuadxxzzoo"
+},
+{
+"name": "roc", 
+"year": 1990, 
+"type": "nifromphvijqxjjatj", 
+"genre": "sdapiqadnxl"
+},
+{
+"name": "nxgqkwkltqzk", 
+"year": 1982, 
+"type": "jlnandepjed", 
+"genre": "yfhfdayvqiveelyzeoa"
+},
+{
+"name": "navsldnne", 
+"year": 2016, 
+"type": "ckkks", 
+"genre": "dadwsh"
+},
+{
+"name": "xwsqrgzsbnwjkd", 
+"year": 1982, 
+"type": "ufsyntllkgxnvxnnmy", 
+"genre": "nyombhathqrd"
+},
+{
+"name": "bsobkynwn", 
+"year": 1975, 
+"type": "qnqysjbb", 
+"genre": "hzpylxq"
+},
+{
+"name": "awcfkdhubqxrnu", 
+"year": 1999, 
+"type": "zjapvikaglruknywv", 
+"genre": "cfad"
+},
+{
+"name": "utzxhbhucoy", 
+"year": 2010, 
+"type": "szxglvpyubscmw", 
+"genre": "fl"
+},
+{
+"name": "axyligcv", 
+"year": 1996, 
+"type": "wsgixeyzhswhof", 
+"genre": "fvsmynsii"
+},
+{
+"name": "uc", 
+"year": 1983, 
+"type": "kfowpuzppfzfwzxz", 
+"genre": "xoxrjgmjedzfjeu"
+},
+{
+"name": "yspzlygwbmrqeg", 
+"year": 1986, 
+"type": "cvogmfml", 
+"genre": "glbaznvcpa"
+},
+{
+"name": "pasguklzlwmkl", 
+"year": 2018, 
+"type": "oghrclskoxksesjirdt", 
+"genre": "puvoemvzqwsxhq"
+},
+{
+"name": "nnaxra", 
+"year": 1999, 
+"type": "dywc", 
+"genre": "rkaheatnwpoltbckbne"
+},
+{
+"name": "xwetwhfvlsg", 
+"year": 2009, 
+"type": "gtnniqec", 
+"genre": "hjhrqmkqwevit"
+},
+{
+"name": "plefrarr", 
+"year": 1960, 
+"type": "wmyowrtysjrxtxopvy", 
+"genre": "s"
+},
+{
+"name": "exiqyz", 
+"year": 2000, 
+"type": "kdjijmd", 
+"genre": "nbgjxvdmrghoez"
+},
+{
+"name": "dohrhyecuj", 
+"year": 1981, 
+"type": "xazgtjoedsoi", 
+"genre": "zxqdeoeehlpy"
+},
+{
+"name": "vncr", 
+"year": 1987, 
+"type": "yjywcrimkjdzqh", 
+"genre": "umxbydjdlsyiy"
+},
+{
+"name": "oneohyjt", 
+"year": 1972, 
+"type": "pffrscc", 
+"genre": "kbexbvenzizrfrrzqq"
+},
+{
+"name": "xkvkur", 
+"year": 1975, 
+"type": "kzlofy", 
+"genre": "xxdreknedtpxhmxiitl"
+},
+{
+"name": "xxuhvqa", 
+"year": 1958, 
+"type": "zzmzzqxtsoohhfttvy", 
+"genre": "mncbglax"
+},
+{
+"name": "pbtd", 
+"year": 1984, 
+"type": "esomtmof", 
+"genre": "hoaesri"
+},
+{
+"name": "jlbrjzstr", 
+"year": 1979, 
+"type": "nngfmmbvfwjqfxkdis", 
+"genre": "ftvuazmgcsfuwwuwd"
+},
+{
+"name": "xfttjkirpvlw", 
+"year": 1979, 
+"type": "dxvzbznl", 
+"genre": "bqxdqeuodpjo"
+},
+{
+"name": "wjnffbsnshtjdw", 
+"year": 2009, 
+"type": "afswhpdpbi", 
+"genre": "aibdjv"
+},
+{
+"name": "wvfhwpzlhcgaf", 
+"year": 1992, 
+"type": "ilxyehhaahyhhrpjc", 
+"genre": "m"
+},
+{
+"name": "gtbepoq", 
+"year": 1981, 
+"type": "uhcnf", 
+"genre": "zgmaraoiztzeuzcigul"
+},
+{
+"name": "av", 
+"year": 1962, 
+"type": "bajqjznvkkwrrhby", 
+"genre": "zdug"
+},
+{
+"name": "rxy", 
+"year": 2011, 
+"type": "mtzviu", 
+"genre": "qsmtxowhnnydfgzgp"
+},
+{
+"name": "bmuvob", 
+"year": 1955, 
+"type": "xo", 
+"genre": "zkcbhjdslc"
+},
+{
+"name": "bilpfsxinuun", 
+"year": 1957, 
+"type": "xyuzuvqcuxb", 
+"genre": "cyxwodzjqmhnzayyh"
+},
+{
+"name": "hw", 
+"year": 2015, 
+"type": "ypatvuxzntac", 
+"genre": "sfxixvsrzirsxko"
+},
+{
+"name": "iniz", 
+"year": 1995, 
+"type": "eonvjddypp", 
+"genre": "h"
+},
+{
+"name": "bvlgg", 
+"year": 1993, 
+"type": "tjgau", 
+"genre": "lpysjck"
+},
+{
+"name": "evdyotnhh", 
+"year": 1996, 
+"type": "cztiojeriar", 
+"genre": "izxxyjghyxrrkn"
+},
+{
+"name": "chkglirmg", 
+"year": 1970, 
+"type": "fyxddfpafqmaep", 
+"genre": "st"
+},
+{
+"name": "jcsiukg", 
+"year": 1961, 
+"type": "mdslvopkdontzrg", 
+"genre": "jn"
+},
+{
+"name": "ibzrdwtsj", 
+"year": 1950, 
+"type": "qwamvhsmt", 
+"genre": "uyzak"
+},
+{
+"name": "idgklianfw", 
+"year": 2013, 
+"type": "cxojmaduhnaxrzusut", 
+"genre": "m"
+},
+{
+"name": "vjsuramcegjcu", 
+"year": 2006, 
+"type": "iqpffwaw", 
+"genre": "dalnyxjmon"
+},
+{
+"name": "lbsn", 
+"year": 1972, 
+"type": "iemoxpm", 
+"genre": "tutvcioucc"
+},
+{
+"name": "wehirhp", 
+"year": 1991, 
+"type": "knyz", 
+"genre": "tpokmlm"
+},
+{
+"name": "rlevockjm", 
+"year": 1957, 
+"type": "bed", 
+"genre": "gyengzumeem"
+},
+{
+"name": "twwftdn", 
+"year": 1959, 
+"type": "szkqrrg", 
+"genre": "fgvq"
+},
+{
+"name": "hxgdgsz", 
+"year": 1980, 
+"type": "h", 
+"genre": "clvd"
+},
+{
+"name": "qhyyqss", 
+"year": 1999, 
+"type": "trfqvkbytc", 
+"genre": "itkcfawlarrszsmoqaf"
+},
+{
+"name": "lv", 
+"year": 1986, 
+"type": "jieerplanoktceezh", 
+"genre": "ycltqomjasmw"
+},
+{
+"name": "uomgmokit", 
+"year": 1976, 
+"type": "zoglpowylhx", 
+"genre": "sy"
+},
+{
+"name": "waz", 
+"year": 1957, 
+"type": "xodoshgpelarvgrsnvn", 
+"genre": "dcnvpmnnqr"
+},
+{
+"name": "bgvter", 
+"year": 1953, 
+"type": "uxpqjf", 
+"genre": "hfucwoaboesupymee"
+},
+{
+"name": "ywusfi", 
+"year": 2000, 
+"type": "jxpfwuqqxws", 
+"genre": "vtuvalqkudt"
+},
+{
+"name": "egwaw", 
+"year": 1999, 
+"type": "ophdhbizlfqd", 
+"genre": "lqtq"
+},
+{
+"name": "gwu", 
+"year": 1958, 
+"type": "ufk", 
+"genre": "wi"
+},
+{
+"name": "kxkpexvqanv", 
+"year": 2012, 
+"type": "qleatcpcqmwf", 
+"genre": "fjwahixhjloesoeo"
+},
+{
+"name": "ypyicyxf", 
+"year": 1965, 
+"type": "hjfjvyknxy", 
+"genre": "fnhmalwlmjrc"
+},
+{
+"name": "unfbu", 
+"year": 1995, 
+"type": "fmsljlmnjkk", 
+"genre": "ixbvywumnclovvbsvkm"
+},
+{
+"name": "rsrurd", 
+"year": 1996, 
+"type": "utcvdwdgxq", 
+"genre": "ooyykyvonsvjrhd"
+},
+{
+"name": "to", 
+"year": 1989, 
+"type": "pugr", 
+"genre": "ttvebkoeqxyvusxih"
+},
+{
+"name": "ajbrfzkmigfa", 
+"year": 1976, 
+"type": "nchrkpmewxzs", 
+"genre": "juci"
+},
+{
+"name": "swnq", 
+"year": 1962, 
+"type": "udampbj", 
+"genre": "cxmtbsiwdfvcrzjcku"
+},
+{
+"name": "achhxbbqa", 
+"year": 2013, 
+"type": "qxsawmpvsspu", 
+"genre": "vrnkjwpltbnajxpglwq"
+},
+{
+"name": "scfjtyqz", 
+"year": 1999, 
+"type": "nkfb", 
+"genre": "fzfm"
+},
+{
+"name": "lvrukbz", 
+"year": 1957, 
+"type": "cebombxkhuptjtlk", 
+"genre": "brrkhfkubjirpnusxp"
+},
+{
+"name": "uunj", 
+"year": 2005, 
+"type": "fgg", 
+"genre": "r"
+},
+{
+"name": "agswmjipr", 
+"year": 1956, 
+"type": "cl", 
+"genre": "tv"
+},
+{
+"name": "kxqtvptjggga", 
+"year": 1983, 
+"type": "xcmmwxq", 
+"genre": "zbctwroesa"
+},
+{
+"name": "tvhvvnvv", 
+"year": 1976, 
+"type": "bxyfqfnyfwvgs", 
+"genre": "ljc"
+},
+{
+"name": "feqc", 
+"year": 2004, 
+"type": "y", 
+"genre": "veqasbhqeujfdw"
+},
+{
+"name": "vtgdmazq", 
+"year": 1994, 
+"type": "iwmwf", 
+"genre": "qtazdfvuuoty"
+},
+{
+"name": "xgbian", 
+"year": 1961, 
+"type": "awxczxhdgpfzk", 
+"genre": "mcwddbrbqtxcgg"
+},
+{
+"name": "osgtkmhkvfwtf", 
+"year": 1981, 
+"type": "yztjmkevasu", 
+"genre": "ylci"
+},
+{
+"name": "gerhi", 
+"year": 1967, 
+"type": "qrd", 
+"genre": "kiedjkampywssdzda"
+},
+{
+"name": "wpxm", 
+"year": 1965, 
+"type": "fkxkq", 
+"genre": "zboillbivnkpsfuy"
+},
+{
+"name": "r", 
+"year": 2012, 
+"type": "ehbqbcvy", 
+"genre": "tmohu"
+},
+{
+"name": "yzt", 
+"year": 1976, 
+"type": "udjsobslsairllxetfe", 
+"genre": "tdcbaviyg"
+},
+{
+"name": "m", 
+"year": 2001, 
+"type": "v", 
+"genre": "ypkvqifliptjdpaukzh"
+},
+{
+"name": "oxtco", 
+"year": 1997, 
+"type": "ypkreatflcdgleg", 
+"genre": "lhmfiffkafzbift"
+},
+{
+"name": "eggw", 
+"year": 2015, 
+"type": "poaafmmxyjsgn", 
+"genre": "rvlzfscb"
+},
+{
+"name": "upgynzwuasvmgj", 
+"year": 2017, 
+"type": "cxdvgdnnqn", 
+"genre": "dbvnjlkvlpkgcrsp"
+},
+{
+"name": "ibthlwmhjkmv", 
+"year": 1951, 
+"type": "zpcomlf", 
+"genre": "jeknyopsiafd"
+},
+{
+"name": "bkrnasyzth", 
+"year": 1967, 
+"type": "twfqpp", 
+"genre": "hjgydzmqgpstcho"
+},
+{
+"name": "btlwynxbrczlls", 
+"year": 2011, 
+"type": "kdtwfjoymxmgqp", 
+"genre": "sdfpqnjpy"
+},
+{
+"name": "b", 
+"year": 2003, 
+"type": "hlgmgaqrqarlqem", 
+"genre": "xdgpl"
+},
+{
+"name": "ubwuhnadolpj", 
+"year": 1951, 
+"type": "clainjvxegmvevz", 
+"genre": "awvseoqicqvnm"
+},
+{
+"name": "ngqamrkflzgyt", 
+"year": 1952, 
+"type": "agxygcjesrmokxtbtl", 
+"genre": "ci"
+},
+{
+"name": "axjqyrkfl", 
+"year": 1969, 
+"type": "rcxhvddgpes", 
+"genre": "xxfmssnhukncjyfkn"
+},
+{
+"name": "pqlncw", 
+"year": 2014, 
+"type": "gbfmwyipccksddkga", 
+"genre": "nuas"
+},
+{
+"name": "hj", 
+"year": 1997, 
+"type": "gxjfgqlbhdcplx", 
+"genre": "yw"
+},
+{
+"name": "poh", 
+"year": 1971, 
+"type": "wksyinrknokjdvty", 
+"genre": "ixqzwxecxt"
+},
+{
+"name": "mkonkbui", 
+"year": 1974, 
+"type": "lazmhhxkwpnfctgol", 
+"genre": "uglqrmsutlwhq"
+},
+{
+"name": "ygqqewnqaluzre", 
+"year": 2001, 
+"type": "lwvsngpitoljhyqyr", 
+"genre": "bngcucblnwfieu"
+},
+{
+"name": "gvryfx", 
+"year": 1964, 
+"type": "vuxj", 
+"genre": "oux"
+},
+{
+"name": "evefcirfl", 
+"year": 1968, 
+"type": "ppwcr", 
+"genre": "zeuvil"
+},
+{
+"name": "wtyzspxbdfsng", 
+"year": 1952, 
+"type": "vixwx", 
+"genre": "ihzmywppdkgdqg"
+},
+{
+"name": "mvjfvzbick", 
+"year": 1986, 
+"type": "riygijk", 
+"genre": "bxjyahevom"
+},
+{
+"name": "pnqprupccescti", 
+"year": 2004, 
+"type": "hvunkoasj", 
+"genre": "afafpcakbkamqtcseo"
+},
+{
+"name": "eblsmourejm", 
+"year": 1985, 
+"type": "jsjjnotlh", 
+"genre": "nhtdl"
+},
+{
+"name": "wnrvrsrwjo", 
+"year": 2002, 
+"type": "cayfwkf", 
+"genre": "fhb"
+},
+{
+"name": "wmvbukhcfsgvoh", 
+"year": 1969, 
+"type": "e", 
+"genre": "yennvupqyejheuyyb"
+},
+{
+"name": "qdbwedp", 
+"year": 1953, 
+"type": "osvutgoomyqnzlwhjx", 
+"genre": "yltitqtobdkgzghqakf"
+},
+{
+"name": "ishgfmgrwtg", 
+"year": 1959, 
+"type": "lwkblkumwrrefoqbfh", 
+"genre": "kdobasxjwgskmg"
+},
+{
+"name": "ltqw", 
+"year": 1964, 
+"type": "kq", 
+"genre": "pfp"
+},
+{
+"name": "ytbaoank", 
+"year": 1978, 
+"type": "tysp", 
+"genre": "lpwsfegfnv"
+},
+{
+"name": "xncwomakc", 
+"year": 1964, 
+"type": "coxkmvds", 
+"genre": "ifjuotmjbmsfudvfdp"
+},
+{
+"name": "uoxmadtdwd", 
+"year": 1971, 
+"type": "fj", 
+"genre": "bwedwtiurefiittgw"
+},
+{
+"name": "y", 
+"year": 1953, 
+"type": "aaoqluwbsipxpoxx", 
+"genre": "s"
+},
+{
+"name": "kmhb", 
+"year": 1959, 
+"type": "wpbpjpe", 
+"genre": "ikljhv"
+},
+{
+"name": "uor", 
+"year": 1978, 
+"type": "a", 
+"genre": "rufvcrdy"
+},
+{
+"name": "nrswiwlhbr", 
+"year": 1961, 
+"type": "vlhxlydpokpo", 
+"genre": "pqhlymekvpyayob"
+},
+{
+"name": "g", 
+"year": 2006, 
+"type": "e", 
+"genre": "agndfjhmiutcdvhvd"
+},
+{
+"name": "l", 
+"year": 1974, 
+"type": "ylevytsytukc", 
+"genre": "pktisdxxmvexutufbl"
+},
+{
+"name": "pmcf", 
+"year": 2002, 
+"type": "jreiuk", 
+"genre": "tfgxcuw"
+},
+{
+"name": "zy", 
+"year": 1980, 
+"type": "ogidoueaaebpdzfk", 
+"genre": "kvhbweomwd"
+},
+{
+"name": "fpd", 
+"year": 1992, 
+"type": "omvlv", 
+"genre": "xeeetavvc"
+},
+{
+"name": "xtiixyycw", 
+"year": 1996, 
+"type": "lidkbbsqpndbubqet", 
+"genre": "oraajder"
+},
+{
+"name": "nz", 
+"year": 1986, 
+"type": "u", 
+"genre": "iwj"
+},
+{
+"name": "yjoc", 
+"year": 1979, 
+"type": "npg", 
+"genre": "mzea"
+},
+{
+"name": "mmsuufjuuqcst", 
+"year": 1959, 
+"type": "avcal", 
+"genre": "ilcqvatmpuxmsnhf"
+},
+{
+"name": "skajpxs", 
+"year": 2017, 
+"type": "yfbdnleeehqojhlx", 
+"genre": "aws"
+},
+{
+"name": "scyfnmphv", 
+"year": 2009, 
+"type": "hnlgtocruzxm", 
+"genre": "ljhi"
+},
+{
+"name": "adddnwuu", 
+"year": 2011, 
+"type": "kkhl", 
+"genre": "cxyepaxn"
+},
+{
+"name": "mkopacszvcz", 
+"year": 1993, 
+"type": "cjlqgvkh", 
+"genre": "mylcnkctdmxyifom"
+},
+{
+"name": "nfehzeajyqrrw", 
+"year": 1959, 
+"type": "hdpbhmwmwwmqfvnth", 
+"genre": "xuwatflppr"
+},
+{
+"name": "adlbxofveai", 
+"year": 1957, 
+"type": "qdxqkeajah", 
+"genre": "arsorc"
+},
+{
+"name": "eusp", 
+"year": 1996, 
+"type": "oqmoxmhgmrnc", 
+"genre": "wjumnh"
+},
+{
+"name": "xcgz", 
+"year": 1957, 
+"type": "pqtmmsyrejrwelhzinn", 
+"genre": "kffuezgxwrmafvenak"
+},
+{
+"name": "vpklyzbc", 
+"year": 1983, 
+"type": "s", 
+"genre": "ujoitmjf"
+},
+{
+"name": "opvifz", 
+"year": 1964, 
+"type": "qhpqmiisbjcvyj", 
+"genre": "jhsqqnkbqehcffzy"
+},
+{
+"name": "kovzetdrbat", 
+"year": 1978, 
+"type": "phz", 
+"genre": "fiurserhlq"
+},
+{
+"name": "lthkpenrta", 
+"year": 1994, 
+"type": "heiqxeqrgbzsx", 
+"genre": "mwc"
+},
+{
+"name": "ntwjce", 
+"year": 1978, 
+"type": "kyxdsa", 
+"genre": "pwagl"
+},
+{
+"name": "rtoyqautzlj", 
+"year": 2003, 
+"type": "xwldpkiz", 
+"genre": "svlnitagmqryn"
+},
+{
+"name": "pb", 
+"year": 1985, 
+"type": "ma", 
+"genre": "e"
+},
+{
+"name": "ccozmfdwzd", 
+"year": 2013, 
+"type": "ogufvdavcpgdq", 
+"genre": "twvhgpn"
+},
+{
+"name": "dlup", 
+"year": 1972, 
+"type": "wgoo", 
+"genre": "zvhznn"
+},
+{
+"name": "iqqmvvnatjti", 
+"year": 1969, 
+"type": "oznrgrimkea", 
+"genre": "vymlwhusboqfa"
+},
+{
+"name": "kpv", 
+"year": 1974, 
+"type": "gtshuuzqijmdzmuff", 
+"genre": "zhsaqpcvqvquaqmomrf"
+},
+{
+"name": "ttactjagoviis", 
+"year": 2004, 
+"type": "dztihxvilukb", 
+"genre": "trxxptwaokts"
+},
+{
+"name": "kz", 
+"year": 1990, 
+"type": "tkvloxhxmlsieip", 
+"genre": "gpu"
+},
+{
+"name": "hffplkhxdk", 
+"year": 1960, 
+"type": "mmdwsmsaqhneaxuun", 
+"genre": "nepyyctkezts"
+},
+{
+"name": "t", 
+"year": 1990, 
+"type": "xvkcneuqohpsx", 
+"genre": "jhwbtiocyracmhlm"
+},
+{
+"name": "vqemwao", 
+"year": 1984, 
+"type": "nowupfjzywagbbaviq", 
+"genre": "nbadfynesbtbnbu"
+},
+{
+"name": "hjbzuaspmw", 
+"year": 2010, 
+"type": "nwxqzhdqy", 
+"genre": "acnwchwliojbierwu"
+},
+{
+"name": "csh", 
+"year": 2001, 
+"type": "yjfor", 
+"genre": "xpypqvv"
+},
+{
+"name": "nitaarpjwvg", 
+"year": 2015, 
+"type": "dew", 
+"genre": "rmkjtkadck"
+},
+{
+"name": "cjzbzik", 
+"year": 2001, 
+"type": "klrjvtqabprgxdcbrk", 
+"genre": "uwqlxupo"
+},
+{
+"name": "salaff", 
+"year": 1964, 
+"type": "gncfgwxagnfqiitpipk", 
+"genre": "gidnnckwkxdcdybxnum"
+},
+{
+"name": "aryuxkscgywflm", 
+"year": 1970, 
+"type": "xvoffeggcc", 
+"genre": "tynnl"
+},
+{
+"name": "edn", 
+"year": 2006, 
+"type": "sbktxijweuixcl", 
+"genre": "gobqdtxymhooo"
+},
+{
+"name": "kubwnjwbpua", 
+"year": 1997, 
+"type": "zxjemj", 
+"genre": "mdauqelljwgtjvm"
+},
+{
+"name": "ztqjawxmnxuu", 
+"year": 2007, 
+"type": "vzalxw", 
+"genre": "onixiaxuddojttuzg"
+},
+{
+"name": "snpvxep", 
+"year": 1983, 
+"type": "qibazukomjswpaqlg", 
+"genre": "rcdsoqxdnvoonnto"
+},
+{
+"name": "lwlnztmirefr", 
+"year": 2010, 
+"type": "chontimigsg", 
+"genre": "psx"
+},
+{
+"name": "iy", 
+"year": 1971, 
+"type": "awhj", 
+"genre": "tqjhyrjczdaothfwxb"
+},
+{
+"name": "xhana", 
+"year": 1994, 
+"type": "qpsukbrknbtcpqvsr", 
+"genre": "wrhpbmfgbrib"
+},
+{
+"name": "ob", 
+"year": 1963, 
+"type": "yfhhvafalxxoonauw", 
+"genre": "kjumpovnznr"
+},
+{
+"name": "otz", 
+"year": 1995, 
+"type": "kratsaloktjamyfm", 
+"genre": "vxmjlrfy"
+},
+{
+"name": "iktrd", 
+"year": 1950, 
+"type": "kxtdiuckoqqdqatzqi", 
+"genre": "dhjptjmwyctvwrcdf"
+},
+{
+"name": "wqmqg", 
+"year": 1990, 
+"type": "agfwsju", 
+"genre": "mrv"
+},
+{
+"name": "qubr", 
+"year": 1964, 
+"type": "yw", 
+"genre": "mrfhojdtqgozulnw"
+},
+{
+"name": "gl", 
+"year": 2003, 
+"type": "iwerkah", 
+"genre": "kvbezwelfcxm"
+},
+{
+"name": "tuadbr", 
+"year": 2012, 
+"type": "vlgcdltu", 
+"genre": "hxic"
+},
+{
+"name": "ldgzs", 
+"year": 1970, 
+"type": "lnuvo", 
+"genre": "pazdaavzbgdw"
+},
+{
+"name": "uivlcwfe", 
+"year": 2011, 
+"type": "nnbuzdhpztiixkjh", 
+"genre": "ggjgqy"
+},
+{
+"name": "olvbjlqwqc", 
+"year": 2006, 
+"type": "vxclzpaaphrvdqm", 
+"genre": "i"
+},
+{
+"name": "pnjuruo", 
+"year": 2005, 
+"type": "mrjdolfbvtul", 
+"genre": "vxkkhgvxtarzvalz"
+},
+{
+"name": "qcgxybi", 
+"year": 1968, 
+"type": "bm", 
+"genre": "dguvrwm"
+},
+{
+"name": "id", 
+"year": 2001, 
+"type": "eezgxzuununxuqs", 
+"genre": "mlgxooquxddez"
+},
+{
+"name": "md", 
+"year": 1979, 
+"type": "wxmgt", 
+"genre": "vjnnns"
+},
+{
+"name": "wjriyotvpbkqdj", 
+"year": 1951, 
+"type": "ocvgtybrij", 
+"genre": "cfbchfqobdzdzkpksng"
+},
+{
+"name": "lzurcld", 
+"year": 1982, 
+"type": "q", 
+"genre": "xszzmhhsrtchu"
+},
+{
+"name": "bipcelpmcka", 
+"year": 1979, 
+"type": "pwemaxqczjp", 
+"genre": "clu"
+},
+{
+"name": "u", 
+"year": 2000, 
+"type": "ineqkeuyzdo", 
+"genre": "jrfzcpoqshlf"
+},
+{
+"name": "irjblwm", 
+"year": 1998, 
+"type": "tjymworvkdqdueeib", 
+"genre": "txmizzyeqecegbvzopv"
+},
+{
+"name": "msybzdox", 
+"year": 2012, 
+"type": "kjirwd", 
+"genre": "urewzodyhcqocxhrko"
+},
+{
+"name": "da", 
+"year": 1997, 
+"type": "pvmvmlms", 
+"genre": "xbt"
+},
+{
+"name": "ciwsk", 
+"year": 1983, 
+"type": "qlluesobxxpbuhtzn", 
+"genre": "avgkmrbdkbzdpkdxu"
+},
+{
+"name": "x", 
+"year": 1951, 
+"type": "owrivhrqpyl", 
+"genre": "ydwirkgoxkgtwyxzkc"
+},
+{
+"name": "azsvccsjdy", 
+"year": 1962, 
+"type": "wpf", 
+"genre": "hgpdeihtypnur"
+},
+{
+"name": "bcu", 
+"year": 1998, 
+"type": "yayteitlwjyodm", 
+"genre": "qsuyzo"
+},
+{
+"name": "drkjuv", 
+"year": 2011, 
+"type": "lullxe", 
+"genre": "kgepevpwmtcjbggz"
+},
+{
+"name": "uioukj", 
+"year": 1983, 
+"type": "pahrlxbktimqszw", 
+"genre": "xysuujxlkpfvpdzid"
+},
+{
+"name": "tgygxsfkfol", 
+"year": 2004, 
+"type": "lmcg", 
+"genre": "fgpklagdub"
+},
+{
+"name": "zhd", 
+"year": 1975, 
+"type": "qjfrfyzuqfyowcztf", 
+"genre": "cwpbbbzqyf"
+},
+{
+"name": "oehordh", 
+"year": 1969, 
+"type": "po", 
+"genre": "thlhbyvtshwcuq"
+},
+{
+"name": "ewtquyrdljis", 
+"year": 1976, 
+"type": "xsqoaiumlgrarslgf", 
+"genre": "okqzmshjyuaajyd"
+},
+{
+"name": "q", 
+"year": 1969, 
+"type": "g", 
+"genre": "tdhysxwxketw"
+},
+{
+"name": "c", 
+"year": 1960, 
+"type": "lhcmtnovxyqtptzkch", 
+"genre": "hjauvkmoqgdmmwzt"
+},
+{
+"name": "ddx", 
+"year": 1984, 
+"type": "dtuwer", 
+"genre": "wsutqz"
+},
+{
+"name": "xijydrwrrmzgto", 
+"year": 1973, 
+"type": "lzsdjjijqcgcli", 
+"genre": "vxgihlplnwhnax"
+},
+{
+"name": "hjleearltxkg", 
+"year": 1976, 
+"type": "bzxulkswbpibqjdo", 
+"genre": "qtrxhwt"
+},
+{
+"name": "jsm", 
+"year": 1970, 
+"type": "idaetzkybkhmfqmqxy", 
+"genre": "rfrhzmvrbkbh"
+},
+{
+"name": "wazwdahbair", 
+"year": 1977, 
+"type": "zhsa", 
+"genre": "wvkn"
+},
+{
+"name": "xqnixph", 
+"year": 1994, 
+"type": "idzpoplvpe", 
+"genre": "cqzylnaqfemtmuj"
+},
+{
+"name": "kreaebpvqkr", 
+"year": 1999, 
+"type": "vgljlhldodsebhgnu", 
+"genre": "wdmcjvhju"
+},
+{
+"name": "yyyztjrsu", 
+"year": 1956, 
+"type": "vjiuw", 
+"genre": "tpramwsw"
+},
+{
+"name": "wsm", 
+"year": 1975, 
+"type": "p", 
+"genre": "mirvgtgrmstr"
+},
+{
+"name": "nqyvzt", 
+"year": 1953, 
+"type": "mtihkotce", 
+"genre": "mjtfj"
+},
+{
+"name": "zotcak", 
+"year": 1988, 
+"type": "hea", 
+"genre": "wphyqnhzdfhxgykm"
+},
+{
+"name": "g", 
+"year": 1987, 
+"type": "isgke", 
+"genre": "cqqkqohe"
+},
+{
+"name": "lrpbk", 
+"year": 1966, 
+"type": "lyotfyjzbwcdbdgvrr", 
+"genre": "qjtosqcaz"
+},
+{
+"name": "joyxzsg", 
+"year": 2007, 
+"type": "somiafyjlga", 
+"genre": "enuhagnelabesdceak"
+},
+{
+"name": "rjudqobraazk", 
+"year": 1963, 
+"type": "rryzkezeq", 
+"genre": "f"
+},
+{
+"name": "gacobnzkmg", 
+"year": 1983, 
+"type": "hqlvsyiudffnkdabwiu", 
+"genre": "tkwjtvcsbaaliogxzy"
+},
+{
+"name": "wshta", 
+"year": 1967, 
+"type": "wfotgowufzx", 
+"genre": "hbfbpgaqgmgck"
+},
+{
+"name": "rd", 
+"year": 1998, 
+"type": "sqsfqpuxbxt", 
+"genre": "ug"
+},
+{
+"name": "tecpnjqw", 
+"year": 1977, 
+"type": "iqnqeymgxphyw", 
+"genre": "iimoxyeszlcxeznhejw"
+},
+{
+"name": "mgwalgniw", 
+"year": 1981, 
+"type": "tywqxy", 
+"genre": "iylpylkvzcbgfgzcfj"
+},
+{
+"name": "rrrvfbxwea", 
+"year": 1978, 
+"type": "wqyislclq", 
+"genre": "bznla"
+},
+{
+"name": "u", 
+"year": 1960, 
+"type": "tldhzkphkqsdw", 
+"genre": "kjlzfbg"
+},
+{
+"name": "q", 
+"year": 1988, 
+"type": "j", 
+"genre": "vhllreojsgfyqhdadkl"
+},
+{
+"name": "ppysd", 
+"year": 1966, 
+"type": "qcbosnkwgqjzskvlsk", 
+"genre": "p"
+},
+{
+"name": "w", 
+"year": 1965, 
+"type": "cafqeqisfwtdurd", 
+"genre": "fmri"
+},
+{
+"name": "cc", 
+"year": 1965, 
+"type": "bvirjyiqyptfltu", 
+"genre": "revxvrgawjhlslpji"
+},
+{
+"name": "mmbwak", 
+"year": 2008, 
+"type": "ihocfexxqdldd", 
+"genre": "riupiinzeltlux"
+},
+{
+"name": "os", 
+"year": 1965, 
+"type": "ozqzya", 
+"genre": "ygjsixuqqfipwpjqzaj"
+},
+{
+"name": "khpldw", 
+"year": 1996, 
+"type": "poenxkkxrotbj", 
+"genre": "hcg"
+},
+{
+"name": "kbwvxm", 
+"year": 2010, 
+"type": "ukpjeojo", 
+"genre": "blggnfbbnwnzlgcgnqa"
+},
+{
+"name": "tqfj", 
+"year": 2005, 
+"type": "hkfsvzz", 
+"genre": "gqad"
+},
+{
+"name": "xdzpihmo", 
+"year": 1994, 
+"type": "fniqrw", 
+"genre": "golnfvhwrdega"
+},
+{
+"name": "bvgd", 
+"year": 1971, 
+"type": "gkjuvztnv", 
+"genre": "xgopjmrtaratatjrdn"
+},
+{
+"name": "fljpeotgys", 
+"year": 1980, 
+"type": "xyrtrxs", 
+"genre": "ts"
+},
+{
+"name": "fnwrrumiqcwfgm", 
+"year": 1980, 
+"type": "udyzncwkssuk", 
+"genre": "rlpfjxptxfpiaqwkeva"
+},
+{
+"name": "gpklahefohxd", 
+"year": 2002, 
+"type": "vtkzfgdbb", 
+"genre": "edhafmblm"
+},
+{
+"name": "apzdunrdyaypq", 
+"year": 1989, 
+"type": "d", 
+"genre": "zgtn"
+},
+{
+"name": "pfln", 
+"year": 1976, 
+"type": "zzvcydvptvdkic", 
+"genre": "qmefskqhb"
+},
+{
+"name": "t", 
+"year": 2011, 
+"type": "snky", 
+"genre": "rsbj"
+},
+{
+"name": "iptufchj", 
+"year": 1982, 
+"type": "wnh", 
+"genre": "xftfirqkwxefv"
+},
+{
+"name": "lwirikmkdp", 
+"year": 1989, 
+"type": "gwsjgji", 
+"genre": "zyy"
+},
+{
+"name": "jkxccjfu", 
+"year": 2009, 
+"type": "tsmlrjjcuk", 
+"genre": "rjfxmupqsiiyfqoww"
+},
+{
+"name": "gwxwdzgm", 
+"year": 1982, 
+"type": "b", 
+"genre": "udbqcjhneptlbcf"
+},
+{
+"name": "liumocezoew", 
+"year": 1988, 
+"type": "fgnfmftiq", 
+"genre": "fpivltuuurr"
+},
+{
+"name": "cnbpr", 
+"year": 1999, 
+"type": "zzggoksahxytrbr", 
+"genre": "qejhpwz"
+},
+{
+"name": "pdkcmsgpcc", 
+"year": 1967, 
+"type": "rdtodxsztdogh", 
+"genre": "qcecdeiggpym"
+},
+{
+"name": "njhjbaqimhpvr", 
+"year": 1950, 
+"type": "jkohlcmbyof", 
+"genre": "xalzfxnd"
+},
+{
+"name": "oyfquaxepi", 
+"year": 1960, 
+"type": "siqato", 
+"genre": "bu"
+},
+{
+"name": "qoypbw", 
+"year": 1980, 
+"type": "qlspbnpazzgzqt", 
+"genre": "pwdgkxtl"
+},
+{
+"name": "rfheneyygqoagl", 
+"year": 1962, 
+"type": "m", 
+"genre": "pdmtwfbcsxhec"
+},
+{
+"name": "ei", 
+"year": 1976, 
+"type": "oenr", 
+"genre": "kcyfsbvx"
+},
+{
+"name": "c", 
+"year": 1975, 
+"type": "ffehotdmdfmpxuv", 
+"genre": "ojajftbryz"
+},
+{
+"name": "qunp", 
+"year": 1952, 
+"type": "bwamzxa", 
+"genre": "xun"
+},
+{
+"name": "fwyonc", 
+"year": 1963, 
+"type": "deprii", 
+"genre": "ueppkvxzwt"
+},
+{
+"name": "abrdsicfyie", 
+"year": 1957, 
+"type": "auzghyoivvsjosb", 
+"genre": "fetyohqgpr"
+},
+{
+"name": "qbr", 
+"year": 1996, 
+"type": "ytjrcubxibxx", 
+"genre": "hztlwqqzlzkknlk"
+},
+{
+"name": "zkddghuligoinp", 
+"year": 2017, 
+"type": "e", 
+"genre": "hrwnxtbcjb"
+},
+{
+"name": "smr", 
+"year": 1979, 
+"type": "xolndlcsgp", 
+"genre": "jlclvl"
+},
+{
+"name": "eqbfjbufuww", 
+"year": 2009, 
+"type": "d", 
+"genre": "kwlwswdykwmlsrg"
+},
+{
+"name": "rvolpaga", 
+"year": 2015, 
+"type": "rmniuzuanxoj", 
+"genre": "ezuuuptrknpdjj"
+},
+{
+"name": "acqapstiiaeak", 
+"year": 2004, 
+"type": "zlbliviulsa", 
+"genre": "evynl"
+},
+{
+"name": "pxwfjbtrs", 
+"year": 1990, 
+"type": "xqpe", 
+"genre": "nakqafzgbboodyn"
+},
+{
+"name": "w", 
+"year": 1950, 
+"type": "ptcl", 
+"genre": "vmc"
+},
+{
+"name": "dnbis", 
+"year": 1969, 
+"type": "cgsbrkixdudrr", 
+"genre": "weyqdsrahvodiduim"
+},
+{
+"name": "lnrrxvzpoje", 
+"year": 1972, 
+"type": "tppbupktssmbmuvvgc", 
+"genre": "olys"
+},
+{
+"name": "y", 
+"year": 1985, 
+"type": "ujifk", 
+"genre": "ithmx"
+},
+{
+"name": "bvdolslg", 
+"year": 1958, 
+"type": "obkbxrfvavknkh", 
+"genre": "tkqqvhwhpqmbx"
+},
+{
+"name": "d", 
+"year": 2005, 
+"type": "oonijznnfrhyeyl", 
+"genre": "jehpfe"
+},
+{
+"name": "xd", 
+"year": 1961, 
+"type": "nfurbaxiawe", 
+"genre": "eyjxc"
+},
+{
+"name": "yovbxdfydrvh", 
+"year": 1983, 
+"type": "vpmrunqhzidumhsoqha", 
+"genre": "jfejgkssxwz"
+},
+{
+"name": "hbwgahult", 
+"year": 1994, 
+"type": "rwn", 
+"genre": "sdhmvh"
+},
+{
+"name": "gncltpp", 
+"year": 1955, 
+"type": "xnjhbqdfqzcumiloju", 
+"genre": "p"
+},
+{
+"name": "vjyezgpys", 
+"year": 1977, 
+"type": "jdvtzzfaagcv", 
+"genre": "j"
+},
+{
+"name": "edsmqkqkctz", 
+"year": 1997, 
+"type": "bqrlndpapyztjlii", 
+"genre": "sujeypioszfpf"
+},
+{
+"name": "rjlfabljqiyff", 
+"year": 1975, 
+"type": "zlqvhpyf", 
+"genre": "nszf"
+},
+{
+"name": "csnwrvnjin", 
+"year": 1969, 
+"type": "emwkzrzmy", 
+"genre": "pgheubkiopst"
+},
+{
+"name": "ajrseo", 
+"year": 2011, 
+"type": "emafjbylxgfsir", 
+"genre": "dvxxbqemztdn"
+},
+{
+"name": "b", 
+"year": 1982, 
+"type": "mdylies", 
+"genre": "jaifyaoeh"
+},
+{
+"name": "jfpciloaiyoye", 
+"year": 2015, 
+"type": "wkmdxvtugzeebnfsg", 
+"genre": "lqtm"
+},
+{
+"name": "yua", 
+"year": 1963, 
+"type": "ljyfumg", 
+"genre": "svchtbapwnufhvg"
+},
+{
+"name": "cdw", 
+"year": 1995, 
+"type": "qwlgxkagjhweicnyjel", 
+"genre": "spweznrag"
+},
+{
+"name": "ymfvgtzvwcjc", 
+"year": 2009, 
+"type": "yoywhv", 
+"genre": "auufvdcjte"
+},
+{
+"name": "ieigfk", 
+"year": 1980, 
+"type": "ctpk", 
+"genre": "mvwidkiyjuxt"
+},
+{
+"name": "osbreakklue", 
+"year": 2002, 
+"type": "rmr", 
+"genre": "iqjetagugivf"
+},
+{
+"name": "xrqdeum", 
+"year": 1969, 
+"type": "zrrgqsqmqrjzhv", 
+"genre": "zyllzijf"
+},
+{
+"name": "yzfleuwosr", 
+"year": 1952, 
+"type": "lattfemcc", 
+"genre": "mjhgsgfniienwusdmmq"
+},
+{
+"name": "lumhq", 
+"year": 1957, 
+"type": "rv", 
+"genre": "qnkmojmylgwpiqv"
+},
+{
+"name": "ypko", 
+"year": 1996, 
+"type": "okcsbgbyhrawl", 
+"genre": "djgiroakfbmt"
+},
+{
+"name": "mfhhetyeo", 
+"year": 1963, 
+"type": "dxxnkrkmlfwi", 
+"genre": "ubn"
+},
+{
+"name": "ihbb", 
+"year": 1951, 
+"type": "qtffh", 
+"genre": "hdrejzbcucywsukps"
+},
+{
+"name": "qbwauuzllovim", 
+"year": 1985, 
+"type": "tjedvszrbjdyffe", 
+"genre": "toiirsdhzeryryww"
+},
+{
+"name": "nok", 
+"year": 1974, 
+"type": "svdjsryyjtshwr", 
+"genre": "wnenuxwcwhnorcqrjl"
+},
+{
+"name": "jhzkzc", 
+"year": 1985, 
+"type": "w", 
+"genre": "kdnnzwfrqp"
+},
+{
+"name": "ecu", 
+"year": 2003, 
+"type": "vvcbfequaneckmnn", 
+"genre": "qleabsg"
+},
+{
+"name": "gjimyfacbmi", 
+"year": 1950, 
+"type": "ztwebogg", 
+"genre": "oubmfqwfdy"
+},
+{
+"name": "lwrgexz", 
+"year": 1965, 
+"type": "qnlffkzgzlv", 
+"genre": "knebcoiqjodkuwluuw"
+},
+{
+"name": "qfagecwqpp", 
+"year": 2011, 
+"type": "ncbbsjqqoksid", 
+"genre": "aqagljbjsujml"
+},
+{
+"name": "wmlebjzqiyj", 
+"year": 1968, 
+"type": "myufqgaseqknqt", 
+"genre": "zvwoulqywkzrrhl"
+},
+{
+"name": "kjnhl", 
+"year": 1968, 
+"type": "vxshpwiy", 
+"genre": "zgtju"
+},
+{
+"name": "nx", 
+"year": 1966, 
+"type": "tfdvaclnkbognbqzf", 
+"genre": "cdqkdsrl"
+},
+{
+"name": "h", 
+"year": 2016, 
+"type": "bpyendtvfmu", 
+"genre": "y"
+},
+{
+"name": "qicafpztvynmr", 
+"year": 1988, 
+"type": "pzaqw", 
+"genre": "dvmhhlljuepmxcsky"
+},
+{
+"name": "gftzbumj", 
+"year": 1976, 
+"type": "sivkd", 
+"genre": "mdoiolf"
+},
+{
+"name": "izrfcoq", 
+"year": 1988, 
+"type": "iwqdcqcoogzgasrybcr", 
+"genre": "pqgcwchxcddwmggk"
+},
+{
+"name": "hmttqiekb", 
+"year": 1987, 
+"type": "itl", 
+"genre": "osypsdeqkayyopvtlvy"
+},
+{
+"name": "jfucnapd", 
+"year": 1972, 
+"type": "wcfhe", 
+"genre": "hqrzedbqjnfevot"
+},
+{
+"name": "mxjkg", 
+"year": 1953, 
+"type": "cidlnrlftyw", 
+"genre": "vdybsbpyqh"
+},
+{
+"name": "gzxgqemffhtdl", 
+"year": 1961, 
+"type": "kfjy", 
+"genre": "xucylehkjysvxoo"
+},
+{
+"name": "lnlnh", 
+"year": 1993, 
+"type": "ynzdljuwqqsvk", 
+"genre": "lnt"
+},
+{
+"name": "macmfjj", 
+"year": 1970, 
+"type": "onixjprrqvplbjozfhu", 
+"genre": "nmagewvlyhbbetmwbk"
+},
+{
+"name": "imolwszfjtd", 
+"year": 1972, 
+"type": "sqxd", 
+"genre": "fwmsohaskigp"
+},
+{
+"name": "fhwrkqehv", 
+"year": 1986, 
+"type": "dyfphpjgxrhk", 
+"genre": "zcqdbxeivhpaz"
+},
+{
+"name": "ihlopey", 
+"year": 1965, 
+"type": "mozjhffiybtvsxp", 
+"genre": "zmyo"
+},
+{
+"name": "yni", 
+"year": 1982, 
+"type": "qgwxyc", 
+"genre": "dpkffhskyhple"
+},
+{
+"name": "rkmzuzngkuc", 
+"year": 1955, 
+"type": "ptdhsg", 
+"genre": "bjvzuffejjqksqnmug"
+},
+{
+"name": "jggfxen", 
+"year": 1982, 
+"type": "fxmexglhfeon", 
+"genre": "p"
+},
+{
+"name": "qomwaoextjy", 
+"year": 1951, 
+"type": "bvobia", 
+"genre": "uvebmkhopsdeiedbrjy"
+},
+{
+"name": "frbzkeoa", 
+"year": 1990, 
+"type": "kyzz", 
+"genre": "frnpysfavj"
+},
+{
+"name": "tgoe", 
+"year": 1987, 
+"type": "rkbwbazvpwwen", 
+"genre": "etrxketamexd"
+},
+{
+"name": "ifmqvhtmysdmxg", 
+"year": 2015, 
+"type": "vnhzdjeoezqin", 
+"genre": "kztnstm"
+},
+{
+"name": "bpwekvzobww", 
+"year": 1973, 
+"type": "lvjaa", 
+"genre": "owrlxqvorpzh"
+},
+{
+"name": "djwxxqjdxktk", 
+"year": 1983, 
+"type": "sffzxtmerops", 
+"genre": "efjzwwvc"
+},
+{
+"name": "iylvvlplih", 
+"year": 2015, 
+"type": "ibydwlwicsbmmst", 
+"genre": "osvaap"
+},
+{
+"name": "nqhnyjhywmn", 
+"year": 2006, 
+"type": "vynmsbbrrlx", 
+"genre": "mpujwamweyt"
+},
+{
+"name": "qjlsxflhiu", 
+"year": 1977, 
+"type": "mtuuuyakolrhfxrt", 
+"genre": "wjrnsmpne"
+},
+{
+"name": "b", 
+"year": 2012, 
+"type": "nnk", 
+"genre": "dzitfnpido"
+},
+{
+"name": "cgmovyh", 
+"year": 2012, 
+"type": "imldpzsbatm", 
+"genre": "ouev"
+},
+{
+"name": "cepxberqkxlh", 
+"year": 2018, 
+"type": "sq", 
+"genre": "trngnszukvqjtrhhng"
+},
+{
+"name": "xnabuxka", 
+"year": 2009, 
+"type": "fx", 
+"genre": "erbnivfxwiut"
+},
+{
+"name": "ftz", 
+"year": 1962, 
+"type": "skajdk", 
+"genre": "aglycjkzafcqtzs"
+},
+{
+"name": "ueghqunhq", 
+"year": 1997, 
+"type": "ej", 
+"genre": "krwuhotz"
+},
+{
+"name": "tyvdocuh", 
+"year": 1992, 
+"type": "ykugnijpercbkjk", 
+"genre": "luzreieorkkzuik"
+},
+{
+"name": "pqmnuwvsaeuen", 
+"year": 1999, 
+"type": "cyojzilfnqxwfwqmqs", 
+"genre": "zvsgucitdnkij"
+},
+{
+"name": "jdowvuj", 
+"year": 2014, 
+"type": "txjbkvhplumdqlbt", 
+"genre": "hwjzjomwggkccxj"
+},
+{
+"name": "a", 
+"year": 1962, 
+"type": "jxuqmwsj", 
+"genre": "yydadqnlgmkyqte"
+},
+{
+"name": "syhcky", 
+"year": 1981, 
+"type": "jjhgemlwphhkdzxi", 
+"genre": "ydxnvat"
+},
+{
+"name": "ocpy", 
+"year": 2005, 
+"type": "xastyplnhkwjch", 
+"genre": "szkvwgjojuhntfzfp"
+},
+{
+"name": "wikgbyufbh", 
+"year": 2013, 
+"type": "cmuuzccg", 
+"genre": "jc"
+},
+{
+"name": "fynfoyay", 
+"year": 2014, 
+"type": "yqpwjbhjmevicxzitqp", 
+"genre": "jtkvvjngwoozx"
+},
+{
+"name": "hbzeltotacj", 
+"year": 1969, 
+"type": "fq", 
+"genre": "bjkvvcygb"
+},
+{
+"name": "ymxzvcvgeyln", 
+"year": 1962, 
+"type": "untazfalzyfs", 
+"genre": "chdrmgmerst"
+},
+{
+"name": "eg", 
+"year": 1974, 
+"type": "narjigjnlixc", 
+"genre": "ohnurydvgtmk"
+},
+{
+"name": "p", 
+"year": 1971, 
+"type": "vfggovouqeerctj", 
+"genre": "c"
+},
+{
+"name": "rn", 
+"year": 1998, 
+"type": "ckfvwbnobnw", 
+"genre": "wpkuwxcjcofuurlm"
+},
+{
+"name": "bgorhokgrgt", 
+"year": 1999, 
+"type": "fsubls", 
+"genre": "isehwsiwttkc"
+},
+{
+"name": "pjlbodycnys", 
+"year": 2010, 
+"type": "wmuxulwr", 
+"genre": "nomeskwhmepwrymtmi"
+},
+{
+"name": "lpsm", 
+"year": 2004, 
+"type": "xpcvwudeyqgljnyy", 
+"genre": "dewfwemjb"
+},
+{
+"name": "fitzgiwpjde", 
+"year": 2015, 
+"type": "wzilsqjofyqg", 
+"genre": "apgzlhevnopnn"
+},
+{
+"name": "dmaquifnjbws", 
+"year": 2002, 
+"type": "gdgvuxlqxdfgbfan", 
+"genre": "lsn"
+},
+{
+"name": "vztlbmemvbilvo", 
+"year": 2013, 
+"type": "mchjbfjsdufg", 
+"genre": "ztn"
+},
+{
+"name": "hccbta", 
+"year": 1998, 
+"type": "pnlnulugbe", 
+"genre": "fidrbzxf"
+},
+{
+"name": "kqpajtnechihel", 
+"year": 2010, 
+"type": "mpebsskhofrpr", 
+"genre": "owgdumaj"
+},
+{
+"name": "oldhmwskoylequ", 
+"year": 1974, 
+"type": "jrtevaunksal", 
+"genre": "eyqglzbuzhg"
+},
+{
+"name": "re", 
+"year": 2007, 
+"type": "tuswyphuama", 
+"genre": "iaeflzgukfnpjj"
+},
+{
+"name": "fbnonrym", 
+"year": 1989, 
+"type": "eqerug", 
+"genre": "djmzca"
+},
+{
+"name": "ltbslrfvnmnbm", 
+"year": 2001, 
+"type": "tn", 
+"genre": "csxlpwyqglaxhcq"
+},
+{
+"name": "cmzvc", 
+"year": 2010, 
+"type": "xg", 
+"genre": "czbtcwsfa"
+},
+{
+"name": "gltxtwkpudqi", 
+"year": 1957, 
+"type": "fiybnd", 
+"genre": "uoctyomjdecciwpihp"
+},
+{
+"name": "ehscxxkktv", 
+"year": 1970, 
+"type": "forcojc", 
+"genre": "ohwhpvronzmw"
+},
+{
+"name": "clojw", 
+"year": 2011, 
+"type": "zx", 
+"genre": "ckbfexl"
+},
+{
+"name": "bihhxsrzuwopmr", 
+"year": 1954, 
+"type": "nzzuxrjntsndeuwby", 
+"genre": "zwb"
+},
+{
+"name": "rjteioahfvdo", 
+"year": 1965, 
+"type": "aqty", 
+"genre": "hd"
+},
+{
+"name": "yvmini", 
+"year": 1968, 
+"type": "xmyegwcauaztykojmg", 
+"genre": "xptuubctgzqkmrdn"
+},
+{
+"name": "dlvzbel", 
+"year": 1953, 
+"type": "anglpftvxfc", 
+"genre": "fswri"
+},
+{
+"name": "uakikay", 
+"year": 2009, 
+"type": "wwwgryu", 
+"genre": "zicouklmsmivvkthv"
+},
+{
+"name": "vbl", 
+"year": 1981, 
+"type": "zaykmjybzrwabhjwwj", 
+"genre": "zmmrzqqboczvxpv"
+},
+{
+"name": "pdlzxhcj", 
+"year": 1952, 
+"type": "ptltqrkbmynkbaw", 
+"genre": "myhnyhnmfizrdhcl"
+},
+{
+"name": "glgtdwwh", 
+"year": 1995, 
+"type": "acfz", 
+"genre": "sv"
+},
+{
+"name": "wpvn", 
+"year": 1988, 
+"type": "mtya", 
+"genre": "adxmcbgvvyrwhedrpx"
+},
+{
+"name": "jtaykepvxaguw", 
+"year": 1996, 
+"type": "xyicprgawijss", 
+"genre": "dfzxwryrbhuwbkmm"
+},
+{
+"name": "fsbbbivvvoe", 
+"year": 2000, 
+"type": "zaykd", 
+"genre": "jvw"
+},
+{
+"name": "iollnbvwt", 
+"year": 1978, 
+"type": "kbyq", 
+"genre": "mtevpxjfmyiwrjckdvn"
+},
+{
+"name": "uazvttqpqbp", 
+"year": 1986, 
+"type": "ecpknqq", 
+"genre": "tdrzrtblqsbfcv"
+},
+{
+"name": "mcysmtcfzqlyyk", 
+"year": 2007, 
+"type": "euhzgplm", 
+"genre": "oidiyprxglwtqgchr"
+},
+{
+"name": "mcsghe", 
+"year": 1954, 
+"type": "npvjywpvflklf", 
+"genre": "kblbxiosodhhxgbej"
+},
+{
+"name": "nhoo", 
+"year": 2007, 
+"type": "sckgmv", 
+"genre": "m"
+},
+{
+"name": "mfanwamzmeopu", 
+"year": 1975, 
+"type": "qeuyxzhgmxhe", 
+"genre": "ae"
+},
+{
+"name": "jbbnbyzaqe", 
+"year": 2018, 
+"type": "cusgbhgmhkvxif", 
+"genre": "idpfg"
+},
+{
+"name": "ktbd", 
+"year": 1989, 
+"type": "eejffet", 
+"genre": "iyliamdtdubbcbyj"
+},
+{
+"name": "mpdxjrhftflbpd", 
+"year": 1960, 
+"type": "fpodbhevxuuog", 
+"genre": "ri"
+},
+{
+"name": "oashrhndsifw", 
+"year": 2006, 
+"type": "b", 
+"genre": "myeprjavjsar"
+},
+{
+"name": "dmmfcxplqrku", 
+"year": 1955, 
+"type": "r", 
+"genre": "w"
+},
+{
+"name": "tjrvsrzh", 
+"year": 1950, 
+"type": "funrd", 
+"genre": "vhpws"
+},
+{
+"name": "mzrpscnheymir", 
+"year": 1960, 
+"type": "srxmoxgpyumnu", 
+"genre": "ulzmocwurzvccxyemmd"
+},
+{
+"name": "maguq", 
+"year": 1963, 
+"type": "vqzdqdlmzzfgcqe", 
+"genre": "q"
+},
+{
+"name": "rtpaltprlfjd", 
+"year": 1994, 
+"type": "zkjgtzwnkddmvwkrj", 
+"genre": "igqtbgfaissn"
+},
+{
+"name": "dwcgjiwhzy", 
+"year": 1992, 
+"type": "v", 
+"genre": "boqegmndogrqd"
+},
+{
+"name": "hlzq", 
+"year": 2004, 
+"type": "rlxhytuahigw", 
+"genre": "pemrolbmr"
+},
+{
+"name": "dtrlksa", 
+"year": 2010, 
+"type": "xf", 
+"genre": "aghxkffspqwenlfti"
+},
+{
+"name": "jrbv", 
+"year": 1968, 
+"type": "xgcykdutnqapyuotd", 
+"genre": "mhihqilsbvcqubvedrs"
+},
+{
+"name": "cmcumdeehocryz", 
+"year": 1954, 
+"type": "szrcquizjrub", 
+"genre": "fokdrhmp"
+},
+{
+"name": "bbqrps", 
+"year": 1977, 
+"type": "rvzmj", 
+"genre": "nnkklplsugped"
+},
+{
+"name": "sye", 
+"year": 1953, 
+"type": "xiuznnvh", 
+"genre": "hhmruxwqhxaa"
+},
+{
+"name": "lhnvknuyjg", 
+"year": 1987, 
+"type": "ybtwffqdixpfwvgi", 
+"genre": "axznsw"
+},
+{
+"name": "zjwlybp", 
+"year": 1971, 
+"type": "lvtyk", 
+"genre": "ltmzonzyvzcw"
+},
+{
+"name": "vsidjldxmkeyz", 
+"year": 1979, 
+"type": "zqsdza", 
+"genre": "fatislxxz"
+},
+{
+"name": "pk", 
+"year": 2002, 
+"type": "prkgtu", 
+"genre": "kjpcjcmluexwnk"
+},
+{
+"name": "io", 
+"year": 1996, 
+"type": "krhlyujvuttqsq", 
+"genre": "urdfjjkmedsvwvb"
+},
+{
+"name": "pltus", 
+"year": 2008, 
+"type": "lizvybnv", 
+"genre": "euqahlx"
+},
+{
+"name": "rcy", 
+"year": 2012, 
+"type": "ni", 
+"genre": "rgqaowvsdiwtyrrl"
+},
+{
+"name": "kyhpxwsksqcocv", 
+"year": 2002, 
+"type": "jqbfbc", 
+"genre": "zxwzpdd"
+},
+{
+"name": "bhpdjlp", 
+"year": 1971, 
+"type": "qskshvpqdrqqofvhp", 
+"genre": "ie"
+},
+{
+"name": "zeladw", 
+"year": 1952, 
+"type": "kgv", 
+"genre": "klfdtubpj"
+},
+{
+"name": "jyczshla", 
+"year": 1967, 
+"type": "cvh", 
+"genre": "vefqvpie"
+},
+{
+"name": "igothdzd", 
+"year": 1983, 
+"type": "csxgl", 
+"genre": "mxddtakevipokuuu"
+},
+{
+"name": "ebncitldyt", 
+"year": 2007, 
+"type": "peulsqlkawgzgvaswi", 
+"genre": "zmgjysiugsssddfo"
+},
+{
+"name": "hnmrebgnzlc", 
+"year": 1952, 
+"type": "owolbqwccl", 
+"genre": "olmiuyfnwq"
+},
+{
+"name": "qmsf", 
+"year": 1953, 
+"type": "xhjxvkhw", 
+"genre": "cwsoamvbxqe"
+},
+{
+"name": "pefuxbtggg", 
+"year": 2008, 
+"type": "hdgelxcuxsj", 
+"genre": "vhpxbfm"
+},
+{
+"name": "vd", 
+"year": 1968, 
+"type": "rwzszl", 
+"genre": "jnazwgaevxyh"
+},
+{
+"name": "dhesr", 
+"year": 1967, 
+"type": "hy", 
+"genre": "zs"
+},
+{
+"name": "czpmvvhtrbbqk", 
+"year": 2001, 
+"type": "nvlz", 
+"genre": "ykbcyozoydla"
+},
+{
+"name": "vhlvcnvonrqqrg", 
+"year": 1959, 
+"type": "stfsw", 
+"genre": "ctibj"
+},
+{
+"name": "ubayvj", 
+"year": 2001, 
+"type": "lrj", 
+"genre": "ximpyocal"
+},
+{
+"name": "pvgwgjvt", 
+"year": 1983, 
+"type": "imuudmrljvqswumstu", 
+"genre": "uyirnjwpayogkzyu"
+},
+{
+"name": "nwcbq", 
+"year": 1988, 
+"type": "lrdfv", 
+"genre": "hseqpwhai"
+},
+{
+"name": "ldjcipzqvukhgb", 
+"year": 1990, 
+"type": "qdtwyikh", 
+"genre": "wcukbnfdgncb"
+},
+{
+"name": "aqglfxckcegc", 
+"year": 1966, 
+"type": "oorurdhyq", 
+"genre": "xxxygvvnxehft"
+},
+{
+"name": "ddz", 
+"year": 2012, 
+"type": "oxhrfgttucz", 
+"genre": "liaxt"
+},
+{
+"name": "cdzepvewowz", 
+"year": 2012, 
+"type": "isvan", 
+"genre": "cvz"
+},
+{
+"name": "nzyvxsqusy", 
+"year": 2017, 
+"type": "r", 
+"genre": "fgasyzbo"
+},
+{
+"name": "rjjrdiztdic", 
+"year": 1980, 
+"type": "varpid", 
+"genre": "amxpltrckxzzcksyhg"
+},
+{
+"name": "xpqhidbdo", 
+"year": 1981, 
+"type": "pwdiohhxghp", 
+"genre": "gmksbyhuvbovb"
+},
+{
+"name": "fx", 
+"year": 2007, 
+"type": "dihewkvvhcjmdjvgcz", 
+"genre": "pfzz"
+},
+{
+"name": "bwkeiiovxy", 
+"year": 1990, 
+"type": "tnjtojfuuy", 
+"genre": "oswaiesywlibttpyteb"
+},
+{
+"name": "boe", 
+"year": 1989, 
+"type": "dgcjmqwgq", 
+"genre": "brjwpbavqnilpsqb"
+},
+{
+"name": "eyogkhlkdllvd", 
+"year": 1965, 
+"type": "wdvhqnorhmhsjt", 
+"genre": "nacisa"
+},
+{
+"name": "rlksrw", 
+"year": 1961, 
+"type": "nlevfhoschulgqe", 
+"genre": "klayhpabwlldco"
+},
+{
+"name": "iearzq", 
+"year": 1975, 
+"type": "dv", 
+"genre": "lxhicqglkuhq"
+},
+{
+"name": "gwgnzr", 
+"year": 2000, 
+"type": "ngsoufaic", 
+"genre": "jpseduoiu"
+},
+{
+"name": "vdhurhx", 
+"year": 1952, 
+"type": "qehwfzvyhdeligina", 
+"genre": "idyallesybkrhs"
+},
+{
+"name": "yglwp", 
+"year": 2001, 
+"type": "jp", 
+"genre": "nrp"
+},
+{
+"name": "okfkcayuhln", 
+"year": 1964, 
+"type": "mzzegmuicsaeojlq", 
+"genre": "ytpwmbknafgbmoycxn"
+},
+{
+"name": "klkz", 
+"year": 1951, 
+"type": "ciz", 
+"genre": "yahdfugo"
+},
+{
+"name": "jcozmelcckdcez", 
+"year": 2012, 
+"type": "wkfgneyjplzrk", 
+"genre": "usnfqt"
+},
+{
+"name": "uhvd", 
+"year": 1979, 
+"type": "blclbunasocyaqvtj", 
+"genre": "zliqheeipfmnktjhojl"
+},
+{
+"name": "acmqmwtnjtjueh", 
+"year": 1975, 
+"type": "caxqzydavmb", 
+"genre": "wntlsxxyorrja"
+},
+{
+"name": "igtvrqx", 
+"year": 1960, 
+"type": "mddo", 
+"genre": "rcmrome"
+},
+{
+"name": "fjnfggqpvbkd", 
+"year": 1997, 
+"type": "tqfdeob", 
+"genre": "uv"
+},
+{
+"name": "amhjycllww", 
+"year": 1985, 
+"type": "ogmfzunaejnjjdr", 
+"genre": "aq"
+},
+{
+"name": "gl", 
+"year": 2014, 
+"type": "vjjqipofpafcw", 
+"genre": "lrpnlvluaidhkz"
+},
+{
+"name": "apiqkojpych", 
+"year": 2013, 
+"type": "sszzmjblgrj", 
+"genre": "enpfbhpfodl"
+},
+{
+"name": "cblfsstsbkpq", 
+"year": 1977, 
+"type": "mljkfi", 
+"genre": "l"
+},
+{
+"name": "llxiydze", 
+"year": 2000, 
+"type": "vmffku", 
+"genre": "lvmsiwnhpnvznag"
+},
+{
+"name": "yzcliozt", 
+"year": 2006, 
+"type": "d", 
+"genre": "vpbfvwyf"
+},
+{
+"name": "yspbdmzm", 
+"year": 1994, 
+"type": "pnpsxugrmywcxzmgtra", 
+"genre": "rca"
+},
+{
+"name": "hfqbx", 
+"year": 1984, 
+"type": "oa", 
+"genre": "zgyqpycfxsawynol"
+},
+{
+"name": "cwojwsameib", 
+"year": 1999, 
+"type": "uajhtcvkmxlljlaf", 
+"genre": "us"
+},
+{
+"name": "qelswlxiivptts", 
+"year": 1978, 
+"type": "vhwdnfecfdaqtog", 
+"genre": "tro"
+},
+{
+"name": "letrksqbbc", 
+"year": 2011, 
+"type": "ebgx", 
+"genre": "axkjovsp"
+},
+{
+"name": "oxnzlgeqyczs", 
+"year": 1999, 
+"type": "insxxbzc", 
+"genre": "nttueupgohhc"
+},
+{
+"name": "xwq", 
+"year": 1993, 
+"type": "aumrqzfnavald", 
+"genre": "qxfeehvhghigsi"
+},
+{
+"name": "p", 
+"year": 1997, 
+"type": "dwlkitncnxsi", 
+"genre": "yrpmtvqi"
+},
+{
+"name": "bblfhzdu", 
+"year": 1997, 
+"type": "vrzfrpic", 
+"genre": "lyuro"
+},
+{
+"name": "qysjpjyd", 
+"year": 1974, 
+"type": "kodwwigcanbnwvhkfn", 
+"genre": "laakigbegrsvifuypy"
+},
+{
+"name": "d", 
+"year": 1987, 
+"type": "yasgcyyrfnnxfwfom", 
+"genre": "gfzwwuqnort"
+},
+{
+"name": "wttxmj", 
+"year": 1990, 
+"type": "h", 
+"genre": "rttnydqhwmkhrvsk"
+},
+{
+"name": "wxmiusdqezl", 
+"year": 1988, 
+"type": "dieqv", 
+"genre": "ciwmw"
+},
+{
+"name": "j", 
+"year": 1993, 
+"type": "uhqasb", 
+"genre": "bkfvzwp"
+},
+{
+"name": "ygvhj", 
+"year": 1952, 
+"type": "vvpsvfhggm", 
+"genre": "gxtgujnhdp"
+},
+{
+"name": "rarblk", 
+"year": 2000, 
+"type": "shft", 
+"genre": "vobscfcwu"
+},
+{
+"name": "n", 
+"year": 1963, 
+"type": "qstobgfobs", 
+"genre": "fwd"
+},
+{
+"name": "lfiu", 
+"year": 1964, 
+"type": "ryave", 
+"genre": "mixupardzlwxjakhjy"
+},
+{
+"name": "ykidgspknefa", 
+"year": 1969, 
+"type": "fbwfvmunld", 
+"genre": "cdmdw"
+},
+{
+"name": "pdchunfzdnlo", 
+"year": 1965, 
+"type": "wjha", 
+"genre": "rrykjzboztjijpy"
+},
+{
+"name": "xyybuaei", 
+"year": 2015, 
+"type": "odihqpnctqaadsqogje", 
+"genre": "epaezigye"
+},
+{
+"name": "syalgcuczk", 
+"year": 1981, 
+"type": "dv", 
+"genre": "pe"
+},
+{
+"name": "lzzthhh", 
+"year": 1964, 
+"type": "mplfeh", 
+"genre": "jb"
+},
+{
+"name": "jee", 
+"year": 1990, 
+"type": "fcupxf", 
+"genre": "jd"
+},
+{
+"name": "erznzaxigkwkdh", 
+"year": 2007, 
+"type": "morxrjgmamnunuuibai", 
+"genre": "kmkxzptdklqpj"
+},
+{
+"name": "ydxp", 
+"year": 1992, 
+"type": "ncbevuodyrmxgqpdq", 
+"genre": "zoxwdoki"
+},
+{
+"name": "qgyxmq", 
+"year": 1963, 
+"type": "kwuizmbchntlbjdngu", 
+"genre": "wrakg"
+},
+{
+"name": "rtxaqbwzxfu", 
+"year": 1976, 
+"type": "zvtv", 
+"genre": "tzrrmzhstfekgdmgc"
+},
+{
+"name": "bchdq", 
+"year": 1970, 
+"type": "krmcrtfhwpq", 
+"genre": "hitobxnsqk"
+},
+{
+"name": "dn", 
+"year": 1962, 
+"type": "ksvqjskrhxmfdrcmdc", 
+"genre": "vfqckfebpxxfymk"
+},
+{
+"name": "fyalsq", 
+"year": 2018, 
+"type": "osyzpvdqwzljqng", 
+"genre": "dwwhfmeat"
+},
+{
+"name": "fltukcqmzzmzay", 
+"year": 2000, 
+"type": "okoedzb", 
+"genre": "wtyvlkvlqh"
+},
+{
+"name": "prbik", 
+"year": 1952, 
+"type": "wwauakskosjlursmeot", 
+"genre": "ovpi"
+},
+{
+"name": "yeloioeum", 
+"year": 1971, 
+"type": "dct", 
+"genre": "ety"
+},
+{
+"name": "fhrxbn", 
+"year": 1951, 
+"type": "xwyjfuskzeepz", 
+"genre": "fz"
+},
+{
+"name": "vcxa", 
+"year": 2006, 
+"type": "m", 
+"genre": "ylhesovgtmkezekha"
+},
+{
+"name": "iceisayxcyjf", 
+"year": 1968, 
+"type": "hrkpurzjsn", 
+"genre": "qvvbiw"
+},
+{
+"name": "kljfv", 
+"year": 1968, 
+"type": "bktemjrqfjv", 
+"genre": "mkyn"
+},
+{
+"name": "onxwvgpzudjdd", 
+"year": 2010, 
+"type": "ldidwdhkqhgrkegrgh", 
+"genre": "siantbblscervqan"
+},
+{
+"name": "nwhdn", 
+"year": 1968, 
+"type": "cbykn", 
+"genre": "edupl"
+},
+{
+"name": "ebnqmy", 
+"year": 1988, 
+"type": "qtnuncftqptjtqebby", 
+"genre": "lybx"
+},
+{
+"name": "liin", 
+"year": 2008, 
+"type": "edwmo", 
+"genre": "nutqcc"
+},
+{
+"name": "wddb", 
+"year": 2010, 
+"type": "we", 
+"genre": "xtupsneqtsmumcwnriy"
+},
+{
+"name": "zabxhsinkmkp", 
+"year": 2000, 
+"type": "unj", 
+"genre": "paqcx"
+},
+{
+"name": "td", 
+"year": 1977, 
+"type": "qhkckimu", 
+"genre": "zqrlgjbj"
+},
+{
+"name": "krjafupy", 
+"year": 1988, 
+"type": "kzrguksynsqzfrpznyf", 
+"genre": "tvaqwlle"
+},
+{
+"name": "lvvptqqbavu", 
+"year": 1977, 
+"type": "bcdfltltycl", 
+"genre": "yuy"
+},
+{
+"name": "aqwcqiaebcv", 
+"year": 2004, 
+"type": "veojjdlglxg", 
+"genre": "og"
+},
+{
+"name": "xx", 
+"year": 1977, 
+"type": "tbnzme", 
+"genre": "rk"
+},
+{
+"name": "nquun", 
+"year": 1999, 
+"type": "isjhzey", 
+"genre": "tguxdnjk"
+},
+{
+"name": "iusu", 
+"year": 1956, 
+"type": "hvnyfg", 
+"genre": "uocjlowe"
+},
+{
+"name": "zchklauxhi", 
+"year": 1981, 
+"type": "rknddhugvyicad", 
+"genre": "vubvn"
+},
+{
+"name": "kb", 
+"year": 1956, 
+"type": "pe", 
+"genre": "onxwtiukljjgmtrwmgu"
+},
+{
+"name": "wmwbnar", 
+"year": 2005, 
+"type": "bymucuzkzoobf", 
+"genre": "kspajxhq"
+},
+{
+"name": "d", 
+"year": 2002, 
+"type": "glxp", 
+"genre": "iklwuhbbwfzktuagobb"
+},
+{
+"name": "thorhjn", 
+"year": 1992, 
+"type": "uqmrxkvtng", 
+"genre": "nzmshfll"
+},
+{
+"name": "kmhnptgdfcsxbl", 
+"year": 1995, 
+"type": "rbzbgesxu", 
+"genre": "uetjszjiwflrbjzjpnf"
+},
+{
+"name": "lcyr", 
+"year": 1976, 
+"type": "glwybcgjsuznkhkoek", 
+"genre": "obvdjin"
+},
+{
+"name": "ptaqc", 
+"year": 1966, 
+"type": "ssihu", 
+"genre": "htzlfeguvhumqmakfi"
+},
+{
+"name": "chpdkhhwre", 
+"year": 1958, 
+"type": "mhrobgjbr", 
+"genre": "mxlou"
+},
+{
+"name": "qtqpf", 
+"year": 2012, 
+"type": "vpiu", 
+"genre": "vdpc"
+},
+{
+"name": "mffbjiz", 
+"year": 2015, 
+"type": "zfigfsnoeifvtd", 
+"genre": "urcyniaq"
+},
+{
+"name": "dhov", 
+"year": 2008, 
+"type": "eljlyqxu", 
+"genre": "ks"
+},
+{
+"name": "plosd", 
+"year": 1950, 
+"type": "xoskzgylnqoaw", 
+"genre": "oeobwr"
+},
+{
+"name": "hzyk", 
+"year": 1968, 
+"type": "zvzourdbrulcnmdgg", 
+"genre": "gsjikeid"
+},
+{
+"name": "m", 
+"year": 2005, 
+"type": "cmsqafefntug", 
+"genre": "xiwprxoop"
+},
+{
+"name": "mlzkq", 
+"year": 1965, 
+"type": "ciurml", 
+"genre": "ctlqmdffowmwmnxexea"
+},
+{
+"name": "ymyblbx", 
+"year": 2003, 
+"type": "dvkvgiyobvbhcw", 
+"genre": "fqzupgbgpmwgjpjdeq"
+},
+{
+"name": "qbzszcprfbm", 
+"year": 1992, 
+"type": "svf", 
+"genre": "jezvuurpzfpw"
+},
+{
+"name": "beavqfwz", 
+"year": 2002, 
+"type": "xgltbdawitp", 
+"genre": "arhxandqvkwkeif"
+},
+{
+"name": "ruiaswveg", 
+"year": 2003, 
+"type": "aiptblkit", 
+"genre": "ecmsrxfqr"
+},
+{
+"name": "aclawgdaj", 
+"year": 1986, 
+"type": "speenjaspgzekwjivra", 
+"genre": "sbqz"
+},
+{
+"name": "lrnmzrqjjcnp", 
+"year": 1954, 
+"type": "evem", 
+"genre": "pdeihgajbcgcuwedzno"
+},
+{
+"name": "mxfubplfwwtfgc", 
+"year": 1951, 
+"type": "pkyowpmqzlrcaqjb", 
+"genre": "hk"
+},
+{
+"name": "jkplecenddm", 
+"year": 1992, 
+"type": "fqmr", 
+"genre": "znvnizt"
+},
+{
+"name": "a", 
+"year": 1953, 
+"type": "ltiqbsgevjafllr", 
+"genre": "rfccpkshwkshmya"
+},
+{
+"name": "n", 
+"year": 1975, 
+"type": "rhudjyjhtmkwowunhf", 
+"genre": "sgiljudcnhloa"
+},
+{
+"name": "hxmoaoouxppdrz", 
+"year": 1958, 
+"type": "fxktwuidzvsapf", 
+"genre": "awchjuhro"
+},
+{
+"name": "fk", 
+"year": 2017, 
+"type": "pgmsiey", 
+"genre": "zerdmegrqdwksemxqnp"
+},
+{
+"name": "ghdlxsljc", 
+"year": 1951, 
+"type": "zrzhhegkfottlawx", 
+"genre": "ram"
+},
+{
+"name": "siphkfljcznxfe", 
+"year": 1958, 
+"type": "veaifjvhxwlcjd", 
+"genre": "ecbyhansgkzgol"
+},
+{
+"name": "slpdu", 
+"year": 1959, 
+"type": "cgdivctcnjvx", 
+"genre": "zifrru"
+},
+{
+"name": "ceavvwm", 
+"year": 1979, 
+"type": "azfeuqjkrcwhpkano", 
+"genre": "qtbm"
+},
+{
+"name": "nwzuqfp", 
+"year": 1991, 
+"type": "bgtcheahzhunh", 
+"genre": "fdisjmtrqpfgirxg"
+},
+{
+"name": "hrykhblloyymq", 
+"year": 2004, 
+"type": "luetbhpa", 
+"genre": "pdybf"
+},
+{
+"name": "ukcdwtsmfbs", 
+"year": 1964, 
+"type": "fbog", 
+"genre": "evxcyh"
+},
+{
+"name": "ft", 
+"year": 1961, 
+"type": "uaydxjnusbpkengajk", 
+"genre": "exypxkhddhiy"
+},
+{
+"name": "wceqktgztp", 
+"year": 1976, 
+"type": "mygmgxudmibuyuo", 
+"genre": "ymcvpmnk"
+},
+{
+"name": "msowvz", 
+"year": 1992, 
+"type": "qyv", 
+"genre": "kgeeijtrhsqnjea"
+},
+{
+"name": "fdigybrc", 
+"year": 2013, 
+"type": "felgd", 
+"genre": "urnfyrhcuswxi"
+},
+{
+"name": "jpwbbvbl", 
+"year": 1998, 
+"type": "airjqr", 
+"genre": "f"
+},
+{
+"name": "jilgdkbre", 
+"year": 2010, 
+"type": "ztsqvhoxjmkrivaf", 
+"genre": "fqbsrcioirwbbtdw"
+},
+{
+"name": "vjrtowiqzqkt", 
+"year": 1998, 
+"type": "fsfu", 
+"genre": "krzfnmxymhjmzo"
+},
+{
+"name": "l", 
+"year": 1983, 
+"type": "llrajusbxolfrsfqi", 
+"genre": "fnsiyxwkkb"
+},
+{
+"name": "l", 
+"year": 1987, 
+"type": "uunftsjxrqcqchgfgq", 
+"genre": "if"
+},
+{
+"name": "dwqarsptjqjtm", 
+"year": 1971, 
+"type": "zskxwrnnnkweaxpsnv", 
+"genre": "tayauz"
+},
+{
+"name": "cajstfh", 
+"year": 2011, 
+"type": "doxkagslsag", 
+"genre": "xerk"
+},
+{
+"name": "mafgk", 
+"year": 1971, 
+"type": "sepumayptbdhrjbyx", 
+"genre": "vnbk"
+},
+{
+"name": "vyognmhh", 
+"year": 1988, 
+"type": "jfzen", 
+"genre": "nxvgzvejq"
+},
+{
+"name": "hmvnczugnszct", 
+"year": 2002, 
+"type": "thprmwfnr", 
+"genre": "pgdgob"
+},
+{
+"name": "bci", 
+"year": 1961, 
+"type": "nbuoiwtqhupq", 
+"genre": "bxwxmrnvjwqbgdwryts"
+},
+{
+"name": "xzgneuqo", 
+"year": 1958, 
+"type": "qxnwlfmcpg", 
+"genre": "nn"
+},
+{
+"name": "fdjsbz", 
+"year": 1992, 
+"type": "agnmumciprjdkzmhe", 
+"genre": "xifpldkqweraid"
+},
+{
+"name": "jtudgyqhjohen", 
+"year": 2009, 
+"type": "ehi", 
+"genre": "ot"
+},
+{
+"name": "tdhqdcbzekt", 
+"year": 1954, 
+"type": "zff", 
+"genre": "ycfyr"
+},
+{
+"name": "vquofkjxlm", 
+"year": 1992, 
+"type": "vacozdefpkbicsqz", 
+"genre": "loe"
+},
+{
+"name": "wmoccqjpyljiwg", 
+"year": 1992, 
+"type": "kjsrphm", 
+"genre": "sqorocdvxzri"
+},
+{
+"name": "tcz", 
+"year": 2013, 
+"type": "icndvrtvhuucafafvm", 
+"genre": "vluitfcyarqivfa"
+},
+{
+"name": "npvieuhj", 
+"year": 2011, 
+"type": "wulwuonwdqb", 
+"genre": "cbrvcjos"
+},
+{
+"name": "yxfc", 
+"year": 1959, 
+"type": "plpwioby", 
+"genre": "lkvhdayrrlsj"
+},
+{
+"name": "gmbxsnu", 
+"year": 1957, 
+"type": "ymdh", 
+"genre": "alzfzybjrogojruy"
+},
+{
+"name": "rooshnaexfsg", 
+"year": 1999, 
+"type": "pewauupu", 
+"genre": "coupbxxug"
+},
+{
+"name": "gextulaeo", 
+"year": 2011, 
+"type": "ixpgvfrjldgnvzgtnet", 
+"genre": "whpjkxujroivoeptvjh"
+},
+{
+"name": "fmvnek", 
+"year": 1966, 
+"type": "sarsdawl", 
+"genre": "pwvsv"
+},
+{
+"name": "iofrf", 
+"year": 2007, 
+"type": "by", 
+"genre": "nfvpwg"
+},
+{
+"name": "infmlrxyquur", 
+"year": 1972, 
+"type": "ajzmbnhk", 
+"genre": "szqoa"
+},
+{
+"name": "hxzblsschmkz", 
+"year": 1968, 
+"type": "oqjjmvjvpzkbyuweziv", 
+"genre": "grewaqicj"
+},
+{
+"name": "ytch", 
+"year": 1987, 
+"type": "jtsoknahserrr", 
+"genre": "ol"
+},
+{
+"name": "tmcgcupawy", 
+"year": 1967, 
+"type": "nneadifnfnisrze", 
+"genre": "bogcxzfafn"
+},
+{
+"name": "edfbrmrgfustdl", 
+"year": 1967, 
+"type": "znqldjpguypuqlfrt", 
+"genre": "dsmilqhrmolt"
+},
+{
+"name": "uoa", 
+"year": 2006, 
+"type": "qshmcbjryvdtw", 
+"genre": "oai"
+},
+{
+"name": "pckhbkwyf", 
+"year": 2011, 
+"type": "fkmnwnpcby", 
+"genre": "oommdmt"
+},
+{
+"name": "ndiscvho", 
+"year": 1998, 
+"type": "fqhfcbp", 
+"genre": "sts"
+},
+{
+"name": "iwifmwjuwegthy", 
+"year": 2005, 
+"type": "bdpwvxbjkdjss", 
+"genre": "t"
+},
+{
+"name": "hvhhhlq", 
+"year": 1957, 
+"type": "pnodqffrmetfjkchgvu", 
+"genre": "cokjjcfkegca"
+},
+{
+"name": "epcbjpjwzhxw", 
+"year": 1954, 
+"type": "kfbquwqaszfgstfh", 
+"genre": "rmmlcfrqtmpk"
+},
+{
+"name": "suvosdqkn", 
+"year": 2003, 
+"type": "edrizdibnxta", 
+"genre": "idbfo"
+},
+{
+"name": "nwveumuf", 
+"year": 1995, 
+"type": "qmyaesiyyttneptk", 
+"genre": "lavcdnr"
+},
+{
+"name": "tkxwiemxp", 
+"year": 1987, 
+"type": "gconbn", 
+"genre": "sqwaevn"
+},
+{
+"name": "miyzv", 
+"year": 1971, 
+"type": "wycrqzn", 
+"genre": "abxiiezcfnu"
+},
+{
+"name": "ronkbvygm", 
+"year": 1963, 
+"type": "algytasrrrtgxvxz", 
+"genre": "wvwd"
+},
+{
+"name": "n", 
+"year": 1988, 
+"type": "fmwfjezcrxjiqlmh", 
+"genre": "hjypirgumuvuplsjatf"
+},
+{
+"name": "iidnvnhxsyep", 
+"year": 2008, 
+"type": "oktempqbsx", 
+"genre": "os"
+},
+{
+"name": "bkxqu", 
+"year": 1956, 
+"type": "tdgh", 
+"genre": "bfcpzmllywvswn"
+},
+{
+"name": "g", 
+"year": 2000, 
+"type": "juxcxxlioro", 
+"genre": "eteeqscaxpdg"
+},
+{
+"name": "bcsrevqx", 
+"year": 1988, 
+"type": "winku", 
+"genre": "kleshrcorwvhtanuqe"
+},
+{
+"name": "j", 
+"year": 1952, 
+"type": "gddhtsnmb", 
+"genre": "ncmdynyefztxrtjse"
+},
+{
+"name": "u", 
+"year": 1964, 
+"type": "elliugel", 
+"genre": "n"
+},
+{
+"name": "dfhadkjcydux", 
+"year": 1992, 
+"type": "vzuqnk", 
+"genre": "pkfi"
+},
+{
+"name": "mlb", 
+"year": 1997, 
+"type": "znmey", 
+"genre": "seuobfdhrwuicqldxcg"
+},
+{
+"name": "jzkqd", 
+"year": 1954, 
+"type": "oihkiqbiwrz", 
+"genre": "jgxq"
+},
+{
+"name": "dkkwjgkevlaw", 
+"year": 1985, 
+"type": "eeknnaoi", 
+"genre": "cfuavywiqsxgdfnuvcq"
+},
+{
+"name": "pnrfiis", 
+"year": 2018, 
+"type": "gpautvtel", 
+"genre": "kyutsyccerapyg"
+},
+{
+"name": "fagaerxe", 
+"year": 1956, 
+"type": "s", 
+"genre": "pyxfbvjg"
+},
+{
+"name": "gqnvcrssfg", 
+"year": 2011, 
+"type": "mvivrtonkw", 
+"genre": "qnnehlyuoan"
+},
+{
+"name": "emikezkbc", 
+"year": 1976, 
+"type": "rxfph", 
+"genre": "rag"
+},
+{
+"name": "he", 
+"year": 1964, 
+"type": "hsidohclcdg", 
+"genre": "dlpckgfjou"
+},
+{
+"name": "qjfw", 
+"year": 1982, 
+"type": "joqwz", 
+"genre": "jcbghxwcxxxafl"
+},
+{
+"name": "pubtwlggvruapq", 
+"year": 2000, 
+"type": "ebm", 
+"genre": "aizyl"
+},
+{
+"name": "hjevaqbldwhjm", 
+"year": 1962, 
+"type": "rhlrqqodmisyx", 
+"genre": "vbo"
+},
+{
+"name": "hrtvyre", 
+"year": 1963, 
+"type": "xdthfupsrf", 
+"genre": "vpgeokhdkzqhelzuob"
+},
+{
+"name": "vmlisoedft", 
+"year": 1953, 
+"type": "akykgrppprgmrwqrhxo", 
+"genre": "pfemwfzm"
+},
+{
+"name": "lkvqvwms", 
+"year": 1960, 
+"type": "usmenzlnusxzjeoyqrr", 
+"genre": "bxbsbuzefpsqlbdk"
+},
+{
+"name": "zojww", 
+"year": 1972, 
+"type": "apofo", 
+"genre": "mtjzqzxrduzm"
+},
+{
+"name": "pnpcdrxcv", 
+"year": 1989, 
+"type": "cvvytmkrlc", 
+"genre": "zg"
+},
+{
+"name": "etkc", 
+"year": 1977, 
+"type": "kdnoxvosb", 
+"genre": "ybrtjdkunlxwrxzvom"
+},
+{
+"name": "jykgusy", 
+"year": 1991, 
+"type": "ixdngbw", 
+"genre": "i"
+},
+{
+"name": "ifyt", 
+"year": 1955, 
+"type": "chtsalyrbd", 
+"genre": "v"
+},
+{
+"name": "ynajb", 
+"year": 1990, 
+"type": "ksmqbwcfces", 
+"genre": "cbik"
+},
+{
+"name": "gvmivhveosmvtm", 
+"year": 1955, 
+"type": "icqfhaqxtnyvqrrw", 
+"genre": "riygwx"
+},
+{
+"name": "pftkxid", 
+"year": 2006, 
+"type": "nvo", 
+"genre": "xmnvubthdc"
+},
+{
+"name": "mzitqbisynhw", 
+"year": 1966, 
+"type": "a", 
+"genre": "vipmprolevdlvevkso"
+},
+{
+"name": "yzfyodxyopk", 
+"year": 1975, 
+"type": "sstbescm", 
+"genre": "bvnpeg"
+},
+{
+"name": "nfbhkun", 
+"year": 1962, 
+"type": "xovt", 
+"genre": "mfpfwsgxvcdalqyn"
+},
+{
+"name": "evxemppykh", 
+"year": 1986, 
+"type": "nwhxjdmmbxv", 
+"genre": "ztsplbodtvhqwxdbct"
+},
+{
+"name": "kxazisxin", 
+"year": 1966, 
+"type": "ukgrhgwzbipefikx", 
+"genre": "plovrm"
+},
+{
+"name": "qfswlsji", 
+"year": 2001, 
+"type": "ntclipcmudrbimz", 
+"genre": "o"
+},
+{
+"name": "zolxvytr", 
+"year": 1982, 
+"type": "quuntpxd", 
+"genre": "vpxxpzphvkusiaswzj"
+},
+{
+"name": "arrgyptpqhct", 
+"year": 2004, 
+"type": "isp", 
+"genre": "weodhcttgflezy"
+},
+{
+"name": "rrbudkghxd", 
+"year": 1957, 
+"type": "ndfftxgy", 
+"genre": "peln"
+},
+{
+"name": "vtqvfcd", 
+"year": 2010, 
+"type": "hk", 
+"genre": "bvqfvmqayqv"
+},
+{
+"name": "jtwim", 
+"year": 2016, 
+"type": "ehvveyzusrqvnxxbgoa", 
+"genre": "sumdromrmvzaeec"
+},
+{
+"name": "egzg", 
+"year": 1986, 
+"type": "jfvsypoukpopkknj", 
+"genre": "gagkfgnvdhymcqgvcfr"
+},
+{
+"name": "sseiowtlh", 
+"year": 1983, 
+"type": "baxgciqvzxcpwg", 
+"genre": "kszjdtouxgdzhxpsvf"
+},
+{
+"name": "dyxcwhpp", 
+"year": 2003, 
+"type": "iqwb", 
+"genre": "xxvq"
+},
+{
+"name": "nrlg", 
+"year": 1965, 
+"type": "jabiiosxlydyfcd", 
+"genre": "lyqrnfczswfmvhpns"
+},
+{
+"name": "bnulggssgv", 
+"year": 1995, 
+"type": "kaldsjjnqykgjknmpcs", 
+"genre": "ymvfkhfghapdplmuzjs"
+},
+{
+"name": "uhkh", 
+"year": 2011, 
+"type": "vbxxgaxlqr", 
+"genre": "ichxlkaxrvv"
+},
+{
+"name": "vweepfqhkpj", 
+"year": 1993, 
+"type": "ytxdeexpyzjktqq", 
+"genre": "zofcrsxjqcgjiqjsx"
+},
+{
+"name": "ur", 
+"year": 1994, 
+"type": "vug", 
+"genre": "sdqs"
+},
+{
+"name": "yuhphonlowq", 
+"year": 2010, 
+"type": "uhszkeicxske", 
+"genre": "olnautxnlcqrzno"
+},
+{
+"name": "v", 
+"year": 2014, 
+"type": "x", 
+"genre": "s"
+},
+{
+"name": "fmrr", 
+"year": 2014, 
+"type": "wcwbfdgkbcpqxoxyr", 
+"genre": "bykquu"
+},
+{
+"name": "er", 
+"year": 2007, 
+"type": "svpqxxssjeropjxrma", 
+"genre": "dfeoa"
+},
+{
+"name": "uhxzaznvhacjx", 
+"year": 1959, 
+"type": "tqqhd", 
+"genre": "xprpgx"
+},
+{
+"name": "jo", 
+"year": 1953, 
+"type": "lktjsmqobhlm", 
+"genre": "fd"
+},
+{
+"name": "ft", 
+"year": 2016, 
+"type": "yddvqwzvbzrwzfwmfrh", 
+"genre": "xkbxinokdxqhhysv"
+},
+{
+"name": "xbufehx", 
+"year": 1965, 
+"type": "vncponwncv", 
+"genre": "bmnkgtbpofhylpkg"
+},
+{
+"name": "izsiumh", 
+"year": 2017, 
+"type": "fjxejgsdmbdlcabma", 
+"genre": "nmmmkziboirrgvgus"
+},
+{
+"name": "o", 
+"year": 2001, 
+"type": "dlfglldbgexolwkjeq", 
+"genre": "uynejtcel"
+},
+{
+"name": "ez", 
+"year": 2011, 
+"type": "codnrhbbjis", 
+"genre": "hwqqtderqgthbkz"
+},
+{
+"name": "wswrwoz", 
+"year": 1964, 
+"type": "ti", 
+"genre": "tqtnholfn"
+},
+{
+"name": "b", 
+"year": 1979, 
+"type": "vykmxlnuzyiqkvn", 
+"genre": "ubuy"
+},
+{
+"name": "giuzgcdgyzgnaa", 
+"year": 2001, 
+"type": "xzmgamyuoznnmg", 
+"genre": "aaroxyhumzobli"
+},
+{
+"name": "lxlgurqutogt", 
+"year": 2017, 
+"type": "o", 
+"genre": "tvgmmvrbibamhocvqy"
+},
+{
+"name": "u", 
+"year": 1964, 
+"type": "rocilgiauejaan", 
+"genre": "vnsd"
+},
+{
+"name": "ibhjqnugeuxxza", 
+"year": 2018, 
+"type": "pjghkbrx", 
+"genre": "fuwqukzofnyfyyycgks"
+},
+{
+"name": "btddpoifvvqoh", 
+"year": 1951, 
+"type": "fsdrkojyfmpjgiehvgd", 
+"genre": "nqeggbbisxpzqtr"
+},
+{
+"name": "c", 
+"year": 2007, 
+"type": "ahvxmo", 
+"genre": "dcjvb"
+},
+{
+"name": "rqaxvaklfa", 
+"year": 1991, 
+"type": "fo", 
+"genre": "meoqhmdiyqckzx"
+},
+{
+"name": "xvfupcftan", 
+"year": 1990, 
+"type": "zxwntccaqzkzwbdvcfo", 
+"genre": "yblnimwpjexqxmgguv"
+},
+{
+"name": "pjyhtxo", 
+"year": 2010, 
+"type": "flgadscyqwjzckmbupp", 
+"genre": "wz"
+},
+{
+"name": "qfikvmy", 
+"year": 1969, 
+"type": "fnklsbhvfoftafufkl", 
+"genre": "dfvuw"
+},
+{
+"name": "adeh", 
+"year": 1986, 
+"type": "toaajtiu", 
+"genre": "im"
+},
+{
+"name": "xpmffjc", 
+"year": 1996, 
+"type": "litxdoyttbsat", 
+"genre": "kbjsiqt"
+},
+{
+"name": "nrwlm", 
+"year": 1955, 
+"type": "ute", 
+"genre": "agbghrhrbwdd"
+},
+{
+"name": "ocjx", 
+"year": 1992, 
+"type": "taivtvqdaxx", 
+"genre": "thmrbivcaayrgrp"
+},
+{
+"name": "oyulckvccyz", 
+"year": 1950, 
+"type": "pnjarqlmajez", 
+"genre": "upeiqgrznvopc"
+},
+{
+"name": "sevjmcefeg", 
+"year": 2002, 
+"type": "wa", 
+"genre": "mpjaavviss"
+},
+{
+"name": "mz", 
+"year": 2012, 
+"type": "itbcfwahzblgueiinz", 
+"genre": "bgeobgasy"
+},
+{
+"name": "pkzzjez", 
+"year": 2002, 
+"type": "g", 
+"genre": "aipvrnhip"
+},
+{
+"name": "i", 
+"year": 2014, 
+"type": "ylhaw", 
+"genre": "z"
+},
+{
+"name": "iadaaxptkts", 
+"year": 1975, 
+"type": "nfostyoz", 
+"genre": "uhbhkdy"
+},
+{
+"name": "ubncadyotiwxyh", 
+"year": 1970, 
+"type": "g", 
+"genre": "yloohgaelhqlnlbsccj"
+},
+{
+"name": "objrtnmbih", 
+"year": 1959, 
+"type": "nupplezanwiuzkenmr", 
+"genre": "wyjmevzcchzroyvm"
+},
+{
+"name": "luwedw", 
+"year": 1955, 
+"type": "gng", 
+"genre": "dqsjblvqyarmpogbsc"
+},
+{
+"name": "rghnmzvfgvtvwo", 
+"year": 2005, 
+"type": "raxbuxlldmiazxe", 
+"genre": "abkxgoylp"
+},
+{
+"name": "pzs", 
+"year": 1989, 
+"type": "s", 
+"genre": "qpvkohrf"
+},
+{
+"name": "vxmhq", 
+"year": 1991, 
+"type": "vydqpprwaxngsc", 
+"genre": "dfkgyz"
+},
+{
+"name": "sntzizldntz", 
+"year": 2003, 
+"type": "lu", 
+"genre": "dx"
+},
+{
+"name": "iqr", 
+"year": 2003, 
+"type": "morukocnuy", 
+"genre": "duoejinxbdd"
+},
+{
+"name": "mw", 
+"year": 2017, 
+"type": "ijdhilmnuziekfeju", 
+"genre": "qhpsdeatt"
+},
+{
+"name": "afegtdlkueded", 
+"year": 2017, 
+"type": "kgflv", 
+"genre": "hwxswsphinbgc"
+},
+{
+"name": "v", 
+"year": 1992, 
+"type": "dztowbhrsrmveyz", 
+"genre": "pdkiszflxvtrxjr"
+},
+{
+"name": "ihrlmnqtr", 
+"year": 1952, 
+"type": "ejqgxjpdfgan", 
+"genre": "rqjvzapmniv"
+},
+{
+"name": "gk", 
+"year": 2008, 
+"type": "fjvfngcmysupo", 
+"genre": "w"
+},
+{
+"name": "inqlbqhcmooqzw", 
+"year": 2005, 
+"type": "ibphzuefrn", 
+"genre": "wteqml"
+},
+{
+"name": "vksmbyqfuoykx", 
+"year": 2003, 
+"type": "iduoftb", 
+"genre": "plenilmxn"
+},
+{
+"name": "cobkos", 
+"year": 1963, 
+"type": "eihgcbjkrtfhjsjfo", 
+"genre": "aft"
+},
+{
+"name": "ozgagib", 
+"year": 1981, 
+"type": "inepxpiys", 
+"genre": "cxcv"
+},
+{
+"name": "zbdnmwcob", 
+"year": 1995, 
+"type": "vtupbybdrflrcuvtwqr", 
+"genre": "fsfudvtwtll"
+},
+{
+"name": "fhkfzt", 
+"year": 1991, 
+"type": "booghq", 
+"genre": "dfwmb"
+},
+{
+"name": "zwz", 
+"year": 1996, 
+"type": "q", 
+"genre": "dtyentczypvyqlhvmf"
+},
+{
+"name": "qrxyjiljo", 
+"year": 1975, 
+"type": "o", 
+"genre": "yncnmb"
+},
+{
+"name": "knryd", 
+"year": 1970, 
+"type": "zngfpboko", 
+"genre": "cbfdlrqjgn"
+},
+{
+"name": "vfoll", 
+"year": 2008, 
+"type": "djtiktbailbvkztbybs", 
+"genre": "nwqvjno"
+},
+{
+"name": "yc", 
+"year": 1951, 
+"type": "fpbcxw", 
+"genre": "uesp"
+},
+{
+"name": "riwsolxzu", 
+"year": 1982, 
+"type": "hnfexuhxoloes", 
+"genre": "gmlfbdvgzovikj"
+},
+{
+"name": "xymdd", 
+"year": 2002, 
+"type": "idnmiygm", 
+"genre": "ssmrhwr"
+},
+{
+"name": "tli", 
+"year": 1959, 
+"type": "hsxsbvzljd", 
+"genre": "zacidrrdgfcpysd"
+},
+{
+"name": "dazzwkp", 
+"year": 2000, 
+"type": "lafpbolnx", 
+"genre": "htjjpbumvsjnr"
+},
+{
+"name": "w", 
+"year": 1997, 
+"type": "rildnsloplroqdgjsaf", 
+"genre": "qp"
+},
+{
+"name": "bagte", 
+"year": 2014, 
+"type": "gcqunylahrl", 
+"genre": "akrglajiqdzfun"
+},
+{
+"name": "epwetepvx", 
+"year": 1971, 
+"type": "ljxvxscqvoxkyeudney", 
+"genre": "qucpwvjaz"
+},
+{
+"name": "chsnchqwpxh", 
+"year": 1960, 
+"type": "uvrnpkevambvxuvntb", 
+"genre": "yrk"
+},
+{
+"name": "hxqbi", 
+"year": 1988, 
+"type": "eqdtlzwvkuwitjc", 
+"genre": "zopysi"
+},
+{
+"name": "wwbb", 
+"year": 1974, 
+"type": "xgjbicyzrhwrsmuovn", 
+"genre": "qjefwbdnm"
+},
+{
+"name": "bweapss", 
+"year": 2003, 
+"type": "qyrbzjhfjeqvueztkm", 
+"genre": "ufsegoepemgnpvs"
+},
+{
+"name": "drrb", 
+"year": 1978, 
+"type": "vuoz", 
+"genre": "l"
+},
+{
+"name": "m", 
+"year": 2008, 
+"type": "cjgpnldmmpgakpxgym", 
+"genre": "xduornbcvntrbdz"
+},
+{
+"name": "cuytplj", 
+"year": 2000, 
+"type": "bkosjfiyvotkdyzybh", 
+"genre": "hsnugzkqyeksuv"
+},
+{
+"name": "gzmqrcbyednizx", 
+"year": 2011, 
+"type": "duqzxoupurwedq", 
+"genre": "iyfqvujvdmctdkv"
+},
+{
+"name": "qcv", 
+"year": 1983, 
+"type": "azxlfd", 
+"genre": "jfvsxxofxadmqqnfa"
+},
+{
+"name": "m", 
+"year": 1986, 
+"type": "vuhgia", 
+"genre": "upna"
+},
+{
+"name": "vqk", 
+"year": 2016, 
+"type": "nmyrkv", 
+"genre": "kvpqyquzsocwurlkk"
+},
+{
+"name": "mqyrwjdpr", 
+"year": 2015, 
+"type": "hncecdoo", 
+"genre": "vytbpyjbws"
+},
+{
+"name": "ka", 
+"year": 1972, 
+"type": "vlfclugsl", 
+"genre": "txgnrbu"
+},
+{
+"name": "wbvnluxjjy", 
+"year": 1985, 
+"type": "xpjtbpdun", 
+"genre": "lyksvadoe"
+},
+{
+"name": "ngmm", 
+"year": 1991, 
+"type": "qjoqtssrorose", 
+"genre": "rvyldk"
+},
+{
+"name": "lzvafq", 
+"year": 1999, 
+"type": "jtcqznf", 
+"genre": "wwstdep"
+},
+{
+"name": "mapfzxchrlkry", 
+"year": 1982, 
+"type": "qywzvlcmijj", 
+"genre": "pl"
+},
+{
+"name": "hvxwgnugbhxfo", 
+"year": 1964, 
+"type": "ffeoaaqfoaxis", 
+"genre": "j"
+},
+{
+"name": "o", 
+"year": 1988, 
+"type": "mbrdetx", 
+"genre": "ickisnkdogixwyd"
+},
+{
+"name": "y", 
+"year": 2018, 
+"type": "rumlefrkhbscbzvsz", 
+"genre": "ombvwuceeufbwgfcdo"
+},
+{
+"name": "r", 
+"year": 2004, 
+"type": "kz", 
+"genre": "cokqyv"
+},
+{
+"name": "cilqikogchnbfs", 
+"year": 1994, 
+"type": "d", 
+"genre": "wmvoymvgnufs"
+},
+{
+"name": "tykhfwwtabjeo", 
+"year": 1951, 
+"type": "fyexxexrmgr", 
+"genre": "necnfvsxiidh"
+},
+{
+"name": "jznepaixokmks", 
+"year": 1982, 
+"type": "tyjfesfnlzh", 
+"genre": "a"
+},
+{
+"name": "ph", 
+"year": 2018, 
+"type": "by", 
+"genre": "sd"
+},
+{
+"name": "cbfvpvwestiu", 
+"year": 1975, 
+"type": "w", 
+"genre": "j"
+},
+{
+"name": "czlll", 
+"year": 2018, 
+"type": "znrqemjaf", 
+"genre": "cmigpcqfv"
+},
+{
+"name": "qigqqsepitx", 
+"year": 2001, 
+"type": "hqhggqp", 
+"genre": "iiihob"
+},
+{
+"name": "dckyb", 
+"year": 2007, 
+"type": "kkbl", 
+"genre": "vsvrglw"
+},
+{
+"name": "kighuimqu", 
+"year": 1996, 
+"type": "bzuwhcbzhyys", 
+"genre": "yoxon"
+},
+{
+"name": "ddtlkpjlcjzhho", 
+"year": 2015, 
+"type": "cwsldlpedgbcc", 
+"genre": "fnmqwbzdgxqcqcl"
+},
+{
+"name": "jmvdbgkboqm", 
+"year": 1957, 
+"type": "rscuumdyhq", 
+"genre": "dq"
+},
+{
+"name": "y", 
+"year": 1981, 
+"type": "nyhv", 
+"genre": "pldzsjojfiqr"
+},
+{
+"name": "r", 
+"year": 1961, 
+"type": "uowgbwxfp", 
+"genre": "qzavsl"
+},
+{
+"name": "pclifccw", 
+"year": 2001, 
+"type": "f", 
+"genre": "zttjkozbok"
+},
+{
+"name": "sh", 
+"year": 1961, 
+"type": "kmulsojkpfqfgztvsqv", 
+"genre": "oxpp"
+},
+{
+"name": "qqw", 
+"year": 1985, 
+"type": "sjlun", 
+"genre": "tldhinnkqt"
+},
+{
+"name": "wuzuewwfl", 
+"year": 1998, 
+"type": "lthgch", 
+"genre": "dfwdhjgdxxbkeyn"
+},
+{
+"name": "yhhkccur", 
+"year": 1985, 
+"type": "ysmhcibas", 
+"genre": "khlxzykrvku"
+},
+{
+"name": "pnkzbqgohexjeh", 
+"year": 2004, 
+"type": "qkymylquevltlzwmu", 
+"genre": "rwm"
+},
+{
+"name": "wugkqjhgjdmwu", 
+"year": 1996, 
+"type": "ejasjowsmaby", 
+"genre": "yih"
+},
+{
+"name": "n", 
+"year": 1963, 
+"type": "zeufnspmunbgczlhmor", 
+"genre": "ufovpxt"
+},
+{
+"name": "xjkqkq", 
+"year": 1969, 
+"type": "etbyscotsbwnshx", 
+"genre": "uvaayxapat"
+},
+{
+"name": "cjolpex", 
+"year": 1954, 
+"type": "naasfxuzyqrqnieyf", 
+"genre": "uvahmzkkjwq"
+},
+{
+"name": "densuyucyjib", 
+"year": 1979, 
+"type": "spqi", 
+"genre": "vdjaeyiercxvbpijt"
+},
+{
+"name": "pmkmzm", 
+"year": 1977, 
+"type": "dtatowzwgfopbixaub", 
+"genre": "zxeuopkyrvbombh"
+},
+{
+"name": "he", 
+"year": 1956, 
+"type": "dqcbpxbugzelsg", 
+"genre": "y"
+},
+{
+"name": "qjgetmxnesjijj", 
+"year": 1961, 
+"type": "lz", 
+"genre": "wj"
+},
+{
+"name": "qsqdk", 
+"year": 1965, 
+"type": "okzfltukja", 
+"genre": "wbucrgaxsxuyy"
+},
+{
+"name": "oqdvly", 
+"year": 1955, 
+"type": "rx", 
+"genre": "nvbrsgyyka"
+},
+{
+"name": "w", 
+"year": 1991, 
+"type": "tmttfn", 
+"genre": "cgyufotbw"
+},
+{
+"name": "wzobjeyuxy", 
+"year": 1968, 
+"type": "cspdkyfa", 
+"genre": "bmblocwm"
+},
+{
+"name": "moepphuwdoz", 
+"year": 1952, 
+"type": "fwopfbxqigizf", 
+"genre": "nsvvj"
+},
+{
+"name": "kwspxjngfwjtzq", 
+"year": 1961, 
+"type": "zqczmedbeor", 
+"genre": "jxnlylgcjoslmgqh"
+},
+{
+"name": "chjav", 
+"year": 2018, 
+"type": "poemxvlic", 
+"genre": "rgbgayq"
+},
+{
+"name": "mcbdw", 
+"year": 1958, 
+"type": "gircuzgbgjbz", 
+"genre": "vzo"
+},
+{
+"name": "cquz", 
+"year": 2018, 
+"type": "leokgfppowrmufijw", 
+"genre": "ezdd"
+},
+{
+"name": "gxothpxxc", 
+"year": 1981, 
+"type": "muguuqpkwubtlllu", 
+"genre": "jfhc"
+},
+{
+"name": "bwjooko", 
+"year": 1999, 
+"type": "ucclsapsza", 
+"genre": "pcffj"
+},
+{
+"name": "dvas", 
+"year": 2010, 
+"type": "relaqnyhrjijwghwu", 
+"genre": "zqowxswwcwik"
+},
+{
+"name": "ffasmyshyb", 
+"year": 1986, 
+"type": "yjycp", 
+"genre": "zhvazzcjzmmhaxxp"
+},
+{
+"name": "ckxkza", 
+"year": 1965, 
+"type": "xfslarkzybxekyuoa", 
+"genre": "ttsrpbdlawukzql"
+},
+{
+"name": "fon", 
+"year": 1995, 
+"type": "ax", 
+"genre": "zoueynfrfgxqgh"
+},
+{
+"name": "jcwaefczsbgy", 
+"year": 1984, 
+"type": "wayxytqklz", 
+"genre": "qdessvutkh"
+},
+{
+"name": "difcd", 
+"year": 1960, 
+"type": "ppsz", 
+"genre": "fcsogolpclkhqlst"
+},
+{
+"name": "oqjajxxtkjnh", 
+"year": 2017, 
+"type": "bpro", 
+"genre": "agneyrceelix"
+},
+{
+"name": "gfo", 
+"year": 1997, 
+"type": "pbbolhjob", 
+"genre": "bbujmcs"
+},
+{
+"name": "bychzkztc", 
+"year": 1958, 
+"type": "nktwsklyrmmirivba", 
+"genre": "zlixeodskrdqg"
+},
+{
+"name": "ljwz", 
+"year": 1970, 
+"type": "tbjrsgtiwbtu", 
+"genre": "graekn"
+},
+{
+"name": "gejirjnr", 
+"year": 2008, 
+"type": "ripyxiwsgipbjwyr", 
+"genre": "zxsxzey"
+},
+{
+"name": "liamxgdmaychb", 
+"year": 2017, 
+"type": "ksxdlynfagx", 
+"genre": "unkqxlinyqdslvmig"
+},
+{
+"name": "s", 
+"year": 1997, 
+"type": "yxqxgasalolqqbl", 
+"genre": "qalcvcvunsqn"
+},
+{
+"name": "h", 
+"year": 1951, 
+"type": "vndbgxgkyxzu", 
+"genre": "hj"
+},
+{
+"name": "tmvuvlgfh", 
+"year": 2005, 
+"type": "us", 
+"genre": "w"
+},
+{
+"name": "otxfu", 
+"year": 1997, 
+"type": "dxkuvkgscliuuusg", 
+"genre": "lbves"
+},
+{
+"name": "amaaqnyzgh", 
+"year": 2016, 
+"type": "ftfmxdwpgjmy", 
+"genre": "jfdjtpbzngoo"
+},
+{
+"name": "gdrtkb", 
+"year": 1962, 
+"type": "xpjthj", 
+"genre": "uqymgwoxtfnuk"
+},
+{
+"name": "fwicil", 
+"year": 1973, 
+"type": "dtxmstxpfyxojfnjysk", 
+"genre": "qnupzhzywyilt"
+},
+{
+"name": "ijjhujau", 
+"year": 1968, 
+"type": "kaor", 
+"genre": "uehkgyrdi"
+}
+]

@@ -40,8 +40,7 @@ namespace EDDProyecto.Controllers
         }
 
         public ActionResult Login()
-        {
-         //   Session["UsersTree"] = Session["UsersTree"] ?? UsersTree; 
+        {        
             Session["admin"] = Session["admin"] ?? Admin;
             Admin.Username = "admin";
             Admin.Password = "admin";
@@ -54,7 +53,6 @@ namespace EDDProyecto.Controllers
         public ActionResult Registrar()
         {
             UsersTree.Cerrar();
-
             return View();
         }
 
@@ -144,19 +142,19 @@ namespace EDDProyecto.Controllers
                     File.SaveAs(path);
                     using (StreamReader reader = new StreamReader(path))
                     {
-                        // UsersTree = (ArbolB<Usuario>)Session["ABBCadena"];                       
-
                         string info = reader.ReadToEnd();
                         List<Usuario> lista = JsonConvert.DeserializeObject<List<Usuario>>(info);
 
+                        {
+
+                        }
                         //ATENCION, agregar los arboles en base a sus parametros dados en el PDF 
 
-                        //for (int i = 0; i < lista.Count; i++)
-                        //{
-                        //    int llave = (int)GetASCII(lista.ElementAt(i).Username);
-                        //    UsersTree.Agregar(llave, new Usuario(lista.ElementAt(i)));
-                        //}
-                      
+                        for (int i = 0; i < lista.Count; i++)
+                        {                           
+                            UsersTree.Agregar(lista.ElementAt(i).Username, new Usuario(lista.ElementAt(i)));
+                        }
+
                     }
                 }
             }

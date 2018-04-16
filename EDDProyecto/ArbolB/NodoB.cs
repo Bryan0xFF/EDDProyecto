@@ -25,7 +25,7 @@ namespace ArbolB
             get
             {
                 int i = 0;
-                while (i < Llaves.Count && Llaves[i] != "")
+                while (i < Llaves.Count && Llaves[i] != "xxxxxxxxxxxxxxxxxxxx")
                 {
                     i++;
                 }
@@ -161,7 +161,7 @@ namespace ArbolB
 
             for (int i = 0; i < Orden - 1; i++)
             {
-                Llaves.Add("");
+                Llaves.Add("xxxxxxxxxxxxxxxxxxxx");
             }
 
             Datos = new List<T>();
@@ -273,7 +273,7 @@ namespace ArbolB
 
             for (int i = 0; i < Llaves.Count; i++)
             {
-                if ((Llaves[i].CompareTo(llave) > 0) || (Llaves[i] == ""))
+                if ((Llaves[i].CompareTo(llave) > 0) || (Llaves[i] == "xxxxxxxxxxxxxxxxxxxx"))
                 {
                     posicion = i;
                     break;
@@ -308,7 +308,7 @@ namespace ArbolB
             {
                 throw new IndexOutOfRangeException("El nodo está lleno, ya no puede insertar más datos");
             }
-            if (llave == "")
+            if (llave == "xxxxxxxxxxxxxxxxxxxx")
             {
                 throw new ArgumentOutOfRangeException("llave");
             }
@@ -375,7 +375,7 @@ namespace ArbolB
                 throw new Exception("Uno nodo solo puede separarse si está lleno");
             }
             // Incrementar el tamaño de las listas en una posición 
-            Llaves.Add("");
+            Llaves.Add("xxxxxxxxxxxxxxxxxxxx");
             Datos.Add(dato);
             Hijos.Add(Utilidades.ApuntadorVacio);
 
@@ -386,7 +386,7 @@ namespace ArbolB
             int mitad = (Orden / 2);
             llavePorSubir = Llaves[mitad];
             datoPorSubir = Datos[mitad];
-            Llaves[mitad] = "";
+            Llaves[mitad] = "xxxxxxxxxxxxxxxxxxxx";
 
             // Llenar las llaves y datos que pasan al nuevo nodo 
             int j = 0;
@@ -394,7 +394,7 @@ namespace ArbolB
             {
                 nuevoNodo.Llaves[j] = Llaves[i];
                 nuevoNodo.Datos[j] = Datos[i];
-                Llaves[i] = "";
+                Llaves[i] = "xxxxxxxxxxxxxxxxxxxx";
                 j++;
             }
 

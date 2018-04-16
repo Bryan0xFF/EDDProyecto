@@ -48,6 +48,7 @@ namespace EDDProyecto.Models
             Password = usuario.Password;
 
             watchlist = new ArbolB<Video>(3, Username + ".watchlist", new FabricaVideo());
+            watchlist.Cerrar();
         }
 
         public int FixedSizeText
