@@ -55,7 +55,6 @@ namespace EDDProyecto.Controllers
         // GET: Video
         public ActionResult Index()
         {
-            Session["contador"] = Session["contador"] ?? contador; 
             CerrarTodo();
             return View();
         }
