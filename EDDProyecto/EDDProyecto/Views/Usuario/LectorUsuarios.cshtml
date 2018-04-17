@@ -4,16 +4,17 @@
 
 <!DOCTYPE html>
 
+<h1  align="center"> Cargar archivo con usuarios a crear</h1>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Lector</title>
+    <title>Lector de Json para usuarios</title>
 </head>
 <body>
     @using (Html.BeginForm("InsertarUsuarios", "Usuario", FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
         @ViewBag.Error
-        <table cellpadding="20" cellspacing="20">
+        <table cellpadding="25" cellspacing="50"  align="center">
             <tr>
                 <td> Archivo Json</td>
                 <td> <input type="file" name="File" /></td>

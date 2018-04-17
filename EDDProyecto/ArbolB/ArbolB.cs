@@ -201,7 +201,11 @@ namespace ArbolB
             }
         }
 
+<<<<<<< HEAD
         public override void Agregar(string llave, T dato)
+=======
+        public override void Agregar(string llave, T dato, string llaveAux)
+>>>>>>> ArbolPrueba
         {
             try
             {
@@ -214,7 +218,12 @@ namespace ArbolB
             }
             catch (Exception)
             {
+<<<<<<< HEAD
                 
+=======
+                string nuevaLlave = llave + llaveAux;
+                AgregarRecursivo(_raiz, nuevaLlave, dato);              
+>>>>>>> ArbolPrueba
             }
             
         }

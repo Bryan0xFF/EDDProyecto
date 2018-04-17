@@ -61,6 +61,7 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Out()
         {
+            CerrarTodo(); 
             return RedirectToAction("Logout", "Usuario");
         }
 
@@ -80,25 +81,39 @@ namespace EDDProyecto.Controllers
             //}
         }
 
+        //Insercion manual de videos 
         public ActionResult Ingreso(Video video)
         {
 
             if (video.Tipo == "Show")
             {
+<<<<<<< HEAD
                 NameShowTree.Agregar(video.Nombre, video);
                 YearShowTree.Agregar(video.AñoLanzamiento.ToString(), video);
                 GenderShowTree.Agregar(video.Genero, video);
+=======
+                NameShowTree.Agregar(video.Nombre, video, "");
+                YearShowTree.Agregar(video.AñoLanzamiento.ToString(), video, video.Nombre);
+                GenderShowTree.Agregar(video.Genero, video, video.Nombre);
+>>>>>>> ArbolPrueba
             }
 
             if (video.Tipo == "Pel�cula")
             {
+<<<<<<< HEAD
                 NameMovieTree.Agregar(video.Nombre, video);
                 YearMovieTree.Agregar(video.AñoLanzamiento.ToString(), video);
                 GenderMovieTree.Agregar(video.Genero, video);
+=======
+                NameMovieTree.Agregar(video.Nombre, video, "");
+                YearMovieTree.Agregar(video.AñoLanzamiento.ToString(), video, video.Nombre);
+                GenderMovieTree.Agregar(video.Genero, video, video.Nombre);
+>>>>>>> ArbolPrueba
             }
 
             if (video.Tipo == "Documental")
             {
+<<<<<<< HEAD
                 NameDocumentaryTree.Agregar(video.Nombre, video);
                 YearDocumentaryTree.Agregar(video.AñoLanzamiento.ToString(), video);
                 GenderDocumentaryTree.Agregar(video.Genero, video);
@@ -108,6 +123,12 @@ namespace EDDProyecto.Controllers
                 CerrarTodo();
                 return View();
             }
+=======
+                NameDocumentaryTree.Agregar(video.Nombre, video,"");
+                YearDocumentaryTree.Agregar(video.AñoLanzamiento.ToString(), video, video.Nombre);
+                GenderDocumentaryTree.Agregar(video.Genero, video, video.Nombre);
+            }           
+>>>>>>> ArbolPrueba
 
             CerrarTodo();
             return View("CreateVideoSuccess");
@@ -126,20 +147,21 @@ namespace EDDProyecto.Controllers
             return contentType.FileName.EndsWith(".json");
         }
 
+        //Insercion por carga de archivos para videos
         [HttpPost]
         public ActionResult InsertarArchivo(HttpPostedFileBase File)
         {
             if (File == null || File.ContentLength == 0)
             {
                 ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
-                return View("CatalogoAdmin");
+                return View("Lector");
             }
             else
             {
                 if (!isValidContentType(File))
                 {
                     ViewBag.Error = "Solo archivos Json son válidos para la entrada";
-                    return View("CatalogoAdmin");
+                    return View("Lector");
                 }
 
                 if (File.ContentLength > 0)
@@ -159,23 +181,41 @@ namespace EDDProyecto.Controllers
                             {
                                 if (lista.ElementAt(i).Tipo == "Show")
                                 {
+<<<<<<< HEAD
                                     NameShowTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i));
                                     YearShowTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i));
                                     GenderShowTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i));                                 
+=======
+                                    NameShowTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i), "");
+                                    YearShowTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i), lista.ElementAt(i).Nombre);
+                                    GenderShowTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i), lista.ElementAt(i).Nombre);                                 
+>>>>>>> ArbolPrueba
                                 }
 
                                 if (lista.ElementAt(i).Tipo == "Pel�cula")
                                 {
+<<<<<<< HEAD
                                     NameMovieTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i));
                                     YearMovieTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i));
                                     GenderMovieTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i));
+=======
+                                    NameMovieTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i),"");
+                                    YearMovieTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i), lista.ElementAt(i).Nombre);
+                                    GenderMovieTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i), lista.ElementAt(i).Nombre);
+>>>>>>> ArbolPrueba
                                 }
 
                                 if (lista.ElementAt(i).Tipo == "Documental")
                                 {
+<<<<<<< HEAD
                                     NameDocumentaryTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i));
                                     YearDocumentaryTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i));
                                     GenderDocumentaryTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i));
+=======
+                                    NameDocumentaryTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i), "");
+                                    YearDocumentaryTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i), lista.ElementAt(i).Nombre);
+                                    GenderDocumentaryTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i), lista.ElementAt(i).Nombre);
+>>>>>>> ArbolPrueba
                                 }
                             }
                         }
@@ -187,7 +227,7 @@ namespace EDDProyecto.Controllers
                 }
             }
             CerrarTodo();
-            return View();
+            return View("CreateVideoSuccess");
         }
 
         [HttpGet]
@@ -203,6 +243,7 @@ namespace EDDProyecto.Controllers
             CerrarTodo();
             return RedirectToAction("LecturaArchivoU", "Usuario"); 
         }
+
         [HttpGet]
         public ActionResult InsertarManual()
         {
@@ -210,6 +251,7 @@ namespace EDDProyecto.Controllers
             return View();
         }
 
+        //Insercion manual de usuarios en el admin
         [HttpPost]
         public ActionResult InsertarManual(Usuario newuser)
         {

@@ -3,17 +3,16 @@
 }
 
 <!DOCTYPE html>
-
-<html>
+<h1 align="center"> Cargar archivo con videos a añadir</h1>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Lector</title>
+    <title>Lector de videos</title>
 </head>
 <body>
     @using (Html.BeginForm("InsertarArchivo", "Video", FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
         @ViewBag.Error
-        <table cellpadding="2" cellspacing="2">
+        <table cellpadding="25" cellspacing="50"  align="center">
             <tr>
                 <td> Archivo Json</td>
                 <td> <input type="file" name="File" /></td>

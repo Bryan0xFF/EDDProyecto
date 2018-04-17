@@ -23,7 +23,8 @@ namespace EDDProyecto.Controllers
         // GET: Usuario
         public ActionResult MenuPrincipalAdmin()
         {
-            return RedirectToAction("CatalogoAdmin", "Video");
+            UsersTree.Cerrar();
+            return RedirectToAction("RedirectAdmin", "Video");
         }
 
         public ActionResult Login()
@@ -47,7 +48,11 @@ namespace EDDProyecto.Controllers
         public ActionResult Register(Usuario user)
         {
             int n = 0;
+<<<<<<< HEAD
             UsersTree.Agregar(user.Username, user);
+=======
+            UsersTree.Agregar(user.Username, user, "");
+>>>>>>> ArbolPrueba
             UsersTree.Cerrar();
             return View("CreateUserSuccess"); 
         }
@@ -92,6 +97,7 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Logout()
         {
+            UsersTree.Cerrar();
             return View("Login"); 
         }
 
@@ -115,14 +121,14 @@ namespace EDDProyecto.Controllers
             if (File == null || File.ContentLength == 0)
             {
                 ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
-                return View("CatalogoAdmin");
+                return View("LectorUsuarios");
             }
             else
             {
                 if (!isValidContentType(File))
                 {
                     ViewBag.Error = "Solo archivos Json son válidos para la entrada";
-                    return View("CatalogoAdmin");
+                    return View("LectorUsuarios");
                 }
 
                 if (File.ContentLength > 0)
@@ -139,13 +145,17 @@ namespace EDDProyecto.Controllers
 
                         for (int i = 0; i < lista.Count; i++)
                         {                           
+<<<<<<< HEAD
                             UsersTree.Agregar(lista.ElementAt(i).Username, new Usuario(lista.ElementAt(i)));
+=======
+                            UsersTree.Agregar(lista.ElementAt(i).Username, new Usuario(lista.ElementAt(i)),"");
+>>>>>>> ArbolPrueba
                         }
                     }
                 }
             }
             UsersTree.Cerrar();
-            return View(); 
+            return View("CreateUserSuccess"); 
         }
 
         [HttpGet]
