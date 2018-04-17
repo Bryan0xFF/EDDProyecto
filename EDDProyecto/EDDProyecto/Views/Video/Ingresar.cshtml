@@ -5,11 +5,35 @@
 
 <h1>Registrar</h1>
 
+
+@{
+    var listado = new List<SelectListItem>()
+{
+new SelectListItem()
+{
+Text = "Show",
+Value = "Show",
+},
+
+new SelectListItem ()
+{
+Text = "Película",
+Value = "Pel�cula",
+},
+new SelectListItem ()
+{
+Text = "Documental",
+Value = "Documental",
+}
+};
+
+}
+
+
 @using (Html.BeginForm("Ingreso", "Video", FormMethod.Post))
 {
-    <p>Tipo</p>
-    <p>@Html.TextBoxFor(Model => Model.Tipo, null, new { @maxlength = 20 })</p>
-    @Html.ValidationMessageFor(Model => Model.Tipo)
+    <p>Tipo </p>
+    <p> @Html.DropDownListFor(Model => Model.Tipo, listado)</p>
     <p>Nombre</p>
     <p>@Html.TextBoxFor(Model => Model.Nombre, null, new { @maxlength = 25 }) </p>
     @Html.ValidationMessageFor(Model => Model.Nombre)

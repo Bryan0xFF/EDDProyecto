@@ -8,10 +8,10 @@
     <div align="center">
         <h1>Login</h1>
         <p>Usuario: </p>
-        <p>@Html.TextBoxFor(Model => Model.Username)</p>
+        <p>@Html.TextBoxFor(Model => Model.Username, null, new { @maxlength = 20 })</p>
 
         <p>Contraseña:</p>
-        <p>@Html.PasswordFor(Model => Model.Password)</p>
+        <p>@Html.PasswordFor(Model => Model.Password, new { @maxlength = 20 })</p>
 
         <input type="Submit" name="Ingresar" value="Ingresar" />
     </div>

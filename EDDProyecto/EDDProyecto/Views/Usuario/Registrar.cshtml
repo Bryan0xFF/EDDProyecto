@@ -8,15 +8,15 @@
 @using (Html.BeginForm("Register", "Usuario", FormMethod.Post))
 {
     <p>Nombre</p>
-    <p>@Html.TextBoxFor(Model => Model.Nombre)</p>
+    <p>@Html.TextBoxFor(Model => Model.Nombre, null, new { @maxlength = 20 })</p>
     <p>Apellido</p>
-    <p>@Html.TextBoxFor(Model => Model.Apellido) </p>
+    <p>@Html.TextBoxFor(Model => Model.Apellido, null, new { @maxlength = 20 }) </p>
     <p>Edad</p>
-    <p>@Html.TextBoxFor(Model => Model.Edad)</p>
+    <p>@Html.TextBoxFor(Model => Model.Edad, null, new { @maxlength = 2 })</p>
     <p>Usuario</p>
-    <p>@Html.TextBoxFor(Model => Model.Username)</p>
+    <p>@Html.TextBoxFor(Model => Model.Username, null, new { @maxlength = 15})</p>
     <p>Contraseña</p>
-    <p>@Html.TextBoxFor(Model => Model.Password)</p>
+    <p>@Html.PasswordFor(Model => Model.Password, new { @maxlength = 20 })</p>
 
     <input type ="submit" name="Registrar" value="Ingresar" />
 }

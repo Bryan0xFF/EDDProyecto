@@ -111,12 +111,7 @@ namespace EDDProyecto.Controllers
                 NameDocumentaryTree.Agregar(video.Nombre, video, ref Utilidades.countDocumentaryName);
                 YearDocumentaryTree.Agregar(video.AñoLanzamiento.ToString(), video, ref Utilidades.countDocumentaryYear);
                 GenderDocumentaryTree.Agregar(video.Genero, video, ref Utilidades.countDocumentaryGenre);
-            }
-            else
-            {
-                CerrarTodo();
-                return View();
-            }
+            }           
 
             CerrarTodo();
             return View("CreateVideoSuccess");
