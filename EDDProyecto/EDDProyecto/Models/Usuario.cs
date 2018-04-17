@@ -17,7 +17,7 @@ namespace EDDProyecto.Models
         public string Apellido { get; set; }
         [Required]
         public int Edad { get; set; }
-        [Required]
+        [MaxLength(20)]
         public string Username { get; set; }
         [Required]
         [DataType(DataType.Password)]

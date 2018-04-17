@@ -21,9 +21,9 @@ namespace EDDProyecto.Controllers
 
 
         // GET: Usuario
-        public ActionResult Index()
+        public ActionResult MenuPrincipalAdmin()
         {
-            return View();
+            return RedirectToAction("CatalogoAdmin", "Video");
         }
 
         public ActionResult Login()
@@ -88,6 +88,11 @@ namespace EDDProyecto.Controllers
 
                 return View("LogError");
             }         
+        }
+
+        public ActionResult Logout()
+        {
+            return View("Login"); 
         }
 
         [HttpGet]

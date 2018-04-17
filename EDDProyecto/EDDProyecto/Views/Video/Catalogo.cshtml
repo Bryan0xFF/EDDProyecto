@@ -5,23 +5,10 @@
 
 <h1>Catálogo</h1>
 
-<table cellpadding="30" cellspacing="20" border="1">
-    <tr>
-        <th>Tipo</th>
-        <th>Nombre</th>
-        <th>Año de lanzamiento</th>
-        <th>Género</th>
-    </tr>
 
-    @*@for (int i = 0; i < Model.Count; i++)
-    {
-        <tr>
-            <td>@Model.ElementAt(i).Value.NombrePais </td>
-            <td>@Model.ElementAt(i).Value.Grupo </td>
-            <td>@Html.ActionLink("Delete", "Delete", "Paises", new { id = i }, null)</td>
-        </tr>
-    }*@
-</table>
-
+<p> @Html.ActionLink("Agregar contenido a mi watchlist", "AddWatchlist")</p>
+<p> @Html.ActionLink("Ver mi watchlist", "ViewWatchlist")</p>
+<p> </p>
+<p> @Html.ActionLink("Cerrar sesión", "Out")</p>
 
 
