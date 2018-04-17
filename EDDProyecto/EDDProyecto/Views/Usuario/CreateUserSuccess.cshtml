@@ -3,8 +3,10 @@
     ViewBag.Title = "CreateUserSuccess";   
 }
 
-<h1>Se ha creado su usuario con éxito</h1>
-<h3>Regrese al menú principal para iniciar sesión</h3>
+<h1>Se ha creado el usuario con éxito</h1>
 
-@Html.ActionLink("Iniciar sesión", "Login")
+
+<p>@Html.ActionLink("Cerrar sesión", "Logout") </p>
+<p>@Html.ActionLink("Regresar a menú principal", "MenuPrincipalAdmin")</p>
+
 

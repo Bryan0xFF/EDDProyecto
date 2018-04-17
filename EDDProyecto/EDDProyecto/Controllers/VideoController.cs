@@ -61,6 +61,11 @@ namespace EDDProyecto.Controllers
             return View();
         }
 
+        public ActionResult Out()
+        {
+            return RedirectToAction("Logout", "Usuario");
+        }
+
         public ActionResult Ingresar()
         {
             CerrarTodo();
@@ -174,11 +179,18 @@ namespace EDDProyecto.Controllers
             CerrarTodo();
             return RedirectToAction("LecturaArchivoU", "Usuario"); 
         }
+        [HttpGet]
+        public ActionResult InsertarManual()
+        {
+            CerrarTodo();
+            return View();
+        }
 
         [HttpPost]
         public ActionResult InsertarManual(Usuario newuser)
         {
             CerrarTodo();
+
             return View("CreateUserSuccess");
         }
 
