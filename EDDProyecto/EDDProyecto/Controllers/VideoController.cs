@@ -84,6 +84,13 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Ingreso(Video video)
         {
+            int.TryParse(video.AñoLanzamiento, out int n);
+
+            if (n == 0)
+            {
+                CerrarTodo();
+                return View();
+            }
 
             if (video.Tipo == "Show")
             {
