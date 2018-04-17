@@ -20,7 +20,7 @@ namespace EDDProyecto.Models
         [JsonProperty ("genre")]
         public string Genero { get; set; }
 
-        private const string FormatoVideo = "xxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxx";
+        private const string FormatoVideo = "xxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxx-xxxxxxxxxxxxxxxxxxxx";
 
 
         public Video()
@@ -42,7 +42,7 @@ namespace EDDProyecto.Models
         {
             get
             {
-                return 78;
+                return 77;
             }
         }
 
@@ -53,9 +53,9 @@ namespace EDDProyecto.Models
             StringBuilder sb = new StringBuilder();
             sb.Append(Tipo.PadLeft(20, 'x'));
             sb.Append('-');
-            sb.Append(Nombre.PadLeft(25, 'x'));
+            sb.Append(Nombre.PadLeft(30, 'x'));
             sb.Append('-');
-            sb.Append(AñoLanzamiento.ToString().PadLeft(10, 'x'));
+            sb.Append(AñoLanzamiento.ToString().PadLeft(4, 'x'));
             sb.Append('-');
             sb.Append(Genero.PadLeft(20, 'x'));
             return sb.ToString();

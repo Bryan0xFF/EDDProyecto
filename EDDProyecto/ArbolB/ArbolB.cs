@@ -201,7 +201,7 @@ namespace ArbolB
             }
         }
 
-        public override void Agregar(string llave, T dato, ref int count)
+        public override void Agregar(string llave, T dato)
         {
             try
             {
@@ -214,9 +214,7 @@ namespace ArbolB
             }
             catch (Exception)
             {
-                string nuevaLlave = llave + "(" + count + ")";
-                AgregarRecursivo(_raiz, nuevaLlave, dato);
-                count++;
+                
             }
             
         }
