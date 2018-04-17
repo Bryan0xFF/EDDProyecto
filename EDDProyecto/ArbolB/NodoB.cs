@@ -288,7 +288,9 @@ namespace ArbolB
 
             for (int i = 0; i < Llaves.Count; i++)
             {
-                if (llave == Llaves[i])
+                string temp = Llaves[i].Trim('x');
+
+                if (llave == temp)
                 {
                     posicion = i;
                     break;

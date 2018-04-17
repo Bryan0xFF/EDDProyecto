@@ -11,20 +11,7 @@ using EDDProyecto.Controllers;
 
 
 namespace EDDProyecto.Controllers
-{
-    enum TipoPelicula
-    {
-        Show,
-        Movie,
-        Documentary
-    };
-
-    enum TipoInsercion
-    {
-        Name,
-        Year,
-        Gender
-    };
+{ 
 
     public class UsuarioController : Controller
     {
@@ -60,7 +47,7 @@ namespace EDDProyecto.Controllers
         public ActionResult Register(Usuario user)
         {
             
-            UsersTree.Agregar(user.Username, user);
+            UsersTree.Agregar(user.Username, user,0);
             UsersTree.Cerrar();
             return View("CreateUserSuccess"); 
         }
@@ -143,23 +130,16 @@ namespace EDDProyecto.Controllers
                     using (StreamReader reader = new StreamReader(path))
                     {
                         string info = reader.ReadToEnd();
-                        List<Usuario> lista = JsonConvert.DeserializeObject<List<Usuario>>(info);
-
-                        {
-
-                        }
-                        //ATENCION, agregar los arboles en base a sus parametros dados en el PDF 
+                        List<Usuario> lista = JsonConvert.DeserializeObject<List<Usuario>>(info);                        
 
                         for (int i = 0; i < lista.Count; i++)
                         {                           
-                            UsersTree.Agregar(lista.ElementAt(i).Username, new Usuario(lista.ElementAt(i)));
+                            UsersTree.Agregar(lista.ElementAt(i).Username, new Usuario(lista.ElementAt(i)),0);
                         }
-
                     }
                 }
             }
             UsersTree.Cerrar();
-
             return View(); 
         }
 

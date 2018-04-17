@@ -1,0 +1,32 @@
+[
+    {
+        "name": "An Inconvenient Truth",
+        "year": 2006,
+        "type": "Documental",
+        "genre": "Medio Ambiente"
+    },
+    {
+        "name": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "Película",
+        "genre": "Acción"
+    },
+    {
+        "name": "How I met your Mother",
+        "year": 2005,
+        "type": "Show",
+        "genre": "Sitcom"
+    },
+    {
+        "name": "An Inconvenient Truth",
+        "year": 2006,
+        "type": "Documental",
+        "genre": "Medio Ambiente"
+    },
+    {
+        "name": "An Inconvenient Truth",
+        "year": 2006,
+        "type": "Documental",
+        "genre": "Medio Ambiente"
+    }
+]

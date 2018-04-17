@@ -11,7 +11,7 @@ namespace ArbolB
     {
         public int Tamaño { get; protected set; }
 
-        public abstract void Agregar(TLlave llave, T dato);
+        public abstract void Agregar(TLlave llave, T dato, int count);
 
         public abstract void Eliminar(TLlave llave);
 

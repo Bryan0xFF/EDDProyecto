@@ -7,7 +7,7 @@ using System.IO;
 
 namespace ArbolB
 {
-    internal static class Utilidades
+    public static class Utilidades
     {
 
         #region Utilidades Texto
@@ -41,6 +41,19 @@ namespace ArbolB
         #region UTilidades Bytes
 
         internal const int BinarioCaracterTamaño = 1; // Debido al UTF32
+
+        public static int countMovieYear = 0;
+        public static int countMovieName = 0;
+        public static int countMovieGenre = 0;
+
+        public static int countDocumentaryYear = 0;
+        public static int countDocumentaryName = 0;
+        public static int countDocumentaryGenre = 0;
+
+        public static int countShowYear = 0;
+        public static int countShowName = 0;
+        public static int countShowGenre = 0;
+
 
         internal static string ConvertirBinarioYTexto(byte[] datosBinario)
         {

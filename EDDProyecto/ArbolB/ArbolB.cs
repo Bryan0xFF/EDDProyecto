@@ -201,14 +201,24 @@ namespace ArbolB
             }
         }
 
-        public override void Agregar(string llave, T dato)
+        public override void Agregar(string llave, T dato, int count)
         {
-            if (llave == "")
+            try
             {
-                throw new ArgumentOutOfRangeException("llave");
+                if (llave == "")
+                {
+                    throw new ArgumentOutOfRangeException("llave");
+                }
+                AgregarRecursivo(_raiz, llave, dato);
+                Tamaño++;
             }
-            AgregarRecursivo(_raiz, llave, dato);
-            Tamaño++;
+            catch (Exception)
+            {
+                string nuevaLlave = llave + "(" + count + ")";
+                AgregarRecursivo(_raiz, nuevaLlave, dato);
+                count++;
+            }
+            
         }
 
         public override T Obtener(string llave)
