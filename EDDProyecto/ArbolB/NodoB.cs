@@ -25,7 +25,7 @@ namespace ArbolB
             get
             {
                 int i = 0;
-                while (i < Llaves.Count && Llaves[i] != "xxxxxxxxxxxxxxxxxxxx")
+                while (i < Llaves.Count && Llaves[i] != "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
                 {
                     i++;
                 }
@@ -161,7 +161,7 @@ namespace ArbolB
 
             for (int i = 0; i < Orden - 1; i++)
             {
-                Llaves.Add("xxxxxxxxxxxxxxxxxxxx");
+                Llaves.Add("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
             }
 
             Datos = new List<T>();
@@ -273,7 +273,7 @@ namespace ArbolB
 
             for (int i = 0; i < Llaves.Count; i++)
             {
-                if ((Llaves[i].CompareTo(llave) > 0) || (Llaves[i] == "xxxxxxxxxxxxxxxxxxxx"))
+                if ((Llaves[i].CompareTo(llave) > 0) || (Llaves[i] == "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"))
                 {
                     posicion = i;
                     break;
@@ -310,7 +310,7 @@ namespace ArbolB
             {
                 throw new IndexOutOfRangeException("El nodo está lleno, ya no puede insertar más datos");
             }
-            if (llave == "xxxxxxxxxxxxxxxxxxxx")
+            if (llave == "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
             {
                 throw new ArgumentOutOfRangeException("llave");
             }
@@ -377,7 +377,7 @@ namespace ArbolB
                 throw new Exception("Uno nodo solo puede separarse si está lleno");
             }
             // Incrementar el tamaño de las listas en una posición 
-            Llaves.Add("xxxxxxxxxxxxxxxxxxxx");
+            Llaves.Add("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
             Datos.Add(dato);
             Hijos.Add(Utilidades.ApuntadorVacio);
 
@@ -388,7 +388,7 @@ namespace ArbolB
             int mitad = (Orden / 2);
             llavePorSubir = Llaves[mitad];
             datoPorSubir = Datos[mitad];
-            Llaves[mitad] = "xxxxxxxxxxxxxxxxxxxx";
+            Llaves[mitad] = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
             // Llenar las llaves y datos que pasan al nuevo nodo 
             int j = 0;
@@ -396,7 +396,7 @@ namespace ArbolB
             {
                 nuevoNodo.Llaves[j] = Llaves[i];
                 nuevoNodo.Datos[j] = Datos[i];
-                Llaves[i] = "xxxxxxxxxxxxxxxxxxxx";
+                Llaves[i] = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
                 j++;
             }
 

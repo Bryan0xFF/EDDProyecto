@@ -46,8 +46,8 @@ namespace EDDProyecto.Controllers
         [HttpPost]
         public ActionResult Register(Usuario user)
         {
-            
-            UsersTree.Agregar(user.Username, user,0);
+            int n = 0;
+            UsersTree.Agregar(user.Username, user,ref Utilidades.UserCount);
             UsersTree.Cerrar();
             return View("CreateUserSuccess"); 
         }
@@ -134,7 +134,7 @@ namespace EDDProyecto.Controllers
 
                         for (int i = 0; i < lista.Count; i++)
                         {                           
-                            UsersTree.Agregar(lista.ElementAt(i).Username, new Usuario(lista.ElementAt(i)),0);
+                            UsersTree.Agregar(lista.ElementAt(i).Username, new Usuario(lista.ElementAt(i)),ref Utilidades.UserCount);
                         }
                     }
                 }

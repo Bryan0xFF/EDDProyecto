@@ -130,23 +130,23 @@ namespace EDDProyecto.Controllers
                             {
                                 if (lista.ElementAt(i).Tipo == "Show")
                                 {
-                                    NameShowTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i), Utilidades.countShowName);
-                                    YearShowTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i),Utilidades.countShowYear);
-                                    GenderShowTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i),Utilidades.countShowGenre);                                 
+                                    NameShowTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i), ref Utilidades.countShowName);
+                                    YearShowTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i),ref Utilidades.countShowYear);
+                                    GenderShowTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i),ref Utilidades.countShowGenre);                                 
                                 }
 
                                 if (lista.ElementAt(i).Tipo == "Pel�cula")
                                 {
-                                    NameMovieTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i), Utilidades.countMovieName);
-                                    YearMovieTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i), Utilidades.countMovieYear);
-                                    GenderMovieTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i), Utilidades.countMovieGenre);
+                                    NameMovieTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i), ref Utilidades.countMovieName);
+                                    YearMovieTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i),ref Utilidades.countMovieYear);
+                                    GenderMovieTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i), ref Utilidades.countMovieGenre);
                                 }
 
                                 if (lista.ElementAt(i).Tipo == "Documental")
                                 {
-                                    NameDocumentaryTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i), Utilidades.countDocumentaryName);
-                                    YearDocumentaryTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i),Utilidades.countDocumentaryYear);
-                                    GenderDocumentaryTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i),Utilidades.countDocumentaryGenre);
+                                    NameDocumentaryTree.Agregar(lista.ElementAt(i).Nombre, lista.ElementAt(i), ref Utilidades.countDocumentaryName);
+                                    YearDocumentaryTree.Agregar(lista.ElementAt(i).AñoLanzamiento.ToString(), lista.ElementAt(i),ref Utilidades.countDocumentaryYear);
+                                    GenderDocumentaryTree.Agregar(lista.ElementAt(i).Genero, lista.ElementAt(i),ref Utilidades.countDocumentaryGenre);
                                 }
                             }
                         }

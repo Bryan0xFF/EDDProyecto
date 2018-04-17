@@ -201,7 +201,7 @@ namespace ArbolB
             }
         }
 
-        public override void Agregar(string llave, T dato, int count)
+        public override void Agregar(string llave, T dato, ref int count)
         {
             try
             {
