@@ -42,19 +42,19 @@ namespace ArbolB
 
         internal const int BinarioCaracterTamaño = 1; // Debido al UTF32
 
-        public static int countMovieYear = 0;
-        public static int countMovieName = 0;
-        public static int countMovieGenre = 0;
+        public static int countMovieYear = 1;
+        public static int countMovieName = 1;
+        public static int countMovieGenre = 1;
 
-        public static int countDocumentaryYear = 0;
-        public static int countDocumentaryName = 0;
-        public static int countDocumentaryGenre = 0;
+        public static int countDocumentaryYear = 1;
+        public static int countDocumentaryName = 1;
+        public static int countDocumentaryGenre = 1;
 
-        public static int countShowYear = 0;
-        public static int countShowName = 0;
-        public static int countShowGenre = 0;
+        public static int countShowYear = 1;
+        public static int countShowName = 1;
+        public static int countShowGenre = 1;
 
-        public static int UserCount = 0;
+        public static int UserCount = 1;
 
         internal static string ConvertirBinarioYTexto(byte[] datosBinario)
         {

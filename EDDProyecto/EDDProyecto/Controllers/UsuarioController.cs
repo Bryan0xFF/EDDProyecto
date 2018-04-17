@@ -23,7 +23,8 @@ namespace EDDProyecto.Controllers
         // GET: Usuario
         public ActionResult MenuPrincipalAdmin()
         {
-            return RedirectToAction("CatalogoAdmin", "Video");
+            UsersTree.Cerrar();
+            return RedirectToAction("RedirectAdmin", "Video");
         }
 
         public ActionResult Login()
@@ -92,6 +93,7 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Logout()
         {
+            UsersTree.Cerrar();
             return View("Login"); 
         }
 
@@ -115,14 +117,14 @@ namespace EDDProyecto.Controllers
             if (File == null || File.ContentLength == 0)
             {
                 ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
-                return View("CatalogoAdmin");
+                return View("LectorUsuarios");
             }
             else
             {
                 if (!isValidContentType(File))
                 {
                     ViewBag.Error = "Solo archivos Json son válidos para la entrada";
-                    return View("CatalogoAdmin");
+                    return View("LectorUsuarios");
                 }
 
                 if (File.ContentLength > 0)
@@ -145,7 +147,7 @@ namespace EDDProyecto.Controllers
                 }
             }
             UsersTree.Cerrar();
-            return View(); 
+            return View("CreateUserSuccess"); 
         }
 
         [HttpGet]

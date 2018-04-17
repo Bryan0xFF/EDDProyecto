@@ -82,6 +82,7 @@ namespace EDDProyecto.Controllers
             //}
         }
 
+        //Insercion manual de videos 
         public ActionResult Ingreso(Video video)
         {
             int.TryParse(video.AñoLanzamiento, out int n);
@@ -130,20 +131,21 @@ namespace EDDProyecto.Controllers
             return contentType.FileName.EndsWith(".json");
         }
 
+        //Insercion por carga de archivos para videos
         [HttpPost]
         public ActionResult InsertarArchivo(HttpPostedFileBase File)
         {
             if (File == null || File.ContentLength == 0)
             {
                 ViewBag.Error = "El archivo seleccionado está vacío o no hay archivo seleccionado";
-                return View("CatalogoAdmin");
+                return View("Lector");
             }
             else
             {
                 if (!isValidContentType(File))
                 {
                     ViewBag.Error = "Solo archivos Json son válidos para la entrada";
-                    return View("CatalogoAdmin");
+                    return View("Lector");
                 }
 
                 if (File.ContentLength > 0)
@@ -191,7 +193,7 @@ namespace EDDProyecto.Controllers
                 }
             }
             CerrarTodo();
-            return View();
+            return View("CreateVideoSuccess");
         }
 
         [HttpGet]
@@ -207,6 +209,7 @@ namespace EDDProyecto.Controllers
             CerrarTodo();
             return RedirectToAction("LecturaArchivoU", "Usuario"); 
         }
+
         [HttpGet]
         public ActionResult InsertarManual()
         {
@@ -214,6 +217,7 @@ namespace EDDProyecto.Controllers
             return View();
         }
 
+        //Insercion manual de usuarios en el admin
         [HttpPost]
         public ActionResult InsertarManual(Usuario newuser)
         {
