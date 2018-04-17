@@ -8,13 +8,17 @@
 @using (Html.BeginForm("Ingreso", "Video", FormMethod.Post))
 {
     <p>Tipo</p>
-    <p>@Html.TextBoxFor(Model => Model.Tipo)</p>
+    <p>@Html.TextBoxFor(Model => Model.Tipo, null, new { @maxlength = 20 })</p>
+    @Html.ValidationMessageFor(Model => Model.Tipo)
     <p>Nombre</p>
-    <p>@Html.TextBoxFor(Model => Model.Nombre) </p>
+    <p>@Html.TextBoxFor(Model => Model.Nombre, null, new { @maxlength = 25 }) </p>
+    @Html.ValidationMessageFor(Model => Model.Nombre)
     <p>Año de lanzamiento</p>
-    <p>@Html.TextBoxFor(Model => Model.AñoLanzamiento)</p>
+    <p>@Html.TextBoxFor(Model => Model.AñoLanzamiento, null, new { @maxlength = 10 })</p>
+    @Html.ValidationMessageFor(Model => Model.AñoLanzamiento)
     <p>Género</p>
-    <p>@Html.TextBoxFor(Model => Model.Genero)</p>
+    <p>@Html.TextBoxFor(Model => Model.Genero, null, new { @maxlength = 20 })</p>
+    @Html.ValidationMessageFor(Model => Model.Genero)
 
     <input type="submit" name="Registrar" value="Ingresar" />
 }

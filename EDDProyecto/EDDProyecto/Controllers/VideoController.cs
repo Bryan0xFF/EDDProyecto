@@ -79,8 +79,34 @@ namespace EDDProyecto.Controllers
 
         public ActionResult Ingreso(Video video)
         {
+
+            if (video.Tipo == "Show")
+            {
+                NameShowTree.Agregar(video.Nombre, video, ref Utilidades.countShowName);
+                YearShowTree.Agregar(video.AñoLanzamiento.ToString(), video, ref Utilidades.countShowYear);
+                GenderShowTree.Agregar(video.Genero, video, ref Utilidades.countShowGenre);
+            }
+
+            if (video.Tipo == "Pel�cula")
+            {
+                NameMovieTree.Agregar(video.Nombre, video, ref Utilidades.countMovieName);
+                YearMovieTree.Agregar(video.AñoLanzamiento.ToString(), video, ref Utilidades.countMovieYear);
+                GenderMovieTree.Agregar(video.Genero, video, ref Utilidades.countMovieGenre);
+            }
+
+            if (video.Tipo == "Documental")
+            {
+                NameDocumentaryTree.Agregar(video.Nombre, video, ref Utilidades.countDocumentaryName);
+                YearDocumentaryTree.Agregar(video.AñoLanzamiento.ToString(), video, ref Utilidades.countDocumentaryYear);
+                GenderDocumentaryTree.Agregar(video.Genero, video, ref Utilidades.countDocumentaryGenre);
+            }
+            else
+            {
+                CerrarTodo();
+                return View();
+            }
+
             CerrarTodo();
-            //Ejecutar operacion de ingresa al arbol
             return View("CreateVideoSuccess");
         }
 
