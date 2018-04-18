@@ -71,9 +71,22 @@ namespace EDDProyecto.Models
             return this.Nombre.CompareTo(other.Nombre);
         }
 
-        public static List<Video> searchByName(ArbolB.ArbolB<Video> arbol, string dato)
+        public static Video SearchByName(ArbolB.ArbolB<Video> arbol, string dato)
         {
-            return null;
+            Video video = arbol.Obtener(dato);
+            return video;
+        }
+
+        public static Video SearchByYear(ArbolB.ArbolB<Video> arbol, string llave)
+        {
+            Video video = arbol.Obtener(llave);
+            return video;
+        }
+
+        public static Video SearchByGenre(ArbolB.ArbolB<Video> arbol, string llave)
+        {
+            Video video = arbol.Obtener(llave);
+            return video;
         }
     }
 }

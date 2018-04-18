@@ -203,6 +203,7 @@
     <Content Include="Views\Video\CreateVideoSuccess.cshtml" />
     <Content Include="Views\Video\Delete.cshtml" />
     <Content Include="Views\Video\Ingreso.cshtml" />
+    <Content Include="Views\Video\AdminBuscar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

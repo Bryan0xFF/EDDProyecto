@@ -205,17 +205,18 @@ namespace ArbolB
         {
             try
             {
-                if (llave == "")
+                if (llave == "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
                 {
                     throw new ArgumentOutOfRangeException("llave");
                 }
+
+                llave = llave + llaveAux;
                 AgregarRecursivo(_raiz, llave, dato);
                 Tamaño++;
             }
             catch (Exception)
             {
-                string nuevaLlave = llave + llaveAux;
-                AgregarRecursivo(_raiz, nuevaLlave, dato);
+               
             }
         }
 
@@ -353,9 +354,9 @@ namespace ArbolB
         }
 
 
-        public T Search(Delegate comparer, string dato)
+        public T Search(Delegate comparer, string llave)
         {
-            return (T)comparer.DynamicInvoke(this, dato);
+            return (T)comparer.DynamicInvoke(this, llave);
         }
     }
 }

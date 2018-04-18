@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "AdminBuscar";
+}
+
+<h2>AdminBuscar</h2>
+
+@{ 
+    var listadoPelicula = new List<SelectListItem>()
+    {
+    new SelectListItem()
+    {
+    Text = "Show",
+    Value = "1",
+    },
+
+    new SelectListItem ()
+    {
+    Text = "Película",
+    Value = "2",
+    },
+    new SelectListItem ()
+    {
+    Text = "Documental",
+    Value = "3",
+    }
+    };
+
+    var listadoBusqueda = new List<SelectListItem>()
+    {
+        new SelectListItem()
+        {
+            Text = "Nombre",
+            Value = "1"
+        },
+        new SelectListItem()
+        {
+            Text = "Año",
+            Value = "2"
+
+        },
+        new SelectListItem()
+        {
+            Text = "Genero",
+            Value = "3"
+        }
+    };
+}
+
+@using (Html.BeginForm("AdminBuscarPost","Video",FormMethod.Post))
+{
+    <p>seleccionar tipo de busqueda: <select name="comboBoxTipo" @Html.DropDownList("DropDownList", listadoPelicula)</p>
+    <p>seleccionar tipo busqueda: <select name="comboBoxBusqueda" @Html.DropDownList("DropDownList2", listadoBusqueda) </p>
+    <p>Llave a buscar: <input id="value" name="llave" type="text" value="" /></p>
+    <p>Nombre a buscar: <input id="value" name="llaveNombre" type="text" value="" /></p>
+    <input type="submit" name="Search" value="Search" />
+}
