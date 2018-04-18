@@ -7,16 +7,16 @@ using EDDProyecto.Models;
 using System.IO;
 using Newtonsoft.Json;
 using ArbolB;
-using EDDProyecto.Controllers; 
+using EDDProyecto.Controllers;
 
 
 namespace EDDProyecto.Controllers
-{ 
+{
 
     public class UsuarioController : Controller
     {
-         
-        Usuario Admin = new Usuario(); 
+
+        Usuario Admin = new Usuario();
         ArbolB<Usuario> UsersTree = new ArbolB<Usuario>(3, @"UsersTree.txt", new FabricaUsuario());
 
 
@@ -28,7 +28,7 @@ namespace EDDProyecto.Controllers
         }
 
         public ActionResult Login()
-        {        
+        {
             Session["admin"] = Session["admin"] ?? Admin;
             Admin.Username = "admin";
             Admin.Password = "admin";
@@ -48,13 +48,9 @@ namespace EDDProyecto.Controllers
         public ActionResult Register(Usuario user)
         {
             int n = 0;
-<<<<<<< HEAD
-            UsersTree.Agregar(user.Username, user);
-=======
             UsersTree.Agregar(user.Username, user, "");
->>>>>>> ArbolPrueba
             UsersTree.Cerrar();
-            return View("CreateUserSuccess"); 
+            return View("CreateUserSuccess");
         }
 
         private double GetASCII(string username)
@@ -74,10 +70,10 @@ namespace EDDProyecto.Controllers
 
         [HttpPost]
         public ActionResult Log(Usuario user)
-        {           
-            Admin =(Usuario)Session["admin"];            
+        {
+            Admin = (Usuario)Session["admin"];
 
-            if(user.CompareTo(Admin) == 0)
+            if (user.CompareTo(Admin) == 0)
             {
                 UsersTree.Cerrar();
 
@@ -85,20 +81,20 @@ namespace EDDProyecto.Controllers
             }
             //else if (Search == true)
             //{
-               
+
             //}
             else
             {
                 UsersTree.Cerrar();
 
                 return View("LogError");
-            }         
+            }
         }
 
         public ActionResult Logout()
         {
             UsersTree.Cerrar();
-            return View("Login"); 
+            return View("Login");
         }
 
         [HttpGet]
@@ -141,21 +137,17 @@ namespace EDDProyecto.Controllers
                     using (StreamReader reader = new StreamReader(path))
                     {
                         string info = reader.ReadToEnd();
-                        List<Usuario> lista = JsonConvert.DeserializeObject<List<Usuario>>(info);                        
+                        List<Usuario> lista = JsonConvert.DeserializeObject<List<Usuario>>(info);
 
                         for (int i = 0; i < lista.Count; i++)
-                        {                           
-<<<<<<< HEAD
-                            UsersTree.Agregar(lista.ElementAt(i).Username, new Usuario(lista.ElementAt(i)));
-=======
-                            UsersTree.Agregar(lista.ElementAt(i).Username, new Usuario(lista.ElementAt(i)),"");
->>>>>>> ArbolPrueba
+                        {
+                            UsersTree.Agregar(lista.ElementAt(i).Username, new Usuario(lista.ElementAt(i)), "");
                         }
                     }
                 }
             }
             UsersTree.Cerrar();
-            return View("CreateUserSuccess"); 
+            return View("CreateUserSuccess");
         }
 
         [HttpGet]
@@ -163,14 +155,15 @@ namespace EDDProyecto.Controllers
         {
             UsersTree.Cerrar();
 
-            return View(); 
+            return View();
         }
 
         [HttpPost]
         public ActionResult Delete(Video deletedVideo)
         {
             UsersTree.Cerrar();
-            return View(); 
+
+            return View();
         }
 
     }

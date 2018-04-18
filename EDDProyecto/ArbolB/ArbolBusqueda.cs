@@ -11,11 +11,7 @@ namespace ArbolB
     {
         public int Tamaño { get; protected set; }
 
-<<<<<<< HEAD
-        public abstract void Agregar(TLlave llave, T dato);
-=======
         public abstract void Agregar(TLlave llave, T dato, string llaveAux);
->>>>>>> ArbolPrueba
 
         public abstract void Eliminar(TLlave llave);
 

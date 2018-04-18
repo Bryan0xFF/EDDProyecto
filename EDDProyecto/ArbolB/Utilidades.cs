@@ -32,7 +32,7 @@ namespace ArbolB
 
         internal static string FormatearLlave(string llave)
         {
-            return llave.PadLeft(30, 'x');
+            return llave.PadLeft(34, 'x');
         }
 
         #endregion

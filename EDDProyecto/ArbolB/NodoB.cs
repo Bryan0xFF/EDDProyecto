@@ -25,7 +25,7 @@ namespace ArbolB
             get
             {
                 int i = 0;
-                while (i < Llaves.Count && Llaves[i] != "")
+                while (i < Llaves.Count && Llaves[i] != "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
                 {
                     i++;
                 }

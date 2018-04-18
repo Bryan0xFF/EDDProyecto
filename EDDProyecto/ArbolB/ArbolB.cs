@@ -201,11 +201,7 @@ namespace ArbolB
             }
         }
 
-<<<<<<< HEAD
-        public override void Agregar(string llave, T dato)
-=======
         public override void Agregar(string llave, T dato, string llaveAux)
->>>>>>> ArbolPrueba
         {
             try
             {
@@ -218,14 +214,9 @@ namespace ArbolB
             }
             catch (Exception)
             {
-<<<<<<< HEAD
-                
-=======
                 string nuevaLlave = llave + llaveAux;
-                AgregarRecursivo(_raiz, nuevaLlave, dato);              
->>>>>>> ArbolPrueba
+                AgregarRecursivo(_raiz, nuevaLlave, dato);
             }
-            
         }
 
         public override T Obtener(string llave)
@@ -293,7 +284,7 @@ namespace ArbolB
             {
                 RecorrerPreOrdenRecursivo(nodoActual.Hijos[i], texto);
             }
-        }      
+        }
 
         public override string RecorrerInOrden()
         {
@@ -364,8 +355,7 @@ namespace ArbolB
 
         public T Search(Delegate comparer, string dato)
         {
-            return (T)comparer.DynamicInvoke(this, dato); 
+            return (T)comparer.DynamicInvoke(this, dato);
         }
     }
 }
-
