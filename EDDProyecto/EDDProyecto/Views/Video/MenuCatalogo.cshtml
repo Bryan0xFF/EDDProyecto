@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Menú de catálogo";
+}
+
+@{ 
+    var listadoPelicula = new List<SelectListItem>
+  ()
+    {
+    new SelectListItem()
+    {
+    Text = "Show",
+    Value = "1",
+    },
+
+    new SelectListItem ()
+    {
+    Text = "Película",
+    Value = "2",
+    },
+    new SelectListItem ()
+    {
+    Text = "Documental",
+    Value = "3",
+    }
+    };
+}
+
+    <h1>MenuCatalogo</h1>
+
+    @using (Html.BeginForm("MenuCatalogo", "Video", FormMethod.Post))
+    {
+        <p>seleccionar tipo de busqueda: <select name="comboBoxTipo" @Html.DropDownList("DropDownList", listadoPelicula)</p>
+        <input type="submit" name="Search" value="Search" />
+    }
+
+

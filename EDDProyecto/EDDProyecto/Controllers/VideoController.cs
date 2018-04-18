@@ -203,22 +203,7 @@ namespace EDDProyecto.Controllers
             CerrarTodo();
             return RedirectToAction("LecturaArchivoU", "Usuario");
         }
-
-        [HttpGet]
-        public ActionResult InsertarManual()
-        {
-            CerrarTodo();
-            return View();
-        }
-
-        //Insercion manual de usuarios en el admin
-        [HttpPost]
-        public ActionResult InsertarManual(Usuario newuser)
-        {
-            CerrarTodo();
-
-            return View("CreateUserSuccess");
-        }
+        
 
         [HttpGet]
         public ActionResult RedirectAdmin()
@@ -237,9 +222,6 @@ namespace EDDProyecto.Controllers
         public ActionResult Buscar(Video video)
         {
             CerrarTodo();
-            
-
-
             return View();
         }
 
@@ -248,7 +230,6 @@ namespace EDDProyecto.Controllers
         public ActionResult AdminBuscar(FormCollection collection)
         {
             CerrarTodo();
-
             return View();
         }
 
@@ -323,6 +304,46 @@ namespace EDDProyecto.Controllers
             }
             CerrarTodo();
             return View(video);
+        }
+
+        [HttpGet]
+        public ActionResult MenuCatalogo()
+        {
+            CerrarTodo();
+            return View(); 
+        }
+
+        [HttpPost]
+        public ActionResult MenuCatalogo(FormCollection collection)
+        {
+            int type = Convert.ToInt32(collection["comboBoxTipo"]);
+            List<Video> totalData = new List<Video>();
+            
+           // Video actualVideo
+
+            if ("1" == type.ToString()) //Show
+            {
+                var Data = NameShowTree.RecorrerInOrden();
+                CerrarTodo();
+                //  totalData.Add(Data);
+                return View(); 
+            }
+
+            if ("2" == type.ToString()) //Movie
+            {
+
+                CerrarTodo();
+                return View(); 
+            }
+
+            if ("3" == type.ToString()) //Documentary
+            {
+                var Data = NameMovieTree.RecorrerInOrden();
+                CerrarTodo();
+                return View(); 
+            }
+            CerrarTodo();
+            return View(); 
         }
 
         public void CerrarTodo()

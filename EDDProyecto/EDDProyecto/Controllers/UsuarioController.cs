@@ -151,12 +151,11 @@ namespace EDDProyecto.Controllers
         }
 
         [HttpGet]
-        public ActionResult Eliminar()
+        public ActionResult InsertarManual()
         {
             UsersTree.Cerrar();
-
             return View();
-        }
+        }       
 
         [HttpPost]
         public ActionResult Delete(Video deletedVideo)
