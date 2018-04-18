@@ -256,66 +256,72 @@ namespace EDDProyecto.Controllers
         [HttpPost]
         public ActionResult AdminBuscarPost(FormCollection collection)
         {
-            CerrarTodo();
             int type = Convert.ToInt32(collection["comboBoxTipo"]);
             int search = Convert.ToInt32(collection["comboBoxBusqueda"]);
             string llave = collection["llave"] + collection["llaveNombre"];
             Video video = new Video();
 
-            if (TipoPelicula.Show.ToString() == type.ToString())
+            if ("1" == type.ToString())
             {
-                if (TipoDeBusqueda.PorFecha.ToString() == search.ToString())
-                {
-                    SearchByDate searchByDate = new SearchByDate(Video.SearchByYear);
-                    video = searchByDate(YearShowTree, llave);
-                }
-                if (TipoDeBusqueda.porGenero.ToString() == search.ToString())
-                {
-                    SearchByGender searchByGender = new SearchByGender(Video.SearchByGenre);
-                    video = searchByGender(GenderShowTree, llave);
-                }
-                if (TipoDeBusqueda.PorNombre.ToString() == search.ToString())
+                if ("1" == search.ToString())
                 {
                     SearchByName searchByName = new SearchByName(Video.SearchByName);
                     video = searchByName(NameShowTree, llave);
                 }
-            }
-            if (TipoPelicula.Movie.ToString() == type.ToString())
-            {
-                if (TipoDeBusqueda.PorFecha.ToString() == search.ToString())
+
+                if ("2" == search.ToString())
                 {
                     SearchByDate searchByDate = new SearchByDate(Video.SearchByYear);
-                    video = searchByDate(YearMovieTree, llave);
+                    video = searchByDate(YearShowTree, llave);
                 }
-                if (TipoDeBusqueda.porGenero.ToString() == search.ToString())
+                if ("3" == search.ToString())
                 {
                     SearchByGender searchByGender = new SearchByGender(Video.SearchByGenre);
-                    video = searchByGender(GenderMovieTree, llave);
+                    video = searchByGender(GenderShowTree, llave);
                 }
-                if (TipoDeBusqueda.PorNombre.ToString() == search.ToString())
+                
+            }
+            if ("2" == type.ToString())
+            {
+                if ("1" == search.ToString())
                 {
                     SearchByName searchByName = new SearchByName(Video.SearchByName);
                     video = searchByName(NameMovieTree, llave);
                 }
-            }
-            if (TipoPelicula.Documentary.ToString() == type.ToString())
-            {
-                if (TipoDeBusqueda.PorFecha.ToString() == search.ToString())
+
+                if ("2" == search.ToString())
                 {
                     SearchByDate searchByDate = new SearchByDate(Video.SearchByYear);
-                    video = searchByDate(YearDocumentaryTree, llave);
+                    video = searchByDate(YearMovieTree, llave);
                 }
-                if (TipoDeBusqueda.porGenero.ToString() == search.ToString())
+                if ("3" == search.ToString())
                 {
                     SearchByGender searchByGender = new SearchByGender(Video.SearchByGenre);
-                    video = searchByGender(GenderDocumentaryTree, llave);
+                    video = searchByGender(GenderMovieTree, llave);
                 }
-                if (TipoDeBusqueda.PorNombre.ToString() == search.ToString())
+                
+            }
+            if ("3" == type.ToString())
+            {
+                if ("1" == search.ToString())
                 {
                     SearchByName searchByName = new SearchByName(Video.SearchByName);
                     video = searchByName(NameDocumentaryTree, llave);
                 }
+
+                if ("2" == search.ToString())
+                {
+                    SearchByDate searchByDate = new SearchByDate(Video.SearchByYear);
+                    video = searchByDate(YearDocumentaryTree, llave);
+                }
+                if ("3" == search.ToString())
+                {
+                    SearchByGender searchByGender = new SearchByGender(Video.SearchByGenre);
+                    video = searchByGender(GenderDocumentaryTree, llave);
+                }
+               
             }
+            CerrarTodo();
             return View(video);
         }
 

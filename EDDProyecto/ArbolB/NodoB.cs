@@ -161,7 +161,7 @@ namespace ArbolB
 
             for (int i = 0; i < Orden - 1; i++)
             {
-                Llaves.Add("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+                Llaves.Add("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
             }
 
             Datos = new List<T>();
@@ -273,12 +273,13 @@ namespace ArbolB
 
             for (int i = 0; i < Llaves.Count; i++)
             {
-                if ((Llaves[i].CompareTo(llave) > 0) || (Llaves[i] == "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"))
+                if ((Llaves[i].Trim('x').CompareTo(llave) > 0) || (Llaves[i] == "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"))
                 {
                     posicion = i;
                     break;
                 }
             }
+       
             return posicion;
         }
 
@@ -290,7 +291,7 @@ namespace ArbolB
             {
                 string temp = Llaves[i].Trim('x');
 
-                if (llave == temp)
+                if (llave.Trim() == temp.Trim())
                 {
                     posicion = i;
                     break;
@@ -334,7 +335,7 @@ namespace ArbolB
                 Llaves[i] = Llaves[i - 1];
                 Datos[i] = Datos[i - 1];
             }
-            Llaves[posicionParaInsertar] = llave;
+            Llaves[posicionParaInsertar] = Utilidades.FormatearLlave(llave);
             Datos[posicionParaInsertar] = dato;
         }
 
@@ -370,7 +371,7 @@ namespace ArbolB
             Llaves[Llaves.Count - 1] = "";
         }
 
-        internal void SepararNodo(string llave, T dato, int hijoDerecho, NodoB<T> nuevoNodo, ref string llavePorSubir, T datoPorSubir)
+        internal void SepararNodo(string llave, T dato, int hijoDerecho, NodoB<T> nuevoNodo, ref string llavePorSubir, ref T datoPorSubir)
         {
             if (!Lleno)
             {
@@ -380,13 +381,13 @@ namespace ArbolB
             Llaves.Add("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
             Datos.Add(dato);
             Hijos.Add(Utilidades.ApuntadorVacio);
-
+      
             // Agregar los nuevos elementos en orden 
             AgregarDato(llave, dato, hijoDerecho, false);
 
             // Obtener los valores a subir 
             int mitad = (Orden / 2);
-            llavePorSubir = Llaves[mitad];
+            llavePorSubir = Utilidades.FormatearLlave(Llaves[mitad]);
             datoPorSubir = Datos[mitad];
             Llaves[mitad] = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 

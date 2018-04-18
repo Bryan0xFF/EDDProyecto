@@ -123,11 +123,11 @@ namespace ArbolB
             _ultimaPosicionLibre++;
 
             // Datos a subir al padre luego de la separación 
-            string llavePorSubir = "";
+            string llavePorSubir = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
             T datoPorSubir = _fabrica.FabricarNulo();
 
             // Se llama al método que hace la separación  
-            nodoActual.SepararNodo(llave, dato, hijoDerecho, nuevoHermano, ref llavePorSubir, datoPorSubir);
+            nodoActual.SepararNodo(llave, dato, hijoDerecho, nuevoHermano, ref llavePorSubir, ref datoPorSubir);
 
             // Actualizar el apuntador en todos los hijos 
             NodoB<T> nodoHijo = null;
