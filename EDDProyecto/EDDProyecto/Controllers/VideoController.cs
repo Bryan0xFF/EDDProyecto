@@ -219,6 +219,7 @@ namespace EDDProyecto.Controllers
             CerrarTodo();
             ViewData.Add(usuario.Nombre.ToString(), usuario);
             Session["Usuario"] = Session["Usuario"] ?? usuario;
+            usuario = (Usuario)Session["Usuario"];        
             return View("Catalogo");
         }
 
@@ -380,12 +381,17 @@ namespace EDDProyecto.Controllers
             return View(model); 
         }
 
-        public void AddWatchlist(string llave)
+        public ActionResult AddWatchlist(string id)
         {
             loggedUser = (Usuario)Session["Usuario"];
             Video newVideo = new Video();
-            newVideo.Nombre = llave;
-            loggedUser.watchlist.Agregar(llave, newVideo, ""); 
+            newVideo.Nombre = id;
+            string llave = newVideo.Nombre;
+            string trimedUser = loggedUser.Username.Trim('x');
+            loggedUser.watchlist = new  ArbolB<Video>(3, trimedUser + ".watchlist", new FabricaVideo());
+            loggedUser.watchlist.Agregar(llave, newVideo, "");
+            loggedUser.watchlist.Cerrar();
+            return View("CatalogoPaged");
         }
         public void CerrarTodo()
         {

@@ -49,7 +49,7 @@ namespace EDDProyecto.Controllers
         {
             int n = 0;
             Usuario nuevoUsuario = new Usuario(user);
-            UsersTree.Agregar(nuevoUsuario.Username, nuevoUsuario, "");
+            UsersTree.Agregar(nuevoUsuario.Username.Trim('x'), nuevoUsuario, "");
             UsersTree.Cerrar();
             return View("CreateUserSuccess");
         }
@@ -84,7 +84,8 @@ namespace EDDProyecto.Controllers
 
                 string llave = Utilidades.FormatearLlave(user.Username);
                 Usuario login = UsersTree.Obtener(llave);
-
+                login.watchlist = new ArbolB<Video>(3, login.Username + ".watchlist", new FabricaVideo());
+                login.watchlist.Cerrar();
                 if (login.Password.Trim('x') == user.Password)
                 {
                     UsersTree.Cerrar();

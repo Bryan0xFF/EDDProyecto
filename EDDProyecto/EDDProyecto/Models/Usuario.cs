@@ -23,7 +23,8 @@ namespace EDDProyecto.Models
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
 
-       public  ArbolB<Video> watchlist;
+       public  ArbolB<Video> watchlist { get; set; }
+
 
         public string Password { get; set; }
 
@@ -36,7 +37,7 @@ namespace EDDProyecto.Models
             Apellido = "";
             Edad = 0;
             Username = "";
-            Password = "";
+            Password = "";          
         }
 
         public Usuario(Usuario usuario)
@@ -46,9 +47,13 @@ namespace EDDProyecto.Models
             Edad = usuario.Edad;
             Username = usuario.Username;
             Password = usuario.Password;
-
             watchlist = new ArbolB<Video>(3, Username + ".watchlist", new FabricaVideo());
             watchlist.Cerrar();
+        }
+
+        public void Cerrar()
+        {
+            watchlist.Cerrar(); 
         }
 
         public int FixedSizeText
@@ -58,9 +63,7 @@ namespace EDDProyecto.Models
                 return 81;
             }
         }
-
         
-
         public int CompareTo(Usuario obj)
         {
             return this.Username.CompareTo(obj.Username);

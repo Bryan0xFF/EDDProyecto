@@ -23,7 +23,7 @@
                 <td>@Model.ElementAt(i).Nombre</td>
                 <td>@Model.ElementAt(i).AñoLanzamiento</td>
                 <td>@Model.ElementAt(i).Tipo</td>
-                <td>@Html.ActionLink("Agregar", "AddWatchlist", tipo, new { id = @Model.ElementAt(i).Nombre }, null)</td>
+                <td>@Html.ActionLink("Agregar", "AddWatchlist", new { id = @Model.ElementAt(i).Nombre }, "Video" )</td>
             </tr>
         }
     </table>
