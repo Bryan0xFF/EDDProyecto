@@ -1,14 +1,13 @@
 ﻿@model EDDProyecto.Models.Video
-@{
+@{  
     ViewBag.Title = "Catalogo";
 }
 
-<h1>Catálogo</h1>
+<h1>Bienvenido, @Html.ViewData.ElementAt(0).Key.Trim('x')</h1>
 
-
-<p> @Html.ActionLink("Agregar contenido a mi watchlist", "AddWatchlist")</p>
 <p> @Html.ActionLink("Ver mi watchlist", "ViewWatchlist")</p>
-<p> </p>
-<p> @Html.ActionLink("Cerrar sesión", "Out")</p>
+<p>@Html.ActionLink("Agregar contenido a mi watchlist", "MenuCatalogo")</p>
+
+<div> <p> @Html.ActionLink("Cerrar sesión", "Out")</p></div>
 
 

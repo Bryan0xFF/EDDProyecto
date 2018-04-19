@@ -53,6 +53,7 @@ namespace EDDProyecto.Controllers
         ArbolB<Video> YearDocumentaryTree = new ArbolB<Video>(3, @"YearDocumentaryTree.txt", new FabricaVideo());
         ArbolB<Video> GenderDocumentaryTree = new ArbolB<Video>(3, @"GenderDocumentaryTree.txt", new FabricaVideo());
 
+        Usuario loggedUser; 
 
         // GET: Video
         public ActionResult Index()
@@ -215,6 +216,8 @@ namespace EDDProyecto.Controllers
         public ActionResult RedirectUser(Usuario usuario)
         {
             CerrarTodo();
+            ViewData.Add(usuario.Nombre.ToString(), usuario);
+            Session["Usuario"] = Session["Usuario"] ?? usuario;
             return View("Catalogo");
         }
 
@@ -376,6 +379,10 @@ namespace EDDProyecto.Controllers
             return View(model); 
         }
 
+        public void AddWatchlist(string llave)
+        {
+             
+        }
         public void CerrarTodo()
         {
             NameShowTree.Cerrar();

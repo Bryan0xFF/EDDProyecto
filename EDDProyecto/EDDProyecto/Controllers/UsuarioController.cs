@@ -65,16 +65,15 @@ namespace EDDProyecto.Controllers
             }
 
             return result;
-
         }
 
         [HttpPost]
         public ActionResult Log(Usuario user)
-        {
-            
+        {            
             try
             {
                 Admin = (Usuario)Session["admin"];
+                ViewData.Add(user.Nombre.ToString(), user);
 
                 if (user.CompareTo(Admin) == 0)
                 {
@@ -85,7 +84,7 @@ namespace EDDProyecto.Controllers
                 string llave = Utilidades.FormatearLlave(user.Username);
                 Usuario login = UsersTree.Obtener(llave);
 
-                if (login.Password == user.Password)
+                if (login.Password.Trim('x') == user.Password)
                 {
                     UsersTree.Cerrar();
                     return RedirectToAction("RedirectUser", "Video",login);
@@ -175,7 +174,6 @@ namespace EDDProyecto.Controllers
         public ActionResult Delete(Video deletedVideo)
         {
             UsersTree.Cerrar();
-
             return View();
         }
     }
