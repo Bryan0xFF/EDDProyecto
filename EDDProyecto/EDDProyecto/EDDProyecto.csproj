@@ -213,6 +213,7 @@
     <Content Include="Views\Video\AdminBuscar.cshtml" />
     <Content Include="Views\Video\MenuCatalogo.cshtml" />
     <Content Include="Views\Video\CatalogoPaged.cshtml" />
+    <Content Include="Views\Video\VideoNotFound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

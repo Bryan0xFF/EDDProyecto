@@ -244,65 +244,72 @@ namespace EDDProyecto.Controllers
             string llave = collection["llave"] + collection["llaveNombre"];
             Video video = new Video();
 
-            if ("1" == type.ToString())
+            try
             {
-                if ("1" == search.ToString())
+                if ("1" == type.ToString())
                 {
-                    SearchByName searchByName = new SearchByName(Video.SearchByName);
-                    video = searchByName(NameShowTree, llave);
-                }
+                    if ("1" == search.ToString())
+                    {
+                        SearchByName searchByName = new SearchByName(Video.SearchByName);
+                        video = searchByName(NameShowTree, llave);
+                    }
 
-                if ("2" == search.ToString())
-                {
-                    SearchByDate searchByDate = new SearchByDate(Video.SearchByYear);
-                    video = searchByDate(YearShowTree, llave);
+                    if ("2" == search.ToString())
+                    {
+                        SearchByDate searchByDate = new SearchByDate(Video.SearchByYear);
+                        video = searchByDate(YearShowTree, llave);
+                    }
+                    if ("3" == search.ToString())
+                    {
+                        SearchByGender searchByGender = new SearchByGender(Video.SearchByGenre);
+                        video = searchByGender(GenderShowTree, llave);
+                    }
+
                 }
-                if ("3" == search.ToString())
+                if ("2" == type.ToString())
                 {
-                    SearchByGender searchByGender = new SearchByGender(Video.SearchByGenre);
-                    video = searchByGender(GenderShowTree, llave);
+                    if ("1" == search.ToString())
+                    {
+                        SearchByName searchByName = new SearchByName(Video.SearchByName);
+                        video = searchByName(NameMovieTree, llave);
+                    }
+
+                    if ("2" == search.ToString())
+                    {
+                        SearchByDate searchByDate = new SearchByDate(Video.SearchByYear);
+                        video = searchByDate(YearMovieTree, llave);
+                    }
+                    if ("3" == search.ToString())
+                    {
+                        SearchByGender searchByGender = new SearchByGender(Video.SearchByGenre);
+                        video = searchByGender(GenderMovieTree, llave);
+                    }
+
                 }
-                
+                if ("3" == type.ToString())
+                {
+                    if ("1" == search.ToString())
+                    {
+                        SearchByName searchByName = new SearchByName(Video.SearchByName);
+                        video = searchByName(NameDocumentaryTree, llave);
+                    }
+
+                    if ("2" == search.ToString())
+                    {
+                        SearchByDate searchByDate = new SearchByDate(Video.SearchByYear);
+                        video = searchByDate(YearDocumentaryTree, llave);
+                    }
+                    if ("3" == search.ToString())
+                    {
+                        SearchByGender searchByGender = new SearchByGender(Video.SearchByGenre);
+                        video = searchByGender(GenderDocumentaryTree, llave);
+                    }
+
+                }
             }
-            if ("2" == type.ToString())
+            catch (Exception e)
             {
-                if ("1" == search.ToString())
-                {
-                    SearchByName searchByName = new SearchByName(Video.SearchByName);
-                    video = searchByName(NameMovieTree, llave);
-                }
-
-                if ("2" == search.ToString())
-                {
-                    SearchByDate searchByDate = new SearchByDate(Video.SearchByYear);
-                    video = searchByDate(YearMovieTree, llave);
-                }
-                if ("3" == search.ToString())
-                {
-                    SearchByGender searchByGender = new SearchByGender(Video.SearchByGenre);
-                    video = searchByGender(GenderMovieTree, llave);
-                }
-                
-            }
-            if ("3" == type.ToString())
-            {
-                if ("1" == search.ToString())
-                {
-                    SearchByName searchByName = new SearchByName(Video.SearchByName);
-                    video = searchByName(NameDocumentaryTree, llave);
-                }
-
-                if ("2" == search.ToString())
-                {
-                    SearchByDate searchByDate = new SearchByDate(Video.SearchByYear);
-                    video = searchByDate(YearDocumentaryTree, llave);
-                }
-                if ("3" == search.ToString())
-                {
-                    SearchByGender searchByGender = new SearchByGender(Video.SearchByGenre);
-                    video = searchByGender(GenderDocumentaryTree, llave);
-                }
-               
+                return View("VideoNotFound");
             }
             CerrarTodo();
             return View(video);
@@ -393,6 +400,7 @@ namespace EDDProyecto.Controllers
             loggedUser.watchlist.Cerrar();
             return View("CatalogoPaged");
         }
+
         public void CerrarTodo()
         {
             NameShowTree.Cerrar();
