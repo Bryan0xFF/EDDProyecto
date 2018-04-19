@@ -1,0 +1,42 @@
+﻿@using PagedList.Mvc;
+@model PagedList.IPagedList<EDDProyecto.Models.Video>
+@{
+    ViewBag.Title = "Catalogo";
+    string tipo = ViewData.ElementAt(0).Key;
+}
+
+@using (Html.BeginForm("CatalogoPaged", "Video", FormMethod.Post))
+{
+    <p><div><b>Tabla de datos del diccionario</b><br /></div></p>
+    <table class="table">
+        <tr>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Año lanzamiento</th>
+            <th>Género</th>
+            <th>Agregar a mi watchlist</th>
+        </tr>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <tr>
+                <td>@Model.ElementAt(i).Tipo</td>
+                <td>@Model.ElementAt(i).Nombre</td>
+                <td>@Model.ElementAt(i).AñoLanzamiento</td>
+                <td>@Model.ElementAt(i).Tipo</td>
+                <td>@Html.ActionLink("Agregar", "AddWatchlist", tipo, new { id = @Model.ElementAt(i).Nombre }, null)</td>
+            </tr>
+        }
+    </table>
+
+    <p>
+        @Html.PagedListPager(Model, page => Url.Action("CatalogoPaged", new { page, pageSize = Model.PageSize }), PagedListRenderOptions.Classic)
+        Showing @Model.FirstItemOnPage to @Model.LastItemOnPage of  @Model.TotalItemCount
+    </p>
+}
+
+
+
+
+
+
+

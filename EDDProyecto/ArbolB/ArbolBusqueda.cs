@@ -19,7 +19,7 @@ namespace ArbolB
 
         public abstract bool Contiene(TLlave llave);
 
-        public abstract string RecorrerPreOrden();
+        public abstract List<string> RecorrerPreOrden();
 
         public abstract string RecorrerInOrden();
 
