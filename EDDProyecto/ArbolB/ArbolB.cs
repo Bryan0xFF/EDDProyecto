@@ -252,7 +252,7 @@ namespace ArbolB
         {
             for (int i = 0; i < nodoActual.Llaves.Count; i++)
             {
-                if (nodoActual.Llaves[i] != "")
+                if (nodoActual.Llaves[i] != "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
                 {
                     texto.AppendLine(nodoActual.Llaves[i].ToString());
                     texto.AppendLine(nodoActual.Datos[i].ToString());

@@ -212,8 +212,7 @@ namespace EDDProyecto.Controllers
             return View("CatalogoAdmin");
         }
 
-        [HttpGet]
-        public ActionResult RedirectUser()
+        public ActionResult RedirectUser(Usuario usuario)
         {
             CerrarTodo();
             return View("Catalogo");

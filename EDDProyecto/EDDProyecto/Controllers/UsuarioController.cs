@@ -88,7 +88,7 @@ namespace EDDProyecto.Controllers
                 if (login.Password == user.Password)
                 {
                     UsersTree.Cerrar();
-                    return View("Catalogo","Video",login);
+                    return RedirectToAction("RedirectUser", "Video",login);
                 }
                 else
                 {
