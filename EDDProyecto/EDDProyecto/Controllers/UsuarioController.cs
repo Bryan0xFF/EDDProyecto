@@ -84,7 +84,8 @@ namespace EDDProyecto.Controllers
 
                 string llave = Utilidades.FormatearLlave(user.Username);
                 Usuario login = UsersTree.Obtener(llave);
-                login.watchlist = new ArbolB<Video>(3, login.Username + ".watchlist", new FabricaVideo());
+                string trimedUser = login.Username.Trim('x');
+                login.watchlist = new ArbolB<Video>(3, trimedUser + ".watchlist", new FabricaVideo());
                 login.watchlist.Cerrar();
                 if (login.Password.Trim('x') == user.Password)
                 {
