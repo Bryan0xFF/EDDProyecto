@@ -48,7 +48,8 @@ namespace EDDProyecto.Controllers
         public ActionResult Register(Usuario user)
         {
             int n = 0;
-            UsersTree.Agregar(user.Username, user, "");
+            Usuario nuevoUsuario = new Usuario(user);
+            UsersTree.Agregar(nuevoUsuario.Username, nuevoUsuario, "");
             UsersTree.Cerrar();
             return View("CreateUserSuccess");
         }

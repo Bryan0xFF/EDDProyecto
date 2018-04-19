@@ -23,7 +23,7 @@ namespace EDDProyecto.Models
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
 
-        ArbolB<Video> watchlist;
+       public  ArbolB<Video> watchlist;
 
         public string Password { get; set; }
 

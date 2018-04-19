@@ -53,7 +53,8 @@ namespace EDDProyecto.Controllers
         ArbolB<Video> YearDocumentaryTree = new ArbolB<Video>(3, @"YearDocumentaryTree.txt", new FabricaVideo());
         ArbolB<Video> GenderDocumentaryTree = new ArbolB<Video>(3, @"GenderDocumentaryTree.txt", new FabricaVideo());
 
-        Usuario loggedUser; 
+        Usuario loggedUser;
+        ArbolB<Usuario> logged; 
 
         // GET: Video
         public ActionResult Index()
@@ -381,7 +382,10 @@ namespace EDDProyecto.Controllers
 
         public void AddWatchlist(string llave)
         {
-             
+            loggedUser = (Usuario)Session["Usuario"];
+            Video newVideo = new Video();
+            newVideo.Nombre = llave;
+            loggedUser.watchlist.Agregar(llave, newVideo, ""); 
         }
         public void CerrarTodo()
         {
