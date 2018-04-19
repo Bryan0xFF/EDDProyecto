@@ -71,24 +71,38 @@ namespace EDDProyecto.Controllers
         [HttpPost]
         public ActionResult Log(Usuario user)
         {
-            Admin = (Usuario)Session["admin"];
-
-            if (user.CompareTo(Admin) == 0)
+            
+            try
             {
-                UsersTree.Cerrar();
+                Admin = (Usuario)Session["admin"];
 
-                return RedirectToAction("RedirectAdmin", "Video");
+                if (user.CompareTo(Admin) == 0)
+                {
+                    UsersTree.Cerrar();
+                    return RedirectToAction("RedirectAdmin", "Video");
+                }
+
+                string llave = Utilidades.FormatearLlave(user.Username);
+                Usuario login = UsersTree.Obtener(llave);
+
+                if (login.Password == user.Password)
+                {
+                    UsersTree.Cerrar();
+                    return View("Catalogo","Video",login);
+                }
+                else
+                {
+                    UsersTree.Cerrar();
+                    throw new Exception();
+                }
             }
-            //else if (Search == true)
-            //{
-
-            //}
-            else
+            catch (Exception)
             {
                 UsersTree.Cerrar();
-
+                //maneja una vista de error indicando que el usuario no existe o bien la contraseña
                 return View("LogError");
             }
+            
         }
 
         public ActionResult Logout()
@@ -164,6 +178,5 @@ namespace EDDProyecto.Controllers
 
             return View();
         }
-
     }
 }

@@ -270,10 +270,13 @@ namespace ArbolB
         internal int PosicionAproximadaEnNodo(string llave)
         {
             int posicion = Llaves.Count;
+            int llaveBuscar = GetNumericString(llave);
 
             for (int i = 0; i < Llaves.Count; i++)
             {
-                if ((Llaves[i].Trim('x').CompareTo(llave) > 0) || (Llaves[i] == "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"))
+                int llaveArbol = GetNumericString(Llaves[i]);
+                
+                if (llaveArbol > llaveBuscar || (Llaves[i] == "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"))
                 {
                     posicion = i;
                     break;
@@ -283,13 +286,26 @@ namespace ArbolB
             return posicion;
         }
 
+        internal int GetNumericString(string llave)
+        {
+            var chars = llave.ToCharArray();
+            int result = 0;
+
+            for (int i = 0; i < chars.Length; i++)
+            {
+                result += (int)chars[i];
+            }
+
+            return result;
+        }
+
         internal int PosicionExactaEnNodo(string llave)
         {
             int posicion = -1;
 
             for (int i = 0; i < Llaves.Count; i++)
             {
-                string temp = Llaves[i].Trim('x');
+                string temp = Llaves[i];
 
                 if (llave.Trim() == temp.Trim())
                 {

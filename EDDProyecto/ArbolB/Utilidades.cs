@@ -30,7 +30,7 @@ namespace ArbolB
             return numero.ToString(TextoEnteroFormato);
         }
 
-        internal static string FormatearLlave(string llave)
+        public static string FormatearLlave(string llave)
         {
             return llave.PadLeft(50, 'x');
         }
