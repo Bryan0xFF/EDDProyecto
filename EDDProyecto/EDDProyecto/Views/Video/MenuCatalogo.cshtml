@@ -28,7 +28,7 @@
 
     <h1>MenuCatalogo</h1>
 
-    @using (Html.BeginForm("MenuCatalogo", "Video", FormMethod.Post))
+    @using (Html.BeginForm("CatalogoPaged", "Video", FormMethod.Post))
     {
         <p>seleccionar tipo de busqueda: <select name="comboBoxTipo" @Html.DropDownList("DropDownList", listadoPelicula)</p>
         <input type="submit" name="Search" value="Search" />

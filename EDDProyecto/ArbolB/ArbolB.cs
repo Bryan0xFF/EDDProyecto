@@ -28,6 +28,8 @@ namespace ArbolB
         // del árbol y no puede cambiarse posteriormente 
         public int Orden { get; private set; }
         public int Altura { get; private set; }
+
+        public List<string> datos = new List<string>(); 
         #endregion
 
         public ArbolB(int orden, string nombreArchivo, IFabricaTextoTamañoFijo<T> fabrica)
@@ -265,11 +267,11 @@ namespace ArbolB
             }
         }
 
-        public override string RecorrerPreOrden()
+        public override List<string> RecorrerPreOrden()
         {
             StringBuilder texto = new StringBuilder();
             RecorrerPreOrdenRecursivo(_raiz, texto);
-            return texto.ToString();
+            return datos;
         }
 
         private void RecorrerPreOrdenRecursivo(int posicionActual, StringBuilder texto)
@@ -282,8 +284,13 @@ namespace ArbolB
 
             EscribirNodo(nodoActual, texto);
             for (int i = 0; i < nodoActual.Hijos.Count; i++)
+            {             
+                RecorrerPreOrdenRecursivo(nodoActual.Hijos[i], texto);                
+            }
+
+            for (int i = 0; i < nodoActual.CantidadDatos; i++)
             {
-                RecorrerPreOrdenRecursivo(nodoActual.Hijos[i], texto);
+                datos.Add(nodoActual.Datos[i].ToFixedSizeString());
             }
         }
 

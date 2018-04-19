@@ -7,6 +7,7 @@ using EDDProyecto.Models;
 using System.IO;
 using Newtonsoft.Json;
 using ArbolB;
+using PagedList;
 
 namespace EDDProyecto.Controllers
 {
@@ -202,8 +203,7 @@ namespace EDDProyecto.Controllers
         {
             CerrarTodo();
             return RedirectToAction("LecturaArchivoU", "Usuario");
-        }
-        
+        }        
 
         [HttpGet]
         public ActionResult RedirectAdmin()
@@ -225,14 +225,12 @@ namespace EDDProyecto.Controllers
             return View();
         }
 
-
         [HttpGet]
         public ActionResult AdminBuscar(FormCollection collection)
         {
             CerrarTodo();
             return View();
         }
-
 
         [HttpPost]
         public ActionResult AdminBuscarPost(FormCollection collection)
@@ -313,37 +311,70 @@ namespace EDDProyecto.Controllers
             return View(); 
         }
 
-        [HttpPost]
-        public ActionResult MenuCatalogo(FormCollection collection)
+        public ActionResult CatalogoPaged(FormCollection collection, int page = 1, int pageSize = 20)
         {
             int type = Convert.ToInt32(collection["comboBoxTipo"]);
-            List<Video> totalData = new List<Video>();
+            List<string> tempList = new List<string>();
+            List<Video> DecodedVideos = new List<Video>();
             
-           // Video actualVideo
+            ViewData.Add(type.ToString(), type);           
 
             if ("1" == type.ToString()) //Show
             {
-                var Data = NameShowTree.RecorrerInOrden();
+                tempList = NameShowTree.RecorrerPreOrden();
+                for (int i = 0; i < tempList.Count; i++)
+                {
+                    var video = tempList.ElementAt(i).Split('-');
+                    Video newVideo = new Video
+                    {
+                        Tipo = video[0].Trim('x'),
+                        Nombre = video[1].Trim('x'),
+                        AñoLanzamiento = video[2].Trim('x'),
+                        Genero = video[3].Trim('x')
+                    };
+                    DecodedVideos.Add(newVideo);                 
+                }
                 CerrarTodo();
-                //  totalData.Add(Data);
-                return View(); 
             }
 
             if ("2" == type.ToString()) //Movie
             {
-
+                tempList = NameMovieTree.RecorrerPreOrden();
+                for (int i = 0; i < tempList.Count; i++)
+                {
+                    var video = tempList.ElementAt(i).Split('-');
+                    Video newVideo = new Video
+                    {
+                        Tipo = video[0].Trim('x'),
+                        Nombre = video[1].Trim('x'),
+                        AñoLanzamiento = video[2].Trim('x'),
+                        Genero = video[3].Trim('x')
+                    };
+                    DecodedVideos.Add(newVideo);
+                }
                 CerrarTodo();
-                return View(); 
             }
 
             if ("3" == type.ToString()) //Documentary
             {
-                var Data = NameMovieTree.RecorrerInOrden();
+                tempList = NameDocumentaryTree.RecorrerPreOrden();
+                for (int i = 0; i < tempList.Count; i++)
+                {
+                    var video = tempList.ElementAt(i).Split('-');
+                    Video newVideo = new Video
+                    {
+                        Tipo = video[0].Trim('x'),
+                        Nombre = video[1].Trim('x'),
+                        AñoLanzamiento = video[2].Trim('x'),
+                        Genero = video[3].Trim('x')
+                    };
+                    DecodedVideos.Add(newVideo); 
+                }
                 CerrarTodo();
-                return View(); 
             }
+            PagedList<Video> model = new PagedList<Video>(DecodedVideos, page, pageSize);
             CerrarTodo();
-            return View(); 
+            return View(model); 
         }
 
         public void CerrarTodo()
